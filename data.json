@@ -1583,5 +1583,53 @@
         "Bill_Buttlicker scored 104.44. FatMikeR's 101.92 was closest, so Bijan is your daddy takes the pot."
       ]
     ]
+  },
+  "ring": {
+    "title": "Ring of Honor",
+    "sub": "Dropped, not forgotten. Former managers, honored with love and light roasting.",
+    "banners": [
+      {
+        "u": "TroyMcCoy",
+        "yrs": "2019–2024",
+        "tag": "The Champion",
+        "stats": "2020 champion · 38-44 · 3 playoff trips",
+        "line": "The only name in this ring with a trophy to go with it. Hang it high."
+      },
+      {
+        "u": "codywomack90",
+        "yrs": "2019–2025",
+        "tag": "The Regular",
+        "stats": "49-47 · 5 playoff trips · 2020 top seed at 11-2 · 0 rings",
+        "line": "Showed up to the playoffs like it was a standing reservation. Never once picked up the check."
+      },
+      {
+        "u": "RammerJammer17",
+        "yrs": "2019–2025",
+        "tag": "The Honest Man",
+        "stats": "36-60 · 1 playoff trip · 52.30, second-lowest week ever",
+        "line": "Named his own 2023 team \"Shitty Sacko Champ!\" Nobody roasted RammerJammer17 harder than RammerJammer17."
+      },
+      {
+        "u": "ztw129",
+        "yrs": "2019–2023",
+        "tag": "Mr. Even",
+        "stats": "34-34 · 3rd place 2021 · 193.92, a top-5 week all-time",
+        "line": "Perfectly balanced, as all things should be."
+      },
+      {
+        "u": "TStark7",
+        "yrs": "2019–2020",
+        "tag": "The Cameo",
+        "stats": "10-16 · 0 playoff trips",
+        "line": "In and out like a Week 17 streaming defense."
+      },
+      {
+        "u": "paragoody15",
+        "yrs": "2019",
+        "tag": "One and Done, and Done Right",
+        "stats": "5-8 · ugliest win in league history, 75.20 to 73.26",
+        "line": "Came for one year. Left a record nobody wants to break."
+      }
+    ]
   }
 }
