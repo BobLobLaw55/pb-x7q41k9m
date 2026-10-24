@@ -223,12 +223,13 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
 .rafters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 18px;padding-top:18px;border-top:6px solid var(--ink-line);position:relative}
 .banner{position:relative;background:linear-gradient(180deg,#9a3412,#c2410c 60%,#ea580c);color:#fff;padding:22px 18px 34px;clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 22px),0 100%);text-align:center;min-width:0}
 .banner::before{content:"";position:absolute;top:-18px;left:50%;width:2px;height:18px;background:var(--ink-line)}
-.banner .tag{font-weight:800;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;opacity:.85}
-.banner .u{font-family:var(--display);font-size:22px;line-height:1.1;margin:8px 0 2px;overflow-wrap:anywhere}
+.banner .rb-tag{font-weight:800;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:#fff;opacity:.9}
+.banner .u{font-family:var(--display);font-size:26px;line-height:1.1;margin:10px 0 4px;overflow-wrap:anywhere;color:#fde68a;text-shadow:0 2px 0 rgba(0,0,0,.25)}
+.banner .mgr,.banner .tmn{color:inherit;font-weight:inherit}
 .banner .yrs{font-family:var(--mono);font-size:12px;opacity:.9}
 .banner .rule{width:40px;height:2px;background:rgba(255,255,255,.6);margin:10px auto}
 .banner .stats{font-size:12px;line-height:1.45;opacity:.95}
-.banner .line{font-size:14px;line-height:1.45;margin-top:10px;font-style:italic}
+.banner .rb-line{display:block;font-size:14px;line-height:1.45;margin:12px auto 0;max-width:30ch;font-style:italic;text-align:center}
 @media (max-width:900px){.rafters{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.rafters{grid-template-columns:1fr}}
 .asterisk{margin:-6px 0 18px;font-size:13px;font-style:italic;color:var(--dim);max-width:70ch}
@@ -475,7 +476,7 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
 
   function ring(){
     var R=D.ring; if(!R) return "";
-    return '<div class="sec">'+head(R.title,R.sub)+'<div class="rafters">'+R.banners.map(function(b){return '<div class="banner"><div class="tag">'+esc(b.tag)+'</div><div class="u">'+esc(b.u)+'</div><div class="yrs">'+esc(b.yrs)+'</div><div class="rule"></div><div class="stats">'+esc(b.stats)+'</div><div class="line">'+esc(b.line)+'</div></div>';}).join("")+'</div></div>';
+    return '<div class="sec">'+head(R.title,R.sub)+'<div class="rafters">'+R.banners.map(function(b){return '<div class="banner"><div class="rb-tag">'+esc(b.tag)+'</div><div class="u">'+esc(b.u)+'</div><div class="yrs">'+esc(b.yrs)+'</div><div class="rule"></div><div class="stats">'+esc(b.stats)+'</div><div class="rb-line">'+esc(b.line)+'</div></div>';}).join("")+'</div></div>';
   }
 
   var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip"];
