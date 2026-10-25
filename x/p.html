@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>p</title>
+<style>body{font:12px monospace;white-space:pre-wrap;word-break:break-all;margin:8px}</style></head>
+<body><pre id="o">loading…</pre>
+<script>
+// Read-only Sleeper summarizer. ?l=<league_id>&part=core|roster|tx|hist|wk&w=<week>
+(async function(){
+  var Q=new URLSearchParams(location.search), L=Q.get("l"), part=Q.get("part")||"core";
+  var A="https://api.sleeper.app/v1/", out=document.getElementById("o");
+  var j=async function(u){for(var i=0;i<4;i++){try{var r=await fetch(u.indexOf("http")===0?u:A+u);if(r.ok)return await r.json();}catch(e){}await new Promise(function(f){setTimeout(f,600*(i+1));});}return null;};
+  var r2=function(x){return Math.round(x*100)/100;};
+  try{
+    var st=await j("state/nfl"), lg=await j("league/"+L), users=await j("league/"+L+"/users"), rost=await j("league/"+L+"/rosters");
+    var cur=+st.week, done=+(Q.get("w")||(st.week-1)); if(lg.season!==st.season){cur=99;}
+    var U={}; users.forEach(function(u){U[u.user_id]={u:u.display_name,t:(u.metadata&&u.metadata.team_name)||u.display_name,own:!!u.is_owner};});
+    var R={}; rost.forEach(function(r){var o=U[r.owner_id]||{u:"(empty)",t:"(empty)"};R[r.roster_id]={rid:r.roster_id,u:o.u,t:o.t,co:(r.co_owners||[]).map(function(c){return U[c]?U[c].u:c;}),r:r};});
+    var P=null;
+    var needP=part!=="core"&&part!=="hist";
+    if(needP){P=await j("players/nfl");}
+    var nm=function(id){if(!P||!P[id])return String(id);var p=P[id];return (p.first_name?p.first_name+" "+p.last_name:id)+"|"+(p.position||(p.fantasy_positions||[])[0]||"")+"|"+(p.team||"FA");};
+    var nm2=function(id){if(!P||!P[id])return String(id);var p=P[id];return p.first_name?p.first_name+" "+p.last_name:String(id);};
+    var res={};
+    var getWeeks=async function(lid,last){var W={};for(var w=1;w<=last;w++){var m=await j("league/"+lid+"/matchups/"+w);if(!m||!m.length||m.every(function(x){return !x.points;}))break;W[w]=m;}return W;};
+    if(part==="core"){
+      var last=Math.min(done,lg.settings.playoff_week_start?lg.settings.playoff_week_start-1:17);
+      var W=await getWeeks(L,done);
+      var weeks=Object.keys(W).map(Number);
+      var S={}; Object.keys(R).forEach(function(k){S[k]={w:0,l:0,t:0,pf:0,pa:0,apw:0,apl:0,res:[],sc:[]};});
+      var wk=[];
+      weeks.forEach(function(w){
+        var m=W[w], byM={}; m.forEach(function(x){(byM[x.matchup_id]=byM[x.matchup_id]||[]).push(x);});
+        var pts=m.map(function(x){return x.points;});
+        m.forEach(function(x){var s=S[x.roster_id];s.sc.push(r2(x.points));s.apw+=pts.filter(function(p){return p<x.points;}).length;s.apl+=pts.filter(function(p){return p>x.points;}).length;});
+        var games=[];
+        Object.keys(byM).forEach(function(k){var g=byM[k];if(g.length<2||k==="null")return;var a=g[0],b=g[1];if(b.points>a.points){var t=a;a=b;b=t;}
+          games.push([R[a.roster_id].t,r2(a.points),R[b.roster_id].t,r2(b.points),r2(a.points-b.points)]);
+          S[a.roster_id].pf+=a.points;S[a.roster_id].pa+=b.points;S[b.roster_id].pf+=b.points;S[b.roster_id].pa+=a.points;
+          if(a.points===b.points){S[a.roster_id].t++;S[b.roster_id].t++;S[a.roster_id].res.push("T");S[b.roster_id].res.push("T");}
+          else{S[a.roster_id].w++;S[b.roster_id].l++;S[a.roster_id].res.push("W");S[b.roster_id].res.push("L");}});
+        var bench=m.map(function(x){var bp=0;Object.keys(x.players_points||{}).forEach(function(p){if((x.starters||[]).indexOf(p)<0)bp+=x.players_points[p];});return [R[x.roster_id].t,r2(bp)];}).sort(function(a,b){return b[1]-a[1];});
+        wk.push({w:w,games:games,topBench:bench.slice(0,2)});
+      });
+      res.league={name:lg.name,season:lg.season,status:lg.status,teams:lg.total_rosters,type:lg.settings.type,pos:lg.roster_positions.join(","),rec:lg.scoring_settings.rec,bonus_rec_te:lg.scoring_settings.bonus_rec_te||0,pass_td:lg.scoring_settings.pass_td,playoffs:lg.settings.playoff_teams,po_start:lg.settings.playoff_week_start,faab:lg.settings.waiver_budget,taxi:lg.settings.taxi_slots,prev:lg.previous_league_id,last_winner_rid:lg.metadata&&lg.metadata.latest_league_winner_roster_id};
+      res.nflweek=st.week; res.doneThrough=weeks.length?Math.max.apply(null,weeks):0;
+      res.commish=users.filter(function(u){return u.is_owner;}).map(function(u){return u.display_name;});
+      res.teams=Object.keys(R).map(function(k){var s=S[k],r=R[k].r.settings;var str="";for(var i=s.res.length-1;i>=0&&s.res[i]===s.res[s.res.length-1];i--)str=s.res[i];var n=0;for(var i2=s.res.length-1;i2>=0&&s.res[i2]===s.res[s.res.length-1];i2--)n++;
+        return {rid:+k,t:R[k].t,u:R[k].u,co:R[k].co,rec:s.w+"-"+s.l+(s.t?"-"+s.t:""),pf:r2(s.pf),pa:r2(s.pa),max:r2((r.ppts||0)+(r.ppts_decimal||0)/100),ap:s.apw+"-"+s.apl,strk:n?n+str:"",faab:r.waiver_budget_used||0,sc:s.sc};})
+        .sort(function(a,b){var wa=+a.rec.split("-")[0],wb=+b.rec.split("-")[0];return wb-wa||b.pf-a.pf;});
+      res.weeks=wk;
+      if(cur<99){var m2=await j("league/"+L+"/matchups/"+cur);var byM2={};(m2||[]).forEach(function(x){(byM2[x.matchup_id]=byM2[x.matchup_id]||[]).push(x.roster_id);});
+        res.thisWeek=Object.keys(byM2).filter(function(k){return k!=="null"&&byM2[k].length===2;}).map(function(k){return byM2[k].map(function(rid){var t=res.teams.filter(function(x){return x.rid===rid;})[0];return [t.t,t.sc.length?r2(t.pf/t.sc.length):0];});});}
+    }
+    if(part==="roster"){
+      var W2=await getWeeks(L,done), tot={};
+      Object.keys(W2).forEach(function(w){W2[w].forEach(function(x){Object.keys(x.players_points||{}).forEach(function(p){tot[p]=(tot[p]||0)+x.players_points[p];});});});
+      res.teams=Object.keys(R).map(function(k){var r=R[k].r;return {t:R[k].t,u:R[k].u,
+        pl:(r.players||[]).map(function(id){var p=P[id]||{};return [nm2(id),p.position||"",p.team||"FA",p.age||"",p.years_exp,r2(tot[id]||0),(r.taxi||[]).indexOf(id)>=0?"taxi":(r.reserve||[]).indexOf(id)>=0?"IR":"",p.injury_status||""].join("|");}).sort(function(a,b){return +b.split("|")[5]-+a.split("|")[5];})};});
+    }
+    if(part==="tx"){
+      var from=+(Q.get("from")||1), tx=[];
+      for(var w=from;w<=Math.min(cur,done+1);w++){var t=await j("league/"+L+"/transactions/"+w)||[];t.filter(function(x){return x.status==="complete";}).forEach(function(x){
+        var ad=x.adds||{},dr=x.drops||{};
+        var by=function(map){var o={};Object.keys(map).forEach(function(p){var rid=map[p];(o[rid]=o[rid]||[]).push(nm2(p));});return o;};
+        var A2=by(ad),D2=by(dr), rids=(x.roster_ids||[]);
+        tx.push({w:w,type:x.type,ts:new Date(x.status_updated||x.created).toISOString().slice(0,10),bid:x.settings&&x.settings.waiver_bid,
+          sides:rids.map(function(rid){return {u:R[rid]?R[rid].u:rid,add:A2[rid]||[],drop:D2[rid]||[]};}),
+          picks:(x.draft_picks||[]).map(function(p){return p.season+" R"+p.round+" ("+(R[p.roster_id]?R[p.roster_id].u:p.roster_id)+"'s) -> "+(R[p.owner_id]?R[p.owner_id].u:p.owner_id);}),
+          faab:(x.waiver_budget||[]).map(function(b){return "$"+b.amount+" "+(R[b.sender]?R[b.sender].u:b.sender)+"->"+(R[b.receiver]?R[b.receiver].u:b.receiver);})});});}
+      res.tx=tx;
+      var tp=await j("league/"+L+"/traded_picks")||[];
+      res.traded_picks=tp.filter(function(p){return p.owner_id!==p.roster_id;}).map(function(p){return p.season+" R"+p.round+": "+(R[p.roster_id]?R[p.roster_id].u:p.roster_id)+"'s pick owned by "+(R[p.owner_id]?R[p.owner_id].u:p.owner_id);});
+    }
+    if(part==="wk"){
+      var w0=+(Q.get("w")||done), m3=await j("league/"+L+"/matchups/"+w0), byM3={};
+      m3.forEach(function(x){(byM3[x.matchup_id]=byM3[x.matchup_id]||[]).push(x);});
+      res.week=w0;
+      res.games=Object.keys(byM3).filter(function(k){return k!=="null";}).map(function(k){return byM3[k].map(function(x){
+        var pp=x.players_points||{}, bn=Object.keys(pp).filter(function(p){return (x.starters||[]).indexOf(p)<0;}).sort(function(a,b){return pp[b]-pp[a];}).slice(0,3);
+        return {t:R[x.roster_id].t,u:R[x.roster_id].u,pts:r2(x.points),st:(x.starters||[]).map(function(p,i){return nm2(p)+" "+lg.roster_positions[i]+" "+r2(pp[p]||0);}).join("; "),bench:bn.map(function(p){return nm2(p)+" "+r2(pp[p]);}).join("; ")};});});
+    }
+    if(part==="hist"){
+      var H=[], lid=lg.previous_league_id, cnt=0, now={}; Object.keys(R).forEach(function(k){now[R[k].u]=1;});
+      while(lid&&lid!=="0"&&cnt<12){cnt++;
+        var pl=await j("league/"+lid); if(!pl)break;
+        var pu=await j("league/"+lid+"/users")||[], pr=await j("league/"+lid+"/rosters")||[], wb=await j("league/"+lid+"/winners_bracket")||[];
+        var PU={};pu.forEach(function(u){PU[u.user_id]={u:u.display_name,t:(u.metadata&&u.metadata.team_name)||u.display_name};});
+        var PR={};pr.forEach(function(r){PR[r.roster_id]=PU[r.owner_id]||{u:"?",t:"?"};});
+        var fin=wb.filter(function(m){return m.p===1;})[0], third=wb.filter(function(m){return m.p===3;})[0];
+        var lastReg=(pl.settings.playoff_week_start||15)-1, PW=await getWeeks(lid,lastReg), hi=[], lo=[];
+        Object.keys(PW).forEach(function(w){PW[w].forEach(function(x){hi.push([r2(x.points),PR[x.roster_id].u,PR[x.roster_id].t,+w]);});});
+        hi.sort(function(a,b){return b[0]-a[0];});
+        H.push({season:pl.season,name:pl.name,teams:pl.total_rosters,
+          champ:fin&&fin.w?PR[fin.w]:null,runner:fin&&fin.l?PR[fin.l]:null,third:third&&third.w?PR[third.w]:null,
+          recs:pr.map(function(r){var s=r.settings;return [PR[r.roster_id].u,PR[r.roster_id].t,s.wins+"-"+s.losses+(s.ties?"-"+s.ties:""),r2(s.fpts+(s.fpts_decimal||0)/100)];}).sort(function(a,b){return +b[2].split("-")[0]-+a[2].split("-")[0]||b[3]-a[3];}),
+          playoffTeams:Array.from(new Set(wb.filter(function(m){return m.r===1;}).reduce(function(a,m){return a.concat([m.t1,m.t2]);},[]).filter(Boolean).map(function(x){return PR[x]?PR[x].u:x;}))),
+          hi:hi.slice(0,3),lo:hi.slice(-3).reverse()});
+        lid=pl.previous_league_id;}
+      var gone={};H.forEach(function(h){h.recs.forEach(function(r){if(!now[r[0]])(gone[r[0]]=gone[r[0]]||[]).push(h.season+" "+r[1]+" "+r[2]);});});
+      res.history=H; res.departed=gone;
+    }
+    out.textContent=JSON.stringify(res);
+  }catch(e){out.textContent="ERR "+e;}
+})();
+</script></body></html>
