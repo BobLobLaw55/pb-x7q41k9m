@@ -134,6 +134,51 @@
       res.alltime=Object.keys(AT).map(function(u){var a=AT[u];return [u,a.w+"-"+a.l+(a.t?"-"+a.t:""),a.ttl,a.fin,a.po,a.yrs.slice().sort().join(","),cur2[u]?1:0];}).sort(function(a,b){return +b[1].split("-")[0]-+a[1].split("-")[0];});
       res.high=WK.slice(0,6); res.low=WK.slice(-6).reverse(); res.seasons=seasons;
     }
+    if(part==="trades"){
+      var SJ=function(u){return j(u);};
+      var chain=[], lid3=L, n3=0;
+      while(lid3&&lid3!=="0"&&n3<12){n3++;var l3=await j("league/"+lid3);if(!l3)break;chain.push(l3);lid3=l3.previous_league_id;}
+      chain.reverse();
+      var seasonStats={};
+      var stat=async function(y){if(seasonStats[y])return seasonStats[y];var a=await j("https://api.sleeper.com/stats/nfl/"+y+"?season_type=regular&position[]=QB&position[]=RB&position[]=WR&position[]=TE&position[]=DEF&position[]=K")||[];var m={};a.forEach(function(x){if(x&&x.stats)m[x.player_id]=x.stats.pts_ppr||0;});seasonStats[y]=m;return m;};
+      var P2=await j("players/nfl");
+      var nmp=function(id){var p=P2&&P2[id];return p?(p.first_name?p.first_name+" "+p.last_name:id)+(p.position?" ("+p.position+")":""):String(id);};
+      var bySeason={}, drafted={}, out=[], curSeason=+st.season;
+      for(var ci=0;ci<chain.length;ci++){var lg3=chain[ci],y=+lg3.season;
+        var u3=await j("league/"+lg3.league_id+"/users")||[],r3=await j("league/"+lg3.league_id+"/rosters")||[];
+        var UU3={};u3.forEach(function(u){UU3[u.user_id]=u.display_name;});var RN={};r3.forEach(function(r){RN[r.roster_id]=UU3[r.owner_id]||("roster "+r.roster_id);});
+        var W3={};for(var w=1;w<=18;w++){var m=await j("league/"+lg3.league_id+"/matchups/"+w);if(!m||!m.length)break;W3[w]=m;}
+        bySeason[y]={RN:RN,W:W3,start:lg3.settings&&lg3.settings.start_week||1};
+        var drs=await j("league/"+lg3.league_id+"/drafts")||[];
+        for(var di=0;di<drs.length;di++){var dr=drs[di];if(dr.status!=="complete")continue;var full=await j("draft/"+dr.draft_id);var pk=await j("draft/"+dr.draft_id+"/picks")||[];
+          var s2r=(full&&full.slot_to_roster_id)||{};
+          pk.forEach(function(x){var orig=s2r[x.draft_slot];drafted[y+"|"+x.round+"|"+orig]={pid:x.player_id,no:x.pick_no,type:dr.type,season:y};});}
+        for(var w2=1;w2<=18;w2++){var t3=await j("league/"+lg3.league_id+"/transactions/"+w2)||[];
+          t3.filter(function(x){return x.type==="trade"&&x.status==="complete";}).forEach(function(x){out.push({x:x,y:y,w:w2,RN:RN});});}
+      }
+      var since=function(pid,y,w,inseason){var tot=0,d=[];
+        if(inseason&&bySeason[y]){Object.keys(bySeason[y].W).forEach(function(k){if(+k>=w)bySeason[y].W[k].forEach(function(m){if(m.players_points&&m.players_points[pid]!=null)tot+=0;});});}
+        return tot;};
+      res.trades=[];
+      for(var oi=0;oi<out.length;oi++){var o=out[oi],x=o.x,y=o.y;
+        var ts=new Date(x.status_updated||x.created), day=ts.toISOString().slice(0,10);
+        var inseason=ts.getMonth()>=8||ts.getMonth()===0&&false; // Sep-Dec
+        var startY=inseason?y:y, firstFull=inseason?y+1:y;
+        var val=async function(pid){var t=0;
+          if(inseason&&bySeason[y]){Object.keys(bySeason[y].W).forEach(function(k){if(+k>=o.w)bySeason[y].W[k].forEach(function(m){var pp=m.players_points||{};if(pp[pid]!=null)t+=pp[pid];});});}
+          for(var yy=firstFull;yy<=curSeason;yy++){var sm=await stat(yy);t+=sm[pid]||0;}
+          return Math.round(t*10)/10;};
+        var sides={};(x.roster_ids||[]).forEach(function(rid){sides[rid]={u:o.RN[rid]||rid,get:[],pts:0};});
+        var adds=x.adds||{};for(var pid in adds){var rid=adds[pid];if(!sides[rid])sides[rid]={u:o.RN[rid]||rid,get:[],pts:0};var v=await val(pid);sides[rid].get.push([nmp(pid),v]);sides[rid].pts+=v;}
+        for(var pi=0;pi<(x.draft_picks||[]).length;pi++){var dp=x.draft_picks[pi],rid2=dp.owner_id;if(!sides[rid2])sides[rid2]={u:o.RN[rid2]||rid2,get:[],pts:0};
+          var key=dp.season+"|"+dp.round+"|"+dp.roster_id, dd=drafted[key], label=dp.season+" round "+dp.round+" ("+(o.RN[dp.roster_id]||dp.roster_id)+"'s)";
+          if(dd&&dd.pid){var pv=0;for(var yy2=+dp.season;yy2<=curSeason;yy2++){var sm2=await stat(yy2);pv+=sm2[dd.pid]||0;}pv=Math.round(pv*10)/10;sides[rid2].get.push([label+" -> "+nmp(dd.pid)+" (#"+dd.no+")",pv]);sides[rid2].pts+=pv;}
+          else sides[rid2].get.push([label+(+dp.season<=curSeason&&!dd?" -> not found":" -> not drafted yet"),null]);}
+        (x.waiver_budget||[]).forEach(function(b){if(sides[b.receiver])sides[b.receiver].get.push(["$"+b.amount+" FAAB",null]);});
+        res.trades.push({d:day,s:y,w:o.w,ins:inseason?1:0,sides:Object.keys(sides).map(function(k){var sd=sides[k];return [sd.u,Math.round(sd.pts*10)/10,sd.get];})});}
+      res.trades.sort(function(a,b){return a.d<b.d?-1:1;});
+      res.method="pts_ppr from Sleeper season stats; in-season trades add league players_points from the trade week on; picks = drafted player's points from draft season on";
+    }
     out.textContent=JSON.stringify(res);
   }catch(e){out.textContent="ERR "+e;}
 })();
