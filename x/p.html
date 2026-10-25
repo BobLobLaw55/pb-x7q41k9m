@@ -62,13 +62,20 @@
         var ad=x.adds||{},dr=x.drops||{};
         var by=function(map){var o={};Object.keys(map).forEach(function(p){var rid=map[p];(o[rid]=o[rid]||[]).push(nm2(p));});return o;};
         var A2=by(ad),D2=by(dr), rids=(x.roster_ids||[]);
+        var day=new Date(x.status_updated||x.created).toISOString().slice(0,10); if(Q.get("since")&&day<Q.get("since"))return;
+        if(x.type!=="trade"&&!Object.keys(ad).length)return;
         tx.push({w:w,type:x.type,ts:new Date(x.status_updated||x.created).toISOString().slice(0,10),bid:x.settings&&x.settings.waiver_bid,
           sides:rids.map(function(rid){return {u:R[rid]?R[rid].u:rid,add:A2[rid]||[],drop:D2[rid]||[]};}),
           picks:(x.draft_picks||[]).map(function(p){return p.season+" R"+p.round+" ("+(R[p.roster_id]?R[p.roster_id].u:p.roster_id)+"'s) -> "+(R[p.owner_id]?R[p.owner_id].u:p.owner_id);}),
           faab:(x.waiver_budget||[]).map(function(b){return "$"+b.amount+" "+(R[b.sender]?R[b.sender].u:b.sender)+"->"+(R[b.receiver]?R[b.receiver].u:b.receiver);})});});}
       res.tx=tx;
       var tp=await j("league/"+L+"/traded_picks")||[];
-      res.traded_picks=tp.filter(function(p){return p.owner_id!==p.roster_id;}).map(function(p){return p.season+" R"+p.round+": "+(R[p.roster_id]?R[p.roster_id].u:p.roster_id)+"'s pick owned by "+(R[p.owner_id]?R[p.owner_id].u:p.owner_id);});
+      var seasons=[+lg.season+1,+lg.season+2,+lg.season+3], own={};
+      Object.keys(R).forEach(function(k){own[R[k].u]={};seasons.forEach(function(y){own[R[k].u][y]=[];});});
+      seasons.forEach(function(y){for(var rd=1;rd<=Math.min(lg.settings.draft_rounds||4,3);rd++){Object.keys(R).forEach(function(k){
+        var t=tp.filter(function(p){return +p.season===y&&p.round===rd&&p.roster_id===+k;})[0], ow=t?t.owner_id:+k;
+        if(R[ow])own[R[ow].u][y].push(rd+(ow===+k?"":"("+R[k].u+")"));});}});
+      res.future_picks=own; res.draft_rounds=lg.settings.draft_rounds;
     }
     if(part==="wk"){
       var w0=+(Q.get("w")||done), m3=await j("league/"+L+"/matchups/"+w0), byM3={};
