@@ -201,6 +201,9 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
 .mgr{color:var(--red);font-weight:700}
 .tmn,table.t .tm a,.deal .team a,.list li b a,.line .match b a,.exit .tm a{color:#0f766e}
 .tmn{font-weight:700}
+td.pk{font-size:13px;color:var(--soft);min-width:9ch}
+.win{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;padding:2px 8px;border:1px solid currentColor;white-space:nowrap}
+.win.contend{color:var(--green)} .win.rebuild{color:var(--red)} .win.purgatory,.win.stuck{color:var(--gold)} .win.allin{color:#7c3aed}
 .legend{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;font-size:12px;color:var(--dim);padding-top:6px}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
@@ -332,6 +335,7 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
   <section class="page" id="p-hof" hidden></section>
   <section class="page" id="p-commish" hidden></section>
   <section class="page" id="p-rip" hidden></section>
+  <section class="page" id="p-dynasty" hidden></section>
 </main>
 
 <footer><div class="wrap"><span>A.N.A.L. · Aniston News Always Live · Fantasy Addicks on Sleeper</span><span>Rumors are made up. Stats are real. Lines are for entertainment.</span></div></footer>
@@ -425,10 +429,10 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
   function buildMark(){
     var esc2=function(x){return x.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");};
     var teams=D.teams.map(function(t){return t.name;});
-    var users=D.standings.map(function(r){return r[1];}).concat(["Pudge","SadPudge","Chuck","Tyler(?! (?:Shough|Warren))","codywomack90","TroyMcCoy","RammerJammer17","ztw129","TStark7","paragoody15"]);
-    var lit=function(a){return a.map(function(x){return /[(?]/.test(x)?x:esc2(x);});};
-    var tAlt=lit(teams).sort(function(a,b){return b.length-a.length;}).join("|");
-    var uAlt=lit(users).sort(function(a,b){return b.length-a.length;}).join("|");
+    var extra=D.aliases||["Pudge","SadPudge","Chuck","Tyler(?! (?:Shough|Warren|Higbee|Allgeier|Huntley|Goodson|Lockett|Boyd|Conklin|Johnson))","codywomack90","TroyMcCoy","RammerJammer17","ztw129","TStark7","paragoody15"];
+    var users=D.standings.map(function(r){return esc2(r[1]);}).concat(extra.map(function(x){return /[(?]/.test(x)?x:esc2(x);}));
+    var tAlt=teams.map(esc2).sort(function(a,b){return b.length-a.length;}).join("|");
+    var uAlt=users.sort(function(a,b){return b.length-a.length;}).join("|");
     MARK=new RegExp("(^|[^A-Za-z0-9_])(?:("+tAlt+")|("+uAlt+"))(?![A-Za-z0-9_])","g");
   }
   function mark(root){
@@ -453,7 +457,7 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
   var stLabel={paid:"Paid",ruling:"Commish ruling",live:"This week",up:"Upcoming"};
   function payRow(x){var tm=x.win?teamOf(x.win):"";return '<div class="pay'+(x.st==="live"?" now":"")+'"><div class="wk"><small>WEEK</small>'+x.w+'</div><div class="cat">'+esc(x.c)+'</div><div class="who">'+(x.win?'<b>'+esc(x.win)+(tm?' · '+tlink(tm):'')+'</b>':'')+esc(x.detail||"")+'</div><span class="st '+x.st+'">'+stLabel[x.st]+'</span></div>';}
   function payouts(){
-    var P=D.payouts;
+    var P=D.payouts; if(!P) return home();
     return '<div class="sec">'+head("Weekly Payouts",P.note)+P.weeks.map(payRow).join("")+'</div>';
   }
   function payBox(){
@@ -470,8 +474,8 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
       '<div class="sec">'+head("The A.N.A.L. Awards","Lifetime achievement, for better or worse.")+'<div class="grid">'+H.awards.map(function(a){return '<div class="award"><h3>'+esc(a.t)+'</h3><div class="w">'+esc(a.w)+'</div><p>'+esc(a.why)+'</p></div>';}).join("")+'</div></div>'+history(H.awards.map(function(a){return a.t;}));
   }
   function commish(){
-    var C=D.commish;
-    return '<div class="sec"><div class="kicker">League Office</div><h1>'+esc(C.title)+'</h1><p class="dek">'+esc(C.dek)+'</p><div class="cm">'+C.people.map(function(p){return '<div class="cmcard"><img src="'+esc(p.img)+'" alt="'+esc(p.u)+'" width="560" height="560"><div class="in"><div class="role">'+esc(p.role)+'</div><h2>'+esc(p.u)+'</h2><div class="tm">'+tlink(p.team)+'</div><div class="cmstats">'+p.stats.map(function(x){return '<div><b>'+esc(x[1])+'</b><span>'+esc(x[0])+'</span></div>';}).join("")+'</div>'+paras(p.body)+'</div></div>';}).join("")+'</div></div>'+
+    var C=D.commish; if(!C) return home();
+    return '<div class="sec"><div class="kicker">League Office</div><h1>'+esc(C.title)+'</h1><p class="dek">'+esc(C.dek)+'</p><div class="cm">'+C.people.map(function(p){return '<div class="cmcard">'+(p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.u)+'" width="560" height="560">':'')+'<div class="in"><div class="role">'+esc(p.role)+'</div><h2>'+esc(p.u)+'</h2><div class="tm">'+tlink(p.team)+'</div><div class="cmstats">'+p.stats.map(function(x){return '<div><b>'+esc(x[1])+'</b><span>'+esc(x[0])+'</span></div>';}).join("")+'</div>'+paras(p.body)+'</div></div>';}).join("")+'</div></div>'+
       '<div class="sec">'+head("Official Rulings")+'<div class="rulings">'+C.rulings.map(function(r){return '<div><b>'+esc(r[0])+'</b><span>'+esc(r[1])+'</span></div>';}).join("")+'</div></div>';
   }
 
@@ -480,7 +484,14 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
     return '<div class="sec">'+head(R.title,R.sub)+'<div class="rafters">'+R.banners.map(function(b){return '<div class="banner"><div class="rb-tag">'+esc(b.tag)+'</div><div class="u">'+esc(b.u)+'</div><div class="yrs">'+esc(b.yrs)+'</div><div class="rule"></div><div class="stats">'+esc(b.stats)+'</div><div class="rb-line">'+esc(b.line)+'</div></div>';}).join("")+'</div></div>';
   }
 
-  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip"];
+  function dynasty(){
+    var Y=D.dyn; if(!Y) return home();
+    var h='<div class="sec">'+head("Pick Ledger",Y.picksNote)+'<div class="scroll"><table class="t"><thead><tr><th>Team</th>'+Y.years.map(function(y){return '<th>'+esc(y)+'</th>';}).join("")+'<th>1sts</th></tr></thead><tbody>'+Y.picks.map(function(r){return '<tr><td class="tm">'+tlink(r[0])+'<span class="own">'+esc(r[1])+'</span></td>'+r[2].map(function(c){return '<td class="pk">'+esc(c)+'</td>';}).join("")+'<td class="num">'+esc(r[3])+'</td></tr>';}).join("")+'</tbody></table></div></div>';
+    h+='<div class="sec">'+head("Window Check",Y.windowNote)+'<div class="scroll"><table class="t"><thead><tr><th>Team</th><th>Record</th><th>Core age</th><th>Window</th><th>The take</th></tr></thead><tbody>'+Y.window.map(function(r){return '<tr><td class="tm">'+tlink(r[0])+'<span class="own">'+esc(r[1])+'</span></td><td class="num">'+esc(r[2])+'</td><td class="num">'+esc(r[3])+'</td><td><span class="win '+esc(r[4]).toLowerCase().replace(/[^a-z]/g,"")+'">'+esc(r[4])+'</span></td><td class="take">'+esc(r[5])+'</td></tr>';}).join("")+'</tbody></table></div></div>';
+    if(Y.taxi&&Y.taxi.length) h+='<div class="sec">'+head("Taxi Squad Watch",Y.taxiNote)+'<div class="grid">'+Y.taxi.map(function(x){return '<div class="item"><div class="kicker">'+esc(x.tag)+'</div><h3>'+esc(x.p)+'</h3><p>'+esc(x.t)+'</p></div>';}).join("")+'</div></div>';
+    return h;
+  }
+  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","dynasty"];
   function route(){
     if(!D) return;
     var h=(location.hash||"#home").slice(1), view=h, arg=null;
@@ -489,7 +500,7 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
     else if(h.indexOf("col-")===0){view="col";arg=h.slice(4);}
     if(view==="history") view="hof";
     if(pages.indexOf(view)<0) view="home";
-    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring}[view]();
+    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,dynasty:dynasty}[view]();
     pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} }});
     var navKey=view==="team"?"teams":view==="story"?"home":view==="col"?"opinion":view;
     document.querySelectorAll("#nav a").forEach(function(a){if(a.getAttribute("href")==="#"+navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});
@@ -506,6 +517,7 @@ footer .wrap{padding-block:18px;color:var(--dim);font-size:12px;display:flex;gap
       document.getElementById("tickTag").textContent="Wk "+(D.week-1)+" Final";
       items=D.ticker.map(function(t){return '<span><b>'+esc(t[0])+' '+esc(t[1])+'</b> · '+esc(t[2])+' '+esc(t[3])+'</span>';}).join("");
     }
+    [["payouts",D.payouts],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
     document.getElementById("run").innerHTML=items+items;
     (function(){var tr=document.querySelector(".ticker .track"),rn=document.getElementById("run"),x=0,t0=null;if(!tr||!rn||!window.requestAnimationFrame)return;function tick(t){if(t0!==null){x+=Math.min(t-t0,100)*0.045;var half=rn.scrollWidth/2;if(half>0&&x>=half)x-=half;tr.scrollLeft=Math.round(x);}t0=t;requestAnimationFrame(tick);}requestAnimationFrame(tick);})();
     var src='<div class="sources">Sources: '+D.sources.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a>';}).join(" · ")+'</div>';
