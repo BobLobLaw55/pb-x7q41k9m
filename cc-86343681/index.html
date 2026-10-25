@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="img/icon-180.png">
 <title>Is This Just Foreplay</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23ffffff'/%3E%3Cpath d='M30 62 C20 62 19 48 29 46 C28 34 42 30 47 37 C51 27 67 29 67 40 C78 39 81 54 72 59 C71 66 62 67 58 63 C54 68 36 68 30 62 Z' fill='%230f766e'/%3E%3Ccircle cx='31' cy='72' r='4' fill='%230f766e'/%3E%3Ccircle cx='24' cy='79' r='2.5' fill='%230f766e'/%3E%3Cg transform='rotate%28-20 51 50%29'%3E%3Cellipse cx='51' cy='50' rx='13' ry='7.5' fill='%23ffffff'/%3E%3Cpath d='M45.5 50 H56.5' stroke='%230f766e' stroke-width='1.8' stroke-linecap='round'/%3E%3Cpath d='M48.2 47.7 V52.3 M51 47.7 V52.3 M53.8 47.7 V52.3' stroke='%230f766e' stroke-width='1.4' stroke-linecap='round'/%3E%3C/g%3E%3Cpath d='M74 22 l1.6 3.6 3.8 .4 -2.9 2.5 .9 3.8 -3.4 -2 -3.4 2 .9 -3.8 -2.9 -2.5 3.8 -.4 Z' fill='%23d97706'/%3E%3Cpath d='M82 34 l1 2.2 2.3 .3 -1.8 1.5 .6 2.3 -2.1 -1.2 -2.1 1.2 .6 -2.3 -1.8 -1.5 2.3 -.3 Z' fill='%23d97706'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Franklin:wght@400;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&family=Libre+Franklin:wght@400;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
 /* Layout: Sunday sports section. Centered slab-serif nameplate over a double rule, black ticker, hash-routed pages on newsprint white. Single light look by choice. */
 :root{
@@ -32,10 +32,10 @@ a{color:inherit}
 
 .mast{background:linear-gradient(100deg,#0b3b38 0%,#0f766e 45%,#0d9488 72%,#14b8a6 100%);color:#fff;border-bottom:3px double var(--ink-line)}
 .mast .wrap{display:flex;flex-direction:column;align-items:center;gap:10px;padding-block:18px 10px}
-.brand{display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;color:#fff}
-.brand-name{display:flex;align-items:center;justify-content:center;gap:clamp(10px,1.6vw,16px)}
-.logo{width:clamp(44px,7.6vw,68px);height:clamp(44px,7.6vw,68px);flex:none;filter:drop-shadow(0 3px 8px rgba(0,0,0,.25))}
-.badge{font-family:var(--display);font-weight:400;font-size:clamp(30px,5.6vw,54px);line-height:1.04;color:#fff;letter-spacing:1px;text-align:center;text-shadow:0 2px 0 rgba(0,0,0,.15)}
+.brand{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:#fff;width:100%;container-type:inline-size}
+.brand-name{position:relative;display:grid;place-items:center;width:100%;padding-block:clamp(14px,4cqi,40px) clamp(8px,2cqi,20px)}
+.logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);height:118%;width:auto;aspect-ratio:1;opacity:.22;pointer-events:none;filter:none}
+.badge{position:relative;display:block;width:100%;font-family:"Pacifico","Brush Script MT",cursive;font-weight:400;font-size:11cqi;line-height:1.3;color:#fff;text-align:center;white-space:nowrap;letter-spacing:0;transform:rotate(-3deg);text-shadow:0 3px 0 #0b3b38,0 6px 14px rgba(0,0,0,.35)}
 .brand-txt{display:flex;align-items:center;gap:10px;font-family:var(--body);font-weight:800;font-size:12px;letter-spacing:4px;text-transform:uppercase}
 @media (max-width:520px){.brand-txt{letter-spacing:2px;font-size:10.5px;text-align:center}.brand-txt::before,.brand-txt::after{width:16px}}
 .brand-txt::before,.brand-txt::after{content:"";width:34px;height:1px;background:rgba(255,255,255,.7)}
@@ -220,6 +220,25 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
 .st.live{background:var(--red);border-color:var(--red);color:#fff}
 .st.ruling{border-color:var(--red);color:var(--red)}
 .pay.now{background:#fff7ed}
+.shot{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:center;background:#141414;color:#fff;border-top:4px solid #d97706;padding:18px 20px}
+.shot .can{font-family:var(--display);font-size:44px;line-height:1;color:#d97706;text-align:center;min-width:72px}
+.shot .can small{display:block;font-family:var(--body);font-weight:800;font-size:10px;letter-spacing:2px;color:#bbb;margin-top:4px}
+.shot .lbl{font-weight:800;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#d97706}
+.shot h3{margin:4px 0 2px;font-family:var(--display);font-weight:400;font-size:22px;line-height:1.2}
+.shot h3 a,.shot .tm a{color:#fff}
+.shot p{margin:6px 0 0;color:#ddd;font-size:14px}
+.shot + .more{display:inline-block;margin-top:12px}
+.shot .tmn{color:#93c5fd}.shot .mgr{color:#fdba74}
+.shot .next{margin-top:8px;font-size:12px;color:#aaa}
+.foam{width:100%;border-collapse:collapse;margin-top:6px}
+.foam th{text-align:left;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);border-bottom:2px solid var(--ink-line);padding:6px 8px}
+.foam td{border-bottom:1px solid var(--line);padding:9px 8px;vertical-align:top;font-size:14px}
+.foam td.num{font-family:var(--mono);white-space:nowrap}
+.foam tr.low td{background:#fff4e5}
+.cans{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}
+.cans > span{background:var(--panel);border:1px solid var(--line);padding:6px 10px;font-size:13px}
+.cans b{font-family:var(--mono);color:#b45309;margin-left:6px}
+@media (max-width:520px){.shot{grid-template-columns:1fr;text-align:left}.shot .can{text-align:left}}
 .paybox{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .paybox > div{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--red);padding:14px 16px;min-width:0}
 .paybox small{display:block;font-weight:800;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);margin-bottom:4px}
@@ -302,6 +321,7 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
       <a href="#rumors">Rumor Mill</a>
       <a href="#trades">Trade Desk</a>
       <a href="#payouts">Payouts</a>
+      <a href="#shotgun">Shotgun Report</a>
       <a href="#hof">Hall of Fame</a>
       <a href="#rip">R.I.P.</a>
       <a href="#commish">Commish</a>
@@ -330,6 +350,7 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
   <section class="page" id="p-opinion" hidden></section>
   <section class="page" id="p-col" hidden></section>
   <section class="page" id="p-payouts" hidden></section>
+  <section class="page" id="p-shotgun" hidden></section>
   <section class="page" id="p-hof" hidden></section>
   <section class="page" id="p-commish" hidden></section>
   <section class="page" id="p-rip" hidden></section>
@@ -352,10 +373,11 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
     var h='<div class="lead"><article class="hero"><div class="kicker">'+esc(lead.kicker)+'</div><h1>'+esc(lead.title)+'</h1><p class="dek">'+esc(lead.dek)+'</p><a class="more" href="#story-'+lead.id+'">Read the story</a></article>';
     h+='<aside class="wire"><h2>The Wire</h2><ul>'+D.wire.map(function(w){return '<li>'+esc(w.t)+'<a href="'+esc(w.url)+'" target="_blank" rel="noopener">'+esc(w.src)+'</a></li>';}).join("")+'</ul></aside></div>';
     h+=payBox();
+    h+=shotBox();
     h+='<div class="sec">'+head("Top Stories")+'<div class="grid">'+s.slice(1).map(function(x){return '<div class="item"><div class="kicker">'+esc(x.kicker)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.dek)+'</p><a class="more" href="#story-'+x.id+'">Read</a></div>';}).join("")+'</div></div>';
     if(D.columns&&D.columns.length) h+='<div class="sec">'+head("Opinion","Hot takes, bad takes, and Oliver Klozoff.")+'<div class="cols">'+D.columns.map(colCard).join("")+'</div></div>';
     h+='<div class="sec">'+head("Standings","All-play = your record if you played every team every week.")+standingsTable()+'</div>';
-    h+='<div class="sec">'+head("Week "+D.week+" Lines","From the A.N.A.L. Sportsbook.")+'<div class="grid">'+D.lines.slice(0,3).map(function(l){return '<div class="item"><h3>'+esc(l.fav)+' '+esc(l.spread)+'</h3><p>vs. '+esc(l.dog)+'. '+esc(l.note)+'</p></div>';}).join("")+'</div><a class="more" href="#lines">Full board</a></div>';
+    h+='<div class="sec">'+head("Week "+D.week+" Lines","From the Is This Just Foreplay Sportsbook.")+'<div class="grid">'+D.lines.slice(0,3).map(function(l){return '<div class="item"><h3>'+esc(l.fav)+' '+esc(l.spread)+'</h3><p>vs. '+esc(l.dog)+'. '+esc(l.note)+'</p></div>';}).join("")+'</div><a class="more" href="#lines">Full board</a></div>';
     return h;
   }
   function standingsTable(){
@@ -407,14 +429,14 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
     return h;
   }
   function lines(){
-    return '<div class="sec">'+head("A.N.A.L. Sportsbook · Week "+D.week,"Spreads built from season scoring averages, nudged for injuries and byes. Win % is the favorite's chance. For entertainment, obviously.")+D.lines.map(function(l){return '<div class="line"><div class="match"><b>'+tlink(l.fav)+'</b><span>vs. '+tlink(l.dog)+'</span><p>'+esc(l.note)+'</p></div><div class="mk"><small>Spread</small><b>'+esc(l.spread)+'</b></div><div class="mk"><small>Total</small><b>'+esc(l.total)+'</b></div>'+(l.prob!=null?'<div class="mk"><small>Win %</small><b>'+l.prob+'%</b></div>':'')+'</div>';}).join("")+'</div>';
+    return '<div class="sec">'+head("The Foreplay Sportsbook · Week "+D.week,"Spreads built from season scoring averages, nudged for injuries and byes. Win % is the favorite's chance. For entertainment, obviously.")+D.lines.map(function(l){return '<div class="line"><div class="match"><b>'+tlink(l.fav)+'</b><span>vs. '+tlink(l.dog)+'</span><p>'+esc(l.note)+'</p></div><div class="mk"><small>Spread</small><b>'+esc(l.spread)+'</b></div><div class="mk"><small>Total</small><b>'+esc(l.total)+'</b></div>'+(l.prob!=null?'<div class="mk"><small>Win %</small><b>'+l.prob+'%</b></div>':'')+'</div>';}).join("")+'</div>';
   }
 
   var who=function(k){return (D.columnists||[]).filter(function(c){return c.key===k;})[0]||{name:"Staff",role:"",img:""};};
   function colCard(c){var w=who(c.by);return '<a class="col" href="#col-'+c.id+'">'+(w.img?'<img src="'+esc(w.img)+'" alt="'+esc(w.name)+'" width="72" height="72">':'')+'<div class="who">'+esc(w.name)+'</div><h3>'+esc(c.title)+'</h3><p>'+esc(c.dek)+'</p></a>';}
   function opinion(){
     var C=D.columns||[];
-    return '<div class="sec">'+head("Opinion","Columns from the A.N.A.L. takes desk. Opinions are their own and mostly wrong.")+'<div class="cols">'+C.map(colCard).join("")+'</div></div>'+
+    return '<div class="sec">'+head("Opinion","Columns from the Is This Just Foreplay takes desk. Opinions are their own and mostly wrong.")+'<div class="cols">'+C.map(colCard).join("")+'</div></div>'+
       '<div class="sec">'+head("The Staff")+'<div class="staff">'+(D.columnists||[]).map(function(w){return '<div class="staffer"><img src="'+esc(w.img)+'" alt="" width="64" height="64"><div><b>'+esc(w.name)+'</b><small>'+esc(w.role)+'</small><p>'+esc(w.bio)+'</p></div></div>';}).join("")+'</div><p class="disclaim">Columnists are fictional characters. Portraits are AI-generated, not real people.</p></div>';
   }
   function column(id){
@@ -466,10 +488,21 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
       (last?'<div><small>Last paid · Week '+last.w+'</small><b>'+esc(last.win)+' · '+tlink(teamOf(last.win))+'</b><p>'+esc(last.c)+': '+esc(last.detail)+'</p></div>':'')+
       '</div><a class="more" href="#payouts">All payouts</a></div>';
   }
+  function shotCard(S){var L=S.last; if(!L) return "";
+    return '<div class="shot"><div class="can">'+esc(L.score)+'<small>WEEK '+L.w+'</small></div><div><div class="lbl">'+esc(S.label||"Shotgun owed")+'</div><h3>'+esc(L.u)+' · '+tlink(L.team)+'</h3><p>'+esc(L.t)+'</p>'+(S.next?'<div class="next">'+esc(S.next)+'</div>':'')+'</div></div>';}
+  function shotBox(){var S=D.shotgun; if(!S) return "";
+    return '<div class="sec">'+head(S.title,S.sub)+shotCard(S)+'<a class="more" href="#shotgun">'+esc(S.wall?S.wall.title:"Full report")+'</a></div>';}
+  function shotgun(){var S=D.shotgun; if(!S) return home(); var W=S.wall||{rows:[]};
+    var min=Math.min.apply(null,W.rows.map(function(r){return parseFloat(r[3]);}));
+    var tally={};W.rows.forEach(function(r){tally[r[1]]=(tally[r[1]]||0)+1;});
+    var t=Object.keys(tally).sort(function(a,b){return tally[b]-tally[a];});
+    return '<div class="sec">'+head(S.title,S.sub)+shotCard(S)+'</div>'+
+      '<div class="sec">'+head(W.title,W.sub)+(t.length?'<div class="cans">'+t.map(function(u){return '<span>'+esc(u)+'<b>'+tally[u]+(tally[u]>1?' cans':' can')+'</b></span>';}).join("")+'</div>':'')+
+      '<div class="scroll"><table class="foam"><thead><tr><th>Wk</th><th>Manager</th><th>Team</th><th>Score</th><th>Lost to</th></tr></thead><tbody>'+W.rows.map(function(r){return '<tr'+(parseFloat(r[3])===min?' class="low"':'')+'><td class="num">'+r[0]+'</td><td>'+esc(r[1])+'</td><td>'+tlink(r[2])+'</td><td class="num">'+esc(r[3])+'</td><td>'+tlink(r[4])+'</td></tr>';}).join("")+'</tbody></table></div></div>';}
   function hof(){
     var H=D.hof;
     return '<div class="sec">'+head("Hall of Fame*",H.note)+'<p class="asterisk">'+esc(H.asterisk||"")+'</p><div class="hofgrid">'+H.cats.map(function(c){return '<div class="hofcat"><h3>'+esc(c.t)+'</h3><div class="sub">'+esc(c.s)+'</div><ol>'+c.rows.map(function(r,i){return '<li><span class="n">'+(i+1)+'</span><span>'+esc(r[0])+(r[2]?'<span class="d">'+esc(r[2])+'</span>':'')+'</span><span class="v">'+esc(r[1])+'</span></li>';}).join("")+'</ol></div>';}).join("")+'</div></div>'+
-      '<div class="sec">'+head("The A.N.A.L. Awards","Lifetime achievement, for better or worse.")+'<div class="grid">'+H.awards.map(function(a){return '<div class="award"><h3>'+esc(a.t)+'</h3><div class="w">'+esc(a.w)+'</div><p>'+esc(a.why)+'</p></div>';}).join("")+'</div></div>'+history(H.awards.map(function(a){return a.t;}));
+      '<div class="sec">'+head("The Foreplay Awards","Lifetime achievement, for better or worse.")+'<div class="grid">'+H.awards.map(function(a){return '<div class="award"><h3>'+esc(a.t)+'</h3><div class="w">'+esc(a.w)+'</div><p>'+esc(a.why)+'</p></div>';}).join("")+'</div></div>'+history(H.awards.map(function(a){return a.t;}));
   }
   function commish(){
     var C=D.commish; if(!C) return home();
@@ -489,7 +522,7 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
     if(Y.taxi&&Y.taxi.length) h+='<div class="sec">'+head("Taxi Squad Watch",Y.taxiNote)+'<div class="grid">'+Y.taxi.map(function(x){return '<div class="item"><div class="kicker">'+esc(x.tag)+'</div><h3>'+esc(x.p)+'</h3><p>'+esc(x.t)+'</p></div>';}).join("")+'</div></div>';
     return h;
   }
-  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","dynasty"];
+  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","shotgun","hof","commish","rip","dynasty"];
   function route(){
     if(!D) return;
     var h=(location.hash||"#home").slice(1), view=h, arg=null;
@@ -498,7 +531,7 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
     else if(h.indexOf("col-")===0){view="col";arg=h.slice(4);}
     if(view==="history") view="hof";
     if(pages.indexOf(view)<0) view="home";
-    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,dynasty:dynasty}[view]();
+    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,shotgun:shotgun,hof:hof,commish:commish,rip:ring,dynasty:dynasty}[view]();
     pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} }});
     var navKey=view==="team"?"teams":view==="story"?"home":view==="col"?"opinion":view;
     document.querySelectorAll("#nav a").forEach(function(a){if(a.getAttribute("href")==="#"+navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});
@@ -515,7 +548,7 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
       document.getElementById("tickTag").textContent="Wk "+(D.week-1)+" Final";
       items=D.ticker.map(function(t){return '<span><b>'+esc(t[0])+' '+esc(t[1])+'</b> · '+esc(t[2])+' '+esc(t[3])+'</span>';}).join("");
     }
-    [["payouts",D.payouts],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
+    [["payouts",D.payouts],["shotgun",D.shotgun],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
     document.getElementById("run").innerHTML=items+items;
     (function(){var tr=document.querySelector(".ticker .track"),rn=document.getElementById("run"),x=0,t0=null;if(!tr||!rn||!window.requestAnimationFrame)return;function tick(t){if(t0!==null){x+=Math.min(t-t0,100)*0.045;var half=rn.scrollWidth/2;if(half>0&&x>=half)x-=half;tr.scrollLeft=Math.round(x);}t0=t;requestAnimationFrame(tick);}requestAnimationFrame(tick);})();
     var src='<div class="sources">Sources: '+D.sources.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a>';}).join(" · ")+'</div>';
@@ -527,6 +560,12 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
     document.getElementById("stamp").textContent="Couldn't load today's edition. Refresh the page to try again.";
   });
 })();
+</script>
+<script>
+(function(){var b=document.querySelector('.badge');if(!b)return;
+function fit(){b.style.fontSize='';var r=document.createRange();r.selectNodeContents(b);var tw=r.getBoundingClientRect().width,bw=b.clientWidth;
+if(tw>0&&bw>0){var fs=parseFloat(getComputedStyle(b).fontSize);b.style.fontSize=(fs*bw*0.94/tw)+'px';}}
+fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);addEventListener('resize',fit);})();
 </script>
 </body>
 </html>

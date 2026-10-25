@@ -1523,5 +1523,66 @@
    }
   ]
  },
- "aliases": []
+ "aliases": [],
+ "shotgun": {
+  "title": "The Weekly Shotgun Report",
+  "sub": "Lowest score of the week shotguns a beer. Named and shamed every Tuesday morning. Video in the league chat or it didn't happen.",
+  "label": "Shotgun owed",
+  "last": {
+   "w": 6,
+   "u": "ClaytonBigsbi",
+   "team": "Skatabooboo",
+   "score": "82.84",
+   "t": "ClaytonBigsbi, crack it open. 82.84 and a loss to In It for Da Penix, a team that hadn't won a game all year. That's your second can of the season and Skatabooboo is still 0-6. Shotgun it, film it, post it."
+  },
+  "next": "Week 7's can is assigned Tuesday morning after Monday night. The Sportsbook's biggest dog is In It for Da Penix at +46.5. Shootyeah, maybe chill a cold one just in case.",
+  "wall": {
+   "title": "The Wall of Foam",
+   "sub": "Every week's lowest score this season. One row, one can.",
+   "rows": [
+    [
+     1,
+     "Shootyeah",
+     "In It for Da Penix",
+     "85.96",
+     "Rome Alone"
+    ],
+    [
+     2,
+     "Shootyeah",
+     "In It for Da Penix",
+     "77.48",
+     "McCallyCockin(his butt)"
+    ],
+    [
+     3,
+     "Bill_Buttlicker",
+     "McCallyCockin(his butt)",
+     "93.18",
+     "Rome Alone"
+    ],
+    [
+     4,
+     "ClaytonBigsbi",
+     "Skatabooboo",
+     "70.28",
+     "BrentMayfieldsomepain"
+    ],
+    [
+     5,
+     "GeorigaGoocher",
+     "NailinMaye’sPurdyJohnson",
+     "69.56",
+     "Rome Alone"
+    ],
+    [
+     6,
+     "ClaytonBigsbi",
+     "Skatabooboo",
+     "82.84",
+     "In It for Da Penix"
+    ]
+   ]
+  }
+ }
 }
