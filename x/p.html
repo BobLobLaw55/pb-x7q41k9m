@@ -105,6 +105,35 @@
       var gone={};H.forEach(function(h){h.recs.forEach(function(r){if(!now[r[0]])(gone[r[0]]=gone[r[0]]||[]).push(h.season+" "+r[1]+" "+r[2]);});});
       res.history=H; res.departed=gone;
     }
+    if(part==="agg"){
+      var seasons=[], lid2=L, n2=0, AT={}, WK=[];
+      var add=function(u){return AT[u]=AT[u]||{w:0,l:0,t:0,ttl:0,fin:0,po:0,yrs:[],best:0,worst:999};};
+      while(lid2&&lid2!=="0"&&n2<12){n2++;
+        var lg2=await j("league/"+lid2); if(!lg2)break;
+        var u2=await j("league/"+lid2+"/users")||[], r2s=await j("league/"+lid2+"/rosters")||[], wb2=lg2.status==="complete"?(await j("league/"+lid2+"/winners_bracket")||[]):[];
+        var UU={};u2.forEach(function(u){UU[u.user_id]={u:u.display_name,t:(u.metadata&&u.metadata.team_name)||u.display_name};});
+        var RR={};r2s.forEach(function(r){RR[r.roster_id]=UU[r.owner_id]||{u:"?",t:"?"};});
+        var lastReg2=(lg2.settings.playoff_week_start||15)-1, PW2=await getWeeks(lid2,lg2.season===st.season?Math.min(done,lastReg2):lastReg2);
+        var rec={};
+        Object.keys(PW2).forEach(function(w){var m=PW2[w],byM={};m.forEach(function(x){(byM[x.matchup_id]=byM[x.matchup_id]||[]).push(x);});
+          Object.keys(byM).forEach(function(k){var g=byM[k];if(g.length<2||k==="null")return;
+            g.forEach(function(x,i){var o=g[1-i],u=RR[x.roster_id].u,a=add(u);if(x.points>o.points)a.w++;else if(x.points<o.points)a.l++;else a.t++;
+              (rec[u]=rec[u]||[0,0]); if(x.points>o.points)rec[u][0]++; else if(x.points<o.points)rec[u][1]++;
+              WK.push([r2(x.points),u,RR[x.roster_id].t,lg2.season,+w,RR[o.roster_id].u]);});});});
+        var po={};wb2.forEach(function(m){[m.t1,m.t2].forEach(function(t){if(typeof t==="number")po[t]=1;});});
+        Object.keys(po).forEach(function(rid){if(RR[rid])add(RR[rid].u).po++;});
+        var fin=wb2.filter(function(m){return m.p===1;})[0], third=wb2.filter(function(m){return m.p===3;})[0];
+        if(fin&&fin.w){add(RR[fin.w].u).ttl++;add(RR[fin.w].u).fin++;add(RR[fin.l].u).fin++;}
+        Object.keys(rec).forEach(function(u){add(u).yrs.push(lg2.season);});
+        seasons.push({season:lg2.season,status:lg2.status,champ:fin&&fin.w?[RR[fin.w].u,RR[fin.w].t]:null,runner:fin&&fin.l?RR[fin.l].u:null,third:third&&third.w?RR[third.w].u:null,
+          top:Object.keys(rec).map(function(u){return [u,rec[u][0]+"-"+rec[u][1]];}).sort(function(a,b){return +b[1].split("-")[0]-+a[1].split("-")[0];}).slice(0,1)[0],
+          po:Object.keys(po).map(function(rid){return RR[rid]?RR[rid].u:rid;})});
+        lid2=lg2.previous_league_id;}
+      WK.sort(function(a,b){return b[0]-a[0];});
+      var cur2={}; Object.keys(R).forEach(function(k){cur2[R[k].u]=1;});
+      res.alltime=Object.keys(AT).map(function(u){var a=AT[u];return [u,a.w+"-"+a.l+(a.t?"-"+a.t:""),a.ttl,a.fin,a.po,a.yrs.slice().sort().join(","),cur2[u]?1:0];}).sort(function(a,b){return +b[1].split("-")[0]-+a[1].split("-")[0];});
+      res.high=WK.slice(0,6); res.low=WK.slice(-6).reverse(); res.seasons=seasons;
+    }
     out.textContent=JSON.stringify(res);
   }catch(e){out.textContent="ERR "+e;}
 })();
