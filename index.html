@@ -395,6 +395,16 @@ html:root nav{justify-content:flex-start;background:#111114;border-top:1px solid
 @media (max-width:640px){
   html:root .brand-name{flex-direction:column}
 }
+
+/* mobile: never let long team names or headlines overflow the viewport */
+html:root h1,html:root h2,html:root h3,html:root p,html:root li,html:root .dek,html:root .kicker,html:root .run,html:root .tmn,html:root .mgr,html:root td,html:root th{overflow-wrap:anywhere}
+html:root .hero,html:root .item,html:root main,html:root .wrap{min-width:0;max-width:100%}
+html:root body{overflow-x:hidden}
+@media (max-width:480px){
+  html:root h1{font-size:5.3vw;line-height:1.15;letter-spacing:-.3px}
+  html:root .hero{padding:18px 16px}
+  html:root .hero::after{display:none}
+}
 </style>
 <header class="mast">
   <div class="wrap">
