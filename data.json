@@ -1,5 +1,5 @@
 {
- "updated": "Tuesday, Oct 27, 2026 · 7:40 AM ET",
+ "updated": "Thursday, Oct 29, 2026 · 7:30 AM ET",
  "week": 8,
  "ticker": [
   [
@@ -41,6 +41,11 @@
  ],
  "wire": [
   {
+   "t": "Oct 28: Br0phy and RedDevil904 swapped two for two Wednesday night. Wild Goose Chase gets CeeDee Lamb (24.4 Sunday) and RJ Harvey (15.0); Stroud of Turin gets Ja'Marr Chase (17.2) and Chuba Hubbard (10.0).",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
    "t": "Oct 26: ChuckJ10 and rtmcruise pulled the trigger on the only trade of the week. Nothing to see here gets Bucky Irving (24.0 for rtmcruise on Sunday) and Michael Wilson; Breece'sBurdenDeflowered gets A.J. Brown and Chase Brown.",
    "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -74,14 +79,21 @@
    "t": "Oct 27: Reports of a Jonathan Taylor trade look like more than speculation ahead of the Nov. 10 deadline. Llamageddon owns Taylor; Seth McGowan is the stash if he moves.",
    "src": "Yahoo Sports",
    "url": "https://sports.yahoo.com/fantasy/article/week-8-fantasy-football-waiver-wire-jonah-coleman-omar-cooper-jr-among-top-pickups-174541107.html"
-  },
-  {
-   "t": "Oct 23: David Montgomery was reported out for Week 7 and the Texans are on bye in Week 8, so Week 9 is his next chance. He is at 2.7 yards per carry on 52 attempts through five games. Achane in the Membrane has him on the roster.",
-   "src": "RotoBaller",
-   "url": "https://www.rotoballer.com/?p=1973548"
   }
  ],
  "stories": [
+  {
+   "id": "trade8",
+   "kicker": "Trade Alert",
+   "title": "Br0phy sends Ja'Marr Chase and Chuba Hubbard to RedDevil904 for CeeDee Lamb and RJ Harvey",
+   "dek": "Wild Goose Chase and Stroud of Turin swapped two for two on Wednesday night, a week before the Nov. 10 deadline starts looking real.",
+   "body": [
+    "The Sleeper log has it: Br0phy sends Ja'Marr Chase and Chuba Hubbard to RedDevil904, and RedDevil904 sends back CeeDee Lamb and RJ Harvey. Both managers consented, so nobody has to veto anybody.",
+    "On Sunday's numbers it is a wash with a slight lean to Wild Goose Chase. Lamb went for 24.4 and Harvey for 15.0 in RedDevil904's 147.72, a combined 39.4. Chase (17.2) and Hubbard (10.0) gave Br0phy 27.2 in a 107.34 loss to Lawrence of a Labia.",
+    "Stroud of Turin is 4-3 and picks up a receiver and a back for a team that is already the best in the league at hanging 147 on people. Wild Goose Chase is also 4-3 with the most points in the league (941.92) and is now the proud owner of one fewer reason to blame the lineup.",
+    "Week 8 shows the first test: Wild Goose Chase is a 9.5-point favorite over NjigbaR Please!, and Stroud of Turin has to play MY DAD IS DEAD with C.J. Stroud on the Texans' bye. Sleeper lists Chase as questionable, so RedDevil904 gets to find out how the new guy feels about that."
+   ]
+  },
   {
    "id": "recap7",
    "kicker": "Weekly Recap",
@@ -104,18 +116,6 @@
     "Why the change? Your mom asked for it. She said the old site looked like a church bulletin and she wasn't going to keep checking the standings at 2 a.m. on something that ugly. The commish takes reader feedback seriously.",
     "What didn't change: the stats are still real, the rumors are still fake, and every word on here is still about fantasy football. The 18+ badge is there because you have to be an adult to make lineup decisions this bad. Some of you qualified years ago.",
     "Everything is where it was. Recap, rankings, the Trade Desk, Payouts, the Hall of Fame and the Sportsbook are all one tap away. If something looks broken, tell Bill_Buttlicker in the league chat. If it looks great, thank your mom."
-   ]
-  },
-  {
-   "id": "trade7",
-   "kicker": "Trade Alert",
-   "title": "ChuckJ10 and rtmcruise swap four players: Bucky Irving goes to Nothing to see here",
-   "dek": "The only trade of the week landed Monday afternoon: Nothing to see here gets Bucky Irving and Michael Wilson, Breece'sBurdenDeflowered gets A.J. Brown and Chase Brown.",
-   "body": [
-    "The Sleeper log has it: ChuckJ10 sends A.J. Brown and Chase Brown to rtmcruise, and rtmcruise sends Bucky Irving and Michael Wilson to ChuckJ10. Both sides agreed, so it's done. It went through after Sunday's games, so everybody traded off the box score they just saw.",
-    "The numbers on the day of the deal. Bucky Irving scored 24.0 in the Breece'sBurdenDeflowered lineup. Chase Brown gave Nothing to see here 9.8 and A.J. Brown gave 7.8. Michael Wilson had 10.6 on the rtmcruise bench. So rtmcruise sold the guy who just went for 24 and ChuckJ10 bought him. That's a sell-high by rtmcruise on paper, and a buy-the-spike by ChuckJ10.",
-    "ChuckJ10 also needed something. Nothing to see here is 2-5, has the lowest points scored in the league (711.98), and benched 59.8 points on Sunday. A new RB1 does nothing if the lineup still has Rhamondre Stevenson on the pine. Bucky Irving only helps if somebody starts him.",
-    "Breece'sBurdenDeflowered gets A.J. Brown and Chase Brown, who gave Nothing to see here 7.8 and 9.8. Neither is on a Week 8 bye. rtmcruise is 5-2, so this is depth, not a rescue."
    ]
   },
   {
@@ -437,7 +437,7 @@
     "Tyler Warren (groin), missed Week 7; Week 8 status unconfirmed"
    ],
    "body": [
-    "Br0phy has the most points in the league (941.92) and the best all-play record (51-26) and is 4-3. Drake Maye (28.44) led the 135.18-107.34 loss to Lawrence of a Labia, which is a sentence nobody expected. Wild Goose Chase is still carrying four quarterbacks in a one-QB league: Maye, J.J. McCarthy, Jordan Love (16.96 on the bench) and Bryce Young.",
+    "Br0phy has the most points in the league (941.92) and the best all-play record (51-26) and is 4-3. Drake Maye (28.44) led the 135.18-107.34 loss to Lawrence of a Labia, which is a sentence nobody expected. Wild Goose Chase is still carrying four quarterbacks in a one-QB league: Maye, J.J. McCarthy, Jordan Love (16.96 on the bench) and Bryce Young. Br0phy then traded Ja'Marr Chase and Chuba Hubbard to RedDevil904 for CeeDee Lamb and RJ Harvey.",
     "Wild Goose Chase left 68.26 on the bench, the most in the league Sunday, and that includes 12.0 from a defense it wasn't using. Aaron Jones Sr. (knee) is on the Week 8 injury list and McCarthy is on the Giants' bye. NjigbaR Please! is a 9.5-point dog in Week 8, and the Wild Goose Chase roster is still the one to beat."
    ]
   },
@@ -542,10 +542,12 @@
     "Lamar LaMerrier (2025)"
    ],
    "w7": "vs. MY DAD IS DEAD · favored by 20.5",
-   "inj": [],
+   "inj": [
+    "Ja'Marr Chase listed questionable on Sleeper (acquired Oct 28)"
+   ],
    "body": [
-    "RedDevil904 hung 147.72 on Nothing to see here, the second-best score of the week. CeeDee Lamb (24.4), Amon-Ra St. Brown (24.2), Quinshon Judkins (23.4) and Omar Cooper Jr. (22.5) were the heavy lifters. Stroud of Turin is 4-3 and 44-33 in all-play.",
-    "Stroud of Turin's Week 8 gimmick is real: C.J. Stroud is on the Texans' bye, so Aaron Rodgers (13.08 on the bench Sunday) steps in. The team named after the guy is playing without the guy. MY DAD IS DEAD is a 20.5-point dog, so it should survive."
+    "RedDevil904 hung 147.72 on Nothing to see here, the second-best score of the week. CeeDee Lamb (24.4, since traded to Wild Goose Chase), Amon-Ra St. Brown (24.2), Quinshon Judkins (23.4) and Omar Cooper Jr. (22.5) were the heavy lifters. Stroud of Turin is 4-3 and 44-33 in all-play.",
+    "Stroud of Turin's Week 8 gimmick is real: C.J. Stroud is on the Texans' bye, so Aaron Rodgers (13.08 on the bench Sunday) steps in. The team named after the guy is playing without the guy. MY DAD IS DEAD is a 20.5-point dog, so it should survive. RedDevil904 also traded for Ja'Marr Chase and Chuba Hubbard, sending CeeDee Lamb and RJ Harvey to Br0phy."
    ]
   },
   {
@@ -797,14 +799,14 @@
   {
    "a": "Nothing to see here",
    "aget": [
-    "CeeDee Lamb",
-    "Amon-Ra St. Brown"
+    "Amon-Ra St. Brown",
+    "Ja'Marr Chase"
    ],
    "b": "Stroud of Turin",
    "bget": [
     "Samaje Perine"
    ],
-   "why": "RedDevil904 hands over the two best receivers on his roster (24.4 and 24.2) for Samaje Perine (7.6 on the bench). Somebody has to stop RedDevil904.",
+   "why": "RedDevil904 hands over Amon-Ra St. Brown (24.2) and Ja'Marr Chase, acquired in the very same trade week, for Samaje Perine (7.6 on the bench). Somebody has to stop RedDevil904.",
    "tag": "Veto immediately",
    "bad": true
   },
@@ -904,6 +906,10 @@
  ],
  "sources": [
   [
+   "Sleeper league transactions, Week 8",
+   "https://sleeper.com/leagues/1339786949044473856"
+  ],
+  [
    "Week 8 waiver wire: Jonah Coleman, Omar Cooper Jr. among top pickups (Yahoo Sports)",
    "https://sports.yahoo.com/fantasy/article/week-8-fantasy-football-waiver-wire-jonah-coleman-omar-cooper-jr-among-top-pickups-174541107.html"
   ],
@@ -960,29 +966,29 @@
  ],
  "columns": [
   {
-   "id": "mouth-w8",
+   "id": "mouth-w8b",
    "by": "mouth",
    "kicker": "Hot Take",
-   "title": "ONE HUNDRED AND SIXTY POINT NINE, AND THEN HE TRADED BUCKY IRVING!",
-   "dek": "Breece'sBurdenDeflowered posts the best score of the week and I'm not sure anybody knows what to do about it.",
+   "title": "BR0PHY TRADED CEEDEE LAMB'S OWNER A CEEDEE LAMB! WAIT. NO. THE OTHER WAY!",
+   "dek": "Two-for-two on a Wednesday night and nobody in the press box can tell who won.",
    "body": [
-    "Sit down. Put the coffee down. rtmcruise went out on Sunday and scored ONE HUNDRED AND SIXTY POINT NINE. That's Breece'sBurdenDeflowered, the best score in the league this week, over MY DAD IS DEAD at 96.78. A 64.12-point margin. Zay Flowers had 28.7. Bucky Irving had 24.0. Luther Burden III had 23.7. Josh Jacobs had 20.1. EVERYBODY SHOWED UP!",
-    "And what did rtmcruise do the very next day? TRADED BUCKY IRVING! The guy who just went for 24! He sent him and Michael Wilson to ChuckJ10 for A.J. Brown and Chase Brown, who gave Nothing to see here 7.8 and 9.8 last week. I don't know what to say. Is it smart? IS IT SMART? I've been in this press box for twenty-five years and I don't know!",
-    "Look at the standings. Breece'sBurdenDeflowered is 5-2 and has the lowest points-against in the league at 725.16. And the all-play record? 37-40. A team scoring 160.90 on Sunday and the record under .500 against everybody. THAT'S A WEIRD TEAM! That's a team that either wins by 64 or loses a game it shouldn't!",
-    "Week 8 is Lead Nagger, a 2.5-point favorite. Mike Evans is on the 49ers' bye. The bench has 39.38 on it. I'm telling you right now: I DON'T KNOW. And I'm LOVING IT. SEE YOU NEXT WEEK."
+    "Sit DOWN. Br0phy and RedDevil904 made a trade at ONE IN THE MORNING eastern time, and I have read the transaction log SIX TIMES. Wild Goose Chase gets CeeDee Lamb and RJ Harvey. Stroud of Turin gets Ja'Marr Chase and Chuba Hubbard. TWO FOR TWO!",
+    "Here are the numbers, and they are REAL. Lamb scored 24.4 on Sunday. Harvey scored 15.0. That's 39.4 coming to Br0phy. Chase gave Br0phy 17.2 and Hubbard 10.0. That's 27.2 going to RedDevil904. Does that make it a winner for Wild Goose Chase? ONE WEEK! ONE WEEK OF DATA!",
+    "And look at what Br0phy is doing! Wild Goose Chase has the most points in the league at 941.92 and is only 4-3 and STILL goes out and makes the team better! That's the sign of a manager who is NOT SATISFIED! Meanwhile Stroud of Turin is 44-33 in all-play and ALSO went shopping! EVERYBODY is working!",
+    "The deadline is Nov. 10. We have DAYS. Somebody is going to look dumb. I just don't know who yet. And I'm LOVING IT. SEE YOU TOMORROW."
    ]
   },
   {
-   "id": "tre-w8",
+   "id": "tre-w8b",
    "by": "tre",
    "kicker": "Film Room",
-   "title": "MakeItRains benched Kirk Cousins for 20.4 and lost by 5.30. I watched the tape.",
-   "dek": "Mahomes put up 6.0 in the lineup. The backup put up 20.4. This one's not close.",
+   "title": "I watched the Lamb-for-Chase tape. Br0phy got the better of it and RedDevil904 got soft.",
+   "dek": "Lamb 24.4. Chase 17.2. It's not complicated.",
    "body": [
-    "I put the tape on. Achane in the Membrane scored 95.60 and lost to Ivefallenandicantgetup 100.90. MakeItRains started Patrick Mahomes for 6.0 and left Kirk Cousins at 20.4 on the bench. That's 14.4 points between the two. The game was decided by 5.30. Do the math: it's a win by 9.10.",
-    "I don't want to hear 'the name on the jersey.' The guy in the QB slot has to score. Mahomes didn't, Cousins did, and it was right there on the roster page. This is soft. Pick a QB that's playing well and start him.",
-    "And it wasn't just the QB. Blake Corum had 17.1 on the bench. Mark Andrews started at TE and gave you 5.3. The Rams defense gave you 2.0. That's 40.88 on the bench and a 1-6 record. Lineups aren't a guessing game. Look at the matchup and the recent games and start the players who are producing.",
-    "Then the $49 FAAB bid on David Montgomery. A guy who was reported out for Week 7 and on a Texans bye in Week 8, at 2.7 yards a carry through five games. I'd have paid that for a running back I could start. Be tougher with your money. Be tougher with your lineup. That's my film."
+    "I put the Sleeper box scores on. Not the NFL tape, the box scores, because that's what this trade is about. Br0phy sent Ja'Marr Chase and Chuba Hubbard to RedDevil904. RedDevil904 sent back CeeDee Lamb and RJ Harvey.",
+    "Lamb put up 24.4 in the lineup on Sunday. Chase put up 17.2. Harvey had 15.0 and Hubbard had 10.0. The side getting Lamb gets 39.4 of last week's production and the side giving him up gets 27.2.",
+    "RedDevil904 owns the team that scored 147.72 and gave up its best number for a guy who is listed questionable on Sleeper. Soft. You trade down when you're 4-3 and have the second-best score of the week? Soft.",
+    "Wild Goose Chase still has four quarterbacks in a one-QB league. That's soft too. But at least Br0phy is out here acting like winning the thing is the goal. Both of them are 4-3. Prove it Sunday."
    ]
   },
   {
