@@ -1,5 +1,5 @@
 {
- "updated": "Thursday, Oct 29, 2026 · 7:30 AM ET",
+ "updated": "Friday, Oct 30, 2026 · 7:20 AM ET",
  "week": 8,
  "ticker": [
   [
@@ -41,6 +41,11 @@
  ],
  "wire": [
   {
+   "t": "Oct 30: Week 8 is underway. Early scoring has Breece'sBurdenDeflowered at 35.20 (Josh Jacobs 23.2) against Lead Nagger at 0.00, Wild Goose Chase at 34.60 against NjigbaR Please! at 11.80 (Travis Kelce), and Stroud of Turin at 34.50 against MY DAD IS DEAD at 0.00.",
+   "src": "League scoring (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
    "t": "Oct 28: Br0phy and RedDevil904 swapped two for two Wednesday night. Wild Goose Chase gets CeeDee Lamb (24.4 Sunday) and RJ Harvey (15.0); Stroud of Turin gets Ja'Marr Chase (17.2) and Chuba Hubbard (10.0).",
    "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -74,14 +79,21 @@
    "t": "Oct 27: Christian McCaffrey's quad injury is expected to be fine by Week 9, and Kaelon Black ran 12 times for 63 yards and a touchdown while he was out. McCaffrey went for 22.0 for Lawrence of a Labia on Sunday.",
    "src": "Yahoo Sports",
    "url": "https://sports.yahoo.com/fantasy/article/week-8-fantasy-football-waiver-wire-jonah-coleman-omar-cooper-jr-among-top-pickups-174541107.html"
-  },
-  {
-   "t": "Oct 27: Reports of a Jonathan Taylor trade look like more than speculation ahead of the Nov. 10 deadline. Llamageddon owns Taylor; Seth McGowan is the stash if he moves.",
-   "src": "Yahoo Sports",
-   "url": "https://sports.yahoo.com/fantasy/article/week-8-fantasy-football-waiver-wire-jonah-coleman-omar-cooper-jr-among-top-pickups-174541107.html"
   }
  ],
  "stories": [
+  {
+   "id": "early8",
+   "kicker": "Week 8 Early Returns",
+   "title": "Week 8 early returns: three teams are already running away while the rest of you haven't scored yet",
+   "dek": "Breece'sBurdenDeflowered, Wild Goose Chase and Stroud of Turin all have 34-plus on the board. Everybody else is waiting on Sunday.",
+   "body": [
+    "The early Week 8 scoreboard is lopsided. Breece'sBurdenDeflowered sits at 35.20 against Lead Nagger's 0.00, Wild Goose Chase is at 34.60 against NjigbaR Please! at 11.80, and Stroud of Turin is at 34.50 against MY DAD IS DEAD at 0.00. Those three are comfortably up before the Sunday slate starts.",
+    "Josh Jacobs is the biggest piece of it with 23.2 for rtmcruise. Achane in the Membrane has 20.9 on the board against Nothing to see here's 0.00. NjigbaR Please! got 11.8 from Travis Kelce and nothing else yet.",
+    "None of this is final. Lawrence of a Labia and Bijan is your daddy haven't scored a point, and Bill_Buttlicker's Brenton Strange plan is still the entire season in one start. Llamageddon and Ivefallenandicantgetup are also at zero, so the 4-3 and 5-2 standings still mean something until Sunday.",
+    "Standings are unchanged from yesterday: NjigbaR Please!, Ivefallenandicantgetup, Breece'sBurdenDeflowered and Lawrence of a Labia are all 5-2, and the Nov. 10 deadline is 11 days out. Check the Trade Desk if you want to make a move before Sunday."
+   ]
+  },
   {
    "id": "trade8",
    "kicker": "Trade Alert",
@@ -107,18 +119,6 @@
    ]
   },
   {
-   "id": "redesign",
-   "kicker": "Site News",
-   "title": "Redesigned with your mom in mind",
-   "dek": "New look, same bad takes. Black, hot pink, a glowing football and a logo you can see from space. She asked, we delivered.",
-   "body": [
-    "A.N.A.L. got a makeover. The orange newsprint is gone. In its place: black, hot pink, a glowing football and an A.N.A.L. box roughly twice the size of the old one. Aniston News Always Live finally has room to breathe, and the menu got real buttons.",
-    "Why the change? Your mom asked for it. She said the old site looked like a church bulletin and she wasn't going to keep checking the standings at 2 a.m. on something that ugly. The commish takes reader feedback seriously.",
-    "What didn't change: the stats are still real, the rumors are still fake, and every word on here is still about fantasy football. The 18+ badge is there because you have to be an adult to make lineup decisions this bad. Some of you qualified years ago.",
-    "Everything is where it was. Recap, rankings, the Trade Desk, Payouts, the Hall of Fame and the Sportsbook are all one tap away. If something looks broken, tell Bill_Buttlicker in the league chat. If it looks great, thank your mom."
-   ]
-  },
-  {
    "id": "mahomes",
    "kicker": "The Swap",
    "title": "Achane in the Membrane lost by 5.30 with Kirk Cousins (20.4) on the bench",
@@ -128,18 +128,6 @@
     "It wasn't the only miss. Blake Corum had 17.1 on the bench while Mark Andrews (5.3) and the Rams defense (2.0) started. Achane in the Membrane left 40.88 on the bench total.",
     "Then there's the $49 FAAB bid. MakeItRains spent it on David Montgomery in the Week 7 run. Montgomery was reported out for Week 7, the Texans are on bye in Week 8, and he was running 2.7 yards per carry through five games per RotoBaller. He scored 0.0 on the Achane in the Membrane bench. Week 9 is the earliest he's a lineup question. The bid is the problem, not the guy.",
     "Achane in the Membrane has the second-most points scored of any team under .500 (825.92) and is 1-6. It also has 925.06 points against, the most in the league, so the schedule has been rough, but the all-play record is 33-44 and the QB slot is the first thing to fix."
-   ]
-  },
-  {
-   "id": "byes8",
-   "kicker": "Week 8 Preview",
-   "title": "Four byes, six matchups: Week 8 is where lineups go to get lost",
-   "dek": "The Texans, Saints, Giants and 49ers are off. Lawrence of a Labia, NjigbaR Please!, MY DAD IS DEAD and Stroud of Turin each lose real starters.",
-   "body": [
-    "Lawrence of a Labia is the commish's team and takes the biggest hit: Christian McCaffrey (22.0) and George Kittle (14.8) both play for the 49ers. Bill_Buttlicker's fix is Brenton Strange at TE (7-95-0, 7-68-0 and 5-44-0 over the last three, per Yahoo) and one of Tony Pollard, J.K. Dobbins or Kyle Monangai at RB. Lawrence of a Labia is now the dog against Bijan is your daddy by 2.5.",
-    "NjigbaR Please! loses QB Tyler Shough and Alvin Kamara to the Saints' bye. dstafford4254 is 5-2 and will be a 9.5-point dog to Wild Goose Chase. Same story for MY DAD IS DEAD: Chris Olave, Travis Etienne Jr. and Kendre Miller are all Saints. OneSillyBannana is 1-6 and the Stroud of Turin game is a 20.5-point spread.",
-    "Stroud of Turin has the funniest bye: C.J. Stroud is on the Texans' bye, so RedDevil904 starts Aaron Rodgers (13.08 on the bench Sunday). The team named after the guy is playing without the guy.",
-    "The biggest game is Llamageddon at Ivefallenandicantgetup, a 1.5-point game between two teams with top-four all-play records. dcrabb is 3-4 and desperately needs it. The Jonathan Taylor trade rumors (Nov. 10 deadline) hang over his roster all week."
    ]
   }
  ],
