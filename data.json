@@ -1,5 +1,5 @@
 {
- "updated": "Friday, Oct 30, 2026 · 7:20 AM ET",
+ "updated": "Friday, Oct 30, 2026 · 8:30 AM ET",
  "week": 8,
  "ticker": [
   [
@@ -1533,7 +1533,7 @@
   ]
  },
  "commish": {
-  "title": "The Commissioner's Office",
+  "title": "Contacts for Your Mom",
   "dek": "The two men who run this league, collect your money, and answer to no one.",
   "people": [
    {
@@ -1617,43 +1617,99 @@
     "yrs": "2019–2024",
     "tag": "The Champion",
     "stats": "2020 champion · 38-44 · 3 playoff trips",
-    "line": "The only name in this ring with a trophy to go with it. Hang it high."
+    "line": "The only name in this ring with a trophy to go with it. Hang it high.",
+    "wihn": "Left the league to compete full time in competitive cheese rolling. Reportedly trains by chasing a wheel of cheddar down a hill outside Gloucester, and says the 2020 title was good practice for falling over."
    },
    {
     "u": "codywomack90",
     "yrs": "2019–2025",
     "tag": "The Regular",
     "stats": "49-47 · 5 playoff trips · 2020 top seed at 11-2 · 0 rings",
-    "line": "Showed up to the playoffs like it was a standing reservation. Never once picked up the check."
+    "line": "Showed up to the playoffs like it was a standing reservation. Never once picked up the check.",
+    "wihn": "Moved to a lighthouse and now logs every passing boat in a spreadsheet with color-coded tabs. Still makes the playoffs every year, in the spreadsheet."
    },
    {
     "u": "RammerJammer17",
     "yrs": "2019–2025",
     "tag": "The Honest Man",
     "stats": "36-60 · 1 playoff trip · 52.30, second-lowest week ever",
-    "line": "Named his own 2023 team \"Shitty Sacko Champ!\" Nobody roasted RammerJammer17 harder than RammerJammer17."
+    "line": "Named his own 2023 team \"Shitty Sacko Champ!\" Nobody roasted RammerJammer17 harder than RammerJammer17.",
+    "wihn": "Swore off fantasy football for backgammon, relocated to a village in the Alps, and now claims to be undefeated against a goat named Gerald."
    },
    {
     "u": "ztw129",
     "yrs": "2019–2023",
     "tag": "Mr. Even",
     "stats": "34-34 · 3rd place 2021 · 193.92, a top-5 week all-time",
-    "line": "Perfectly balanced, as all things should be."
+    "line": "Perfectly balanced, as all things should be.",
+    "wihn": "Perfectly balanced to the end. Runs a roadside stand that sells exactly half of everything, and has been spotted trying to sell a sandwich cut diagonally."
    },
    {
     "u": "TStark7",
     "yrs": "2019–2020",
     "tag": "The Cameo",
     "stats": "10-16 · 0 playoff trips",
-    "line": "In and out like a Week 17 streaming defense."
+    "line": "In and out like a Week 17 streaming defense.",
+    "wihn": "Showed up for two seasons, then left to become a professional kazoo player in a touring polka band. Gets standing ovations, mostly from Week 17 streaming defenses."
    },
    {
     "u": "paragoody15",
     "yrs": "2019",
     "tag": "One and Done, and Done Right",
     "stats": "5-8 · ugliest win in league history, 75.20 to 73.26",
-    "line": "Came for one year. Left a record nobody wants to break."
+    "line": "Came for one year. Left a record nobody wants to break.",
+    "wihn": "Went out on a 75.20 to 73.26 win and retired to a canoe. Says he will return the moment someone beats his ugliest win ever."
    }
   ]
- }
+ },
+ "playoff": [
+  {
+   "h": "Safe-ish at 5-2",
+   "t": "NjigbaR Please! (892.36 PF), Ivefallenandicantgetup (885.88) and Breece'sBurdenDeflowered (846.58) have the record and the points. Lawrence of a Labia is also 5-2, but Bill_Buttlicker has scored 795.68 and given up 800.60, so that record is running on borrowed luck."
+  },
+  {
+   "h": "Right there at 4-3",
+   "t": "Wild Goose Chase has the most points in the league at 941.92 and just made a big trade. Lead Nagger (863.72) and Stroud of Turin (852.30) are fine if they keep winning."
+  },
+  {
+   "h": "Bubble at 3-4",
+   "t": "Llamageddon has the second-most points in the league (894.06) and the record of a team that is bad at timing. Bijan is your daddy (797.28) needs help."
+  },
+  {
+   "h": "Pray for a miracle",
+   "t": "Nothing to see here is 2-5. Achane in the Membrane and MY DAD IS DEAD are 1-6, and the math is not on their side."
+  }
+ ],
+ "tradehist": [
+  {
+   "date": "Oct 29",
+   "verdict": "Too early to call",
+   "a": "Wild Goose Chase",
+   "aget": [
+    "CeeDee Lamb",
+    "RJ Harvey"
+   ],
+   "b": "Stroud of Turin",
+   "bget": [
+    "Ja'Marr Chase",
+    "Chuba Hubbard"
+   ],
+   "analysis": "Br0phy and RedDevil904 swapped two for two on Oct 29. CeeDee Lamb scored 24.4 and RJ Harvey 15.0 last Sunday, against 17.2 for Ja'Marr Chase and 10.0 for Chuba Hubbard. No Week 8 games have been played for this deal yet, so the verdict comes after Sunday."
+  },
+  {
+   "date": "Oct 26",
+   "verdict": "Too early to call",
+   "a": "Nothing to see here",
+   "aget": [
+    "Bucky Irving",
+    "Michael Wilson"
+   ],
+   "b": "Breece'sBurdenDeflowered",
+   "bget": [
+    "A.J. Brown",
+    "Chase Brown"
+   ],
+   "analysis": "ChuckJ10 got Bucky Irving, who scored 24.0 for rtmcruise the Sunday before the deal, plus Michael Wilson. rtmcruise got A.J. Brown and Chase Brown. Neither side has played a game with its new players, so the verdict waits for Week 8 scoring."
+  }
+ ]
 }
