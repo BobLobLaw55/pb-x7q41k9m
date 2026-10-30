@@ -451,6 +451,7 @@ html:root .ticker{display:none}
 #p-rip .banner{background:linear-gradient(#8d949a,#5f666c);clip-path:none;border-radius:90px 90px 6px 6px;padding:38px 14px 20px;color:#1b1f22;box-shadow:inset 0 0 0 3px #7a8187}
 #p-rip .banner::before{display:none}#p-rip .banner .u{color:#14181b;text-shadow:none;font-family:Georgia,serif}#p-rip .banner .rb-tag,#p-rip .banner .yrs,#p-rip .banner .stats,#p-rip .banner .rb-line{color:#1b1f22;opacity:1}#p-rip .banner .rule{background:#3a4147}
 </style>
+<style id="share-css">.sharebtn{display:block;margin:0 0 10px auto;background:transparent;color:#ff9000;border:1px solid #ff9000;border-radius:99px;padding:6px 14px;font:700 11px var(--body,sans-serif);letter-spacing:1px;text-transform:uppercase;cursor:pointer}.sharebtn:hover,.sharebtn:focus-visible{background:#ff9000;color:#000}</style>
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="#home" aria-label="A.N.A.L. home">
@@ -681,6 +682,15 @@ html:root .ticker{display:none}
     return h;
   }
   var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","dynasty"];
+  function addShare(el){
+    var b=document.createElement("button");b.type="button";b.className="sharebtn";b.textContent="Copy link";
+    b.onclick=function(){
+      var u=location.href,done=function(){b.textContent="Link copied";setTimeout(function(){b.textContent="Copy link";},1800);};
+      var fb=function(){var t=document.createElement("input");t.value=u;document.body.appendChild(t);t.select();try{document.execCommand("copy");done();}catch(e){b.textContent=u;}document.body.removeChild(t);};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(done,fb);}else fb();
+    };
+    el.insertBefore(b,el.firstChild);
+  }
   function route(){
     if(!D) return;
     var h=(location.hash||"#home").slice(1), view=h, arg=null;
@@ -690,7 +700,7 @@ html:root .ticker{display:none}
     if(view==="history") view="hof";
     if(pages.indexOf(view)<0) view="home";
     var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,dynasty:dynasty}[view]();
-    pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} }});
+    pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} if(view!=="home") addShare(el); }});
     var navKey=view==="team"?"teams":view==="story"?"home":view==="col"?"rumors":view;
     document.querySelectorAll("#nav a").forEach(function(a){if(a.getAttribute("href")==="#"+navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});
     window.scrollTo(0,0);
