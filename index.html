@@ -452,6 +452,23 @@ html:root .ticker{display:none}
 #p-rip .banner::before{display:none}#p-rip .banner .u{color:#14181b;text-shadow:none;font-family:Georgia,serif}#p-rip .banner .rb-tag,#p-rip .banner .yrs,#p-rip .banner .stats,#p-rip .banner .rb-line{color:#1b1f22;opacity:1}#p-rip .banner .rule{background:#3a4147}
 </style>
 <style id="share-css">.sharebtn{display:block;margin:0 0 10px auto;background:transparent;color:#ff9000;border:1px solid #ff9000;border-radius:99px;padding:6px 14px;font:700 11px var(--body,sans-serif);letter-spacing:1px;text-transform:uppercase;cursor:pointer}.sharebtn:hover,.sharebtn:focus-visible{background:#ff9000;color:#000}</style>
+<style id="hour-css">
+.hourpg{background:radial-gradient(ellipse at 50% -10%,#5a3a00 0,#150d00 55%,#000 100%);border:1px solid #ff9000;border-radius:12px;padding:20px 16px 24px;text-align:center}
+.onair{display:inline-flex;align-items:center;gap:8px;background:#ff2d2d;color:#fff;font-weight:900;letter-spacing:3px;text-transform:uppercase;font-size:12px;padding:4px 14px;border-radius:4px;box-shadow:0 0 18px #ff2d2d88}
+.onair .dot{width:9px;height:9px;border-radius:50%;background:#fff;animation:flsh 1.2s steps(1) infinite}
+.hourh{font-size:clamp(34px,8vw,64px);margin:12px 0 4px;letter-spacing:3px;text-transform:uppercase;background:linear-gradient(100deg,#ff9000,#ffe27a 40%,#ff9000);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.bulbs{height:14px;margin:14px 0;background:radial-gradient(circle,#ffe27a 0 4px,transparent 5px) 0 50%/26px 14px repeat-x;filter:drop-shadow(0 0 5px #ff9000);animation:blink 1.6s steps(1) infinite}
+@keyframes blink{50%{opacity:.45}}
+.vids{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));text-align:left}
+.vid{display:block;text-decoration:none;color:inherit;background:#120c02;border:2px solid #ff9000;border-radius:10px;overflow:hidden;box-shadow:0 0 22px #ff900044}
+.vid:hover,.vid:focus-visible{box-shadow:0 0 30px #ff9000aa}
+.scr{position:relative;aspect-ratio:16/9;max-width:100%;background:linear-gradient(135deg,#3a2300,#000);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.scr img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.play{position:relative;width:64px;height:64px;border-radius:50%;background:#ff9000;color:#000;display:flex;align-items:center;justify-content:center;font-size:26px;padding-left:5px;box-shadow:0 0 24px #000}
+.vt{padding:12px 14px 16px}.vt small{font:500 11px var(--mono);color:#ff9000;text-transform:uppercase;letter-spacing:1px}.vt h3{margin:4px 0 6px;font-size:20px}.vt p{margin:0 0 8px;color:#c9c9d1}
+.watch{display:inline-block;background:#ff9000;color:#000;font-weight:900;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:6px 12px;border-radius:99px}
+@media(prefers-reduced-motion:reduce){.bulbs,.onair .dot{animation:none}}
+</style>
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="#home" aria-label="A.N.A.L. home">
@@ -466,6 +483,7 @@ html:root .ticker{display:none}
       <a href="#lines">M.I.L.F.</a>
       <a href="#trades">Trade Court</a>
       <a href="#rumors">Rumor Mill</a>
+      <a href="#hour">Aniston Hour</a>
       <a href="#payouts">Payouts</a>
       <a href="#hof">Hall of Fame</a>
       <a href="#rip">R.I.P.</a>
@@ -497,6 +515,7 @@ html:root .ticker{display:none}
   <section class="page" id="p-hof" hidden></section>
   <section class="page" id="p-commish" hidden></section>
   <section class="page" id="p-rip" hidden></section>
+  <section class="page" id="p-hour" hidden></section>
   <section class="page" id="p-dynasty" hidden></section>
 </main>
 
@@ -674,6 +693,10 @@ html:root .ticker{display:none}
     return '<div class="sec">'+head(R.title,R.sub)+'<div class="rafters">'+R.banners.map(function(b){return '<div class="banner"><div class="rb-tag">'+esc(b.tag)+'</div><div class="u">'+esc(b.u)+'</div><div class="yrs">'+esc(b.yrs)+'</div><div class="rule"></div><div class="stats">'+esc(b.stats)+'</div><div class="rb-line">'+esc(b.line)+'</div></div>';}).join("")+'</div></div>'+(R.banners.some(function(b){return b.wihn;})?'<div class="sec">'+head("Where Is He Now?","Made up. Every word. Former managers, absurd fates.")+'<div class="wihn">'+R.banners.filter(function(b){return b.wihn;}).map(function(b){return '<div><h4>'+esc(b.u)+'</h4><p>'+esc(b.wihn)+'</p></div>';}).join("")+'</div></div>':'');
   }
 
+  function hour(){
+    var V=D.hour||[];
+    return '<div class="sec hourpg"><div class="onair"><span class="dot"></span>On Air</div><h1 class="hourh">Aniston Hour</h1><p class="dek" style="text-align:center">Tonight on A.N.A.L.: the league on video. New episodes land here.</p><div class="bulbs" aria-hidden="true"></div><div class="vids">'+V.map(function(v){return '<a class="vid" href="'+esc(v.url)+'" target="_blank" rel="noopener"><div class="scr"><img src="https://i.ytimg.com/vi/'+esc(v.id)+'/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display=\'none\'"><span class="play" aria-hidden="true">&#9654;</span></div><div class="vt"><small>Now showing'+(v.by?' · '+esc(v.by):'')+'</small><h3>'+esc(v.title)+'</h3>'+(v.note?'<p>'+esc(v.note)+'</p>':'')+'<span class="watch">Watch on YouTube</span></div></a>';}).join("")+'</div><div class="bulbs" aria-hidden="true"></div></div>';
+  }
   function dynasty(){
     var Y=D.dyn; if(!Y) return home();
     var h='<div class="sec">'+head("Pick Ledger",Y.picksNote)+'<div class="scroll"><table class="t"><thead><tr><th>Team</th>'+Y.years.map(function(y){return '<th>'+esc(y)+'</th>';}).join("")+'<th>1sts</th></tr></thead><tbody>'+Y.picks.map(function(r){return '<tr><td class="tm">'+tlink(r[0])+'<span class="own">'+esc(r[1])+'</span></td>'+r[2].map(function(c){return '<td class="pk">'+esc(c)+'</td>';}).join("")+'<td class="num">'+esc(r[3])+'</td></tr>';}).join("")+'</tbody></table></div></div>';
@@ -681,7 +704,7 @@ html:root .ticker{display:none}
     if(Y.taxi&&Y.taxi.length) h+='<div class="sec">'+head("Taxi Squad Watch",Y.taxiNote)+'<div class="grid">'+Y.taxi.map(function(x){return '<div class="item"><div class="kicker">'+esc(x.tag)+'</div><h3>'+esc(x.p)+'</h3><p>'+esc(x.t)+'</p></div>';}).join("")+'</div></div>';
     return h;
   }
-  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","dynasty"];
+  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","hour","dynasty"];
   function addShare(el){
     var b=document.createElement("button");b.type="button";b.className="sharebtn";b.textContent="Copy link";
     b.onclick=function(){
@@ -699,7 +722,7 @@ html:root .ticker{display:none}
     else if(h.indexOf("col-")===0){view="col";arg=h.slice(4);}
     if(view==="history") view="hof";
     if(pages.indexOf(view)<0) view="home";
-    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,dynasty:dynasty}[view]();
+    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,hour:hour,dynasty:dynasty}[view]();
     pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} if(view!=="home") addShare(el); }});
     var navKey=view==="team"?"teams":view==="story"?"home":view==="col"?"rumors":view;
     document.querySelectorAll("#nav a").forEach(function(a){if(a.getAttribute("href")==="#"+navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});
@@ -716,7 +739,7 @@ html:root .ticker{display:none}
       document.getElementById("tickTag").textContent="Wk "+(D.week-1)+" Final";
       items=D.ticker.map(function(t){return '<span><b>'+esc(t[0])+' '+esc(t[1])+'</b> · '+esc(t[2])+' '+esc(t[3])+'</span>';}).join("");
     }
-    [["payouts",D.payouts],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
+    [["payouts",D.payouts],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["hour",D.hour&&D.hour.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
     document.getElementById("run").innerHTML=items+items;
     (function(){var tr=document.querySelector(".ticker .track"),rn=document.getElementById("run"),x=0,t0=null;if(!tr||!rn||!window.requestAnimationFrame)return;function tick(t){if(t0!==null){x+=Math.min(t-t0,100)*0.045;var half=rn.scrollWidth/2;if(half>0&&x>=half)x-=half;tr.scrollLeft=Math.round(x);}t0=t;requestAnimationFrame(tick);}requestAnimationFrame(tick);})();
     var src='<div class="sources">Sources: '+D.sources.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a>';}).join(" · ")+'</div>';

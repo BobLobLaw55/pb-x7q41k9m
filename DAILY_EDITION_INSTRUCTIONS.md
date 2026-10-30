@@ -14,7 +14,7 @@ HOW THE SITE IS LAID OUT (so you write the right content)
 - Hall of Fame (gold sparkle), R.I.P. (cemetery, plus "Where Is He Now?" from ring.banners[].wihn), Contacts for Your Mom (the commish page; keep commish.title = "Contacts for Your Mom").
 
 STEPS
-1. The repo is attached and cloned; work in that checkout (else git clone --depth 1 https://github.com/BobLobLaw55/pb-x7q41k9m). Read data.json as the current version. Keep the exact schema: updated, week, ticker, wire, stories, standings, recap, rankings, teams, rumors, exits, trades, hotseat, history, lines, sources, columnists, columns, hof, payouts, commish, ring, playoff, tradehist. history, columnists, commish and ring (including each wihn) are static; carry them over unchanged.
+1. The repo is attached and cloned; work in that checkout (else git clone --depth 1 https://github.com/BobLobLaw55/pb-x7q41k9m). Read data.json as the current version. Keep the exact schema: updated, week, ticker, wire, stories, standings, recap, rankings, teams, rumors, exits, trades, hotseat, history, lines, sources, columnists, columns, hof, payouts, commish, ring, playoff, tradehist, hour. history, columnists, commish, ring (including each wihn) and hour (the Aniston Hour video list, which Tyler adds to) are static; carry them over unchanged.
 2. Pull league data with WebFetch (the shell cannot reach these hosts; fetch Sleeper pages a few at a time to avoid rate limits). League id 1339786949044473856.
    - https://api.sleeper.app/v1/state/nfl (week = the upcoming/current NFL week)
    - /v1/league/1339786949044473856/users and /rosters (wins, losses, fpts+fpts_decimal/100, fpts_against, ppts, players)
