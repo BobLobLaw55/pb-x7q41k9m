@@ -569,7 +569,7 @@ html:root .ticker{display:none}
       (last?'<div><small>Last week</small><b>Week '+last.w+' winner: '+esc(last.win)+'</b><p>'+esc(last.c)+': '+esc(last.detail)+'</p></div>':'')+'</div><p style="text-align:center;margin:4px 0"><a class="more" href="#payouts">All payouts</a></p>';
   }
   function playoffLooks(){
-    var B=D.bracket; if(!B||B.length<6) return "";
+    var B=D.bracket; if(!B||B.length<6) B=(D.standings||[]).slice(0,6).map(function(r){return r[0];}); if(B.length<6) return "";
     var t=function(n,x){return '<div class="bt2"><b>'+n+'</b>'+(x?tlink(x):'<span class="tbd">Winner</span>')+'</div>';};
     return ''+G.clim+'<div class="sec">'+""+'<div class="brk"><div class="rd"><div class="mu">'+t(3,B[2])+t(6,B[5])+'</div><div class="mu">'+t(4,B[3])+t(5,B[4])+'</div></div><div class="rd"><div class="mu">'+t(1,B[0])+t("",null)+'</div><div class="mu">'+t(2,B[1])+t("",null)+'</div></div><div class="rd"><div class="mu">'+t("",null)+t("",null)+'</div></div><div class="rd champ"><div class="mu">'+'<div class="bt2"><b>&#9733;</b><span class="tbd">Champion</span></div></div></div></div></div>';
   }
