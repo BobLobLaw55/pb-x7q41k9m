@@ -1686,24 +1686,6 @@
    }
   ]
  },
- "playoff": [
-  {
-   "h": "Safe-ish at 5-2",
-   "t": "NjigbaR Please! (892.36 PF), Ivefallenandicantgetup (885.88) and Breece'sBurdenDeflowered (846.58) have the record and the points. Lawrence of a Labia is also 5-2, but Bill_Buttlicker has scored 795.68 and given up 800.60, so that record is running on borrowed luck."
-  },
-  {
-   "h": "Right there at 4-3",
-   "t": "Wild Goose Chase has the most points in the league at 941.92 and just made a big trade. Lead Nagger (863.72) and Stroud of Turin (852.30) are fine if they keep winning."
-  },
-  {
-   "h": "Bubble at 3-4",
-   "t": "Llamageddon has the second-most points in the league (894.06) and the record of a team that is bad at timing. Bijan is your daddy (797.28) needs help."
-  },
-  {
-   "h": "Pray for a miracle",
-   "t": "Nothing to see here is 2-5. Achane in the Membrane and MY DAD IS DEAD are 1-6, and the math is not on their side."
-  }
- ],
  "tradehist": [
   {
    "date": "Oct 29",
@@ -1744,5 +1726,13 @@
    "url": "https://youtu.be/-HDpE7c3Ma0",
    "note": "The 2026 Fantasy Addicks draft, on video."
   }
+ ],
+ "bracket": [
+  "NjigbaR Please!",
+  "Ivefallenandicantgetup",
+  "Breece'sBurdenDeflowered",
+  "Lawrence of a Labia",
+  "Wild Goose Chase",
+  "Lead Nagger"
  ]
 }

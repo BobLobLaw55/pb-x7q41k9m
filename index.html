@@ -474,6 +474,20 @@ html:root .ticker{display:none}
 @keyframes asqueeze{0%,100%{transform:scale(1,1)}45%,55%{transform:scale(.12,.9)}}
 @media(prefers-reduced-motion:reduce){.logo g:first-of-type{animation:none}}
 </style>
+<style id="v3-css">
+.blowie{display:flex;align-items:center;gap:0;margin:0 0 18px;border:2px solid #ff2d6f;border-radius:10px;overflow:hidden;background:#1b1b1b}
+.bpic{flex:0 0 38%;align-self:stretch;min-height:150px;position:relative;overflow:hidden;background:#000}
+.bpic svg{position:absolute;inset:-25% -10%;width:120%;height:150%;filter:blur(18px) saturate(1.4)}
+.bt{padding:14px 16px;min-width:0}.bt small{font:500 11px var(--mono);color:#ff2d6f;text-transform:uppercase;letter-spacing:1px}.bt h2{margin:2px 0 6px;font-size:clamp(22px,4vw,32px);text-transform:uppercase;color:#ff9000}.bt p{margin:0;color:#c9c9d1}
+@media(max-width:560px){.blowie{flex-direction:column}.bpic{flex:none;width:100%;min-height:120px}}
+.fupag{display:block;width:100%;height:auto;max-width:100%;margin:6px 0 14px}
+.trendl{animation:dsh 1.4s linear infinite}@keyframes dsh{to{stroke-dashoffset:-22}}@media(prefers-reduced-motion:reduce){.trendl{animation:none}}
+.brk{display:flex;gap:14px;overflow-x:auto;align-items:center;padding:8px 0}
+.brk .rd{display:flex;flex-direction:column;justify-content:space-around;gap:18px;flex:0 0 235px}
+.brk .mu{display:grid;gap:3px;border:1px solid #333;border-radius:6px;padding:4px;background:#111}
+.bt2{display:flex;gap:8px;align-items:center;background:#1b1b1b;border-radius:4px;padding:7px 9px;font-weight:700;font-size:13px;min-width:0}.bt2 b{color:#ff9000;min-width:14px}.bt2 a{overflow-wrap:anywhere}.tbd{color:#666;font-weight:500}
+.brk .champ .bt2{border:2px solid #ff9000}
+</style>
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="#home" aria-label="A.N.A.L. home">
@@ -549,8 +563,9 @@ html:root .ticker{display:none}
       (last?'<div><small>Last week</small><b>Week '+last.w+' winner: '+esc(last.win)+'</b><p>'+esc(last.c)+': '+esc(last.detail)+'</p></div>':'')+'</div><p style="text-align:center;margin:4px 0"><a class="more" href="#payouts">All payouts</a></p>';
   }
   function playoffLooks(){
-    if(!D.playoff||!D.playoff.length) return "";
-    return '<div class="sec">'+head("Playoff Looks","Who is getting in, who is sweating, who is cooked.")+'<div class="pl">'+D.playoff.map(function(g){return '<div class="g"><h4>'+esc(g.h)+'</h4><p>'+esc(g.t)+'</p></div>';}).join("")+'</div></div>';
+    var B=D.bracket; if(!B||B.length<6) return "";
+    var t=function(n,x){return '<div class="bt2"><b>'+n+'</b>'+(x?tlink(x):'<span class="tbd">Winner</span>')+'</div>';};
+    return '<div class="sec">'+head("The Climax Bracket","The unbiased, totally realistic playoff projection.")+'<div class="brk"><div class="rd"><div class="mu">'+t(3,B[2])+t(6,B[5])+'</div><div class="mu">'+t(4,B[3])+t(5,B[4])+'</div></div><div class="rd"><div class="mu">'+t(1,B[0])+t("",null)+'</div><div class="mu">'+t(2,B[1])+t("",null)+'</div></div><div class="rd"><div class="mu">'+t("",null)+t("",null)+'</div></div><div class="rd champ"><div class="mu">'+'<div class="bt2"><b>&#9733;</b><span class="tbd">Champion</span></div></div></div></div></div>';
   }
   function underWire(){
     return '<div class="sec">'+head("Under Wire")+'<aside class="wire"><ul>'+D.wire.map(function(w){return '<li>'+esc(w.t)+'<a href="'+esc(w.url)+'" target="_blank" rel="noopener">'+esc(w.src)+'</a></li>';}).join("")+'</ul></aside></div>';
@@ -559,7 +574,7 @@ html:root .ticker{display:none}
     var s=D.stories;
     var h=payTop();
     h+='<div class="sec">'+head("Everybody Is Talking About")+'<div class="trend">'+trendCards()+'</div></div>';
-    h+='<div class="sec"><div class="sec-head"><h2>F.U.P.A. <span class="sh2">Fantasy University Projections &amp; Analysis</span></h2></div><div class="lead"><article class="hero"><div class="kicker">'+esc(s[0].kicker)+'</div><h1>'+esc(s[0].title)+'</h1><p class="dek">'+esc(s[0].dek)+'</p><a class="more" href="#story-'+s[0].id+'">Read the story</a></article></div><div class="grid">'+s.slice(1).map(function(x){return '<div class="item"><div class="kicker">'+esc(x.kicker)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.dek)+'</p><a class="more" href="#story-'+x.id+'">Read</a></div>';}).join("")+'</div></div>';
+    h+='<div class="sec"><div class="sec-head"><h2>F.U.P.A. <span class="sh2">Fantasy University Projections &amp; Analysis</span></h2></div><svg class="fupag" viewBox="0 0 600 130" role="img" aria-label="F.U.P.A. projections graphic"><defs><linearGradient id="fg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffb347"/><stop offset="1" stop-color="#ff9000"/></linearGradient></defs><rect width="600" height="130" rx="10" fill="#120c02" stroke="#ff9000" stroke-width="2"/><g fill="url(#fg)"><rect x="360" y="78" width="26" height="36"/><rect x="396" y="64" width="26" height="50"/><rect x="432" y="70" width="26" height="44"/><rect x="468" y="46" width="26" height="68"/><rect x="504" y="30" width="26" height="84"/><rect x="540" y="16" width="26" height="98"/></g><polyline class="trendl" points="373,70 409,55 445,62 481,36 517,22 553,8" fill="none" stroke="#3ddc97" stroke-width="3" stroke-dasharray="6 5"/><g transform="translate(34 28) rotate(-20 36 36)"><path d="M36 4 C62 18 62 54 36 68 C10 54 10 18 36 4 Z" fill="#c2410c" stroke="#fff" stroke-width="3"/><path d="M26 36 H46 M30 28 V44 M36 26 V46 M42 28 V44" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g><text x="120" y="62" fill="#fff" font-family="Roboto,Arial,sans-serif" font-weight="900" font-size="46" letter-spacing="4">F.U.P.A.</text><text x="122" y="92" fill="#ff9000" font-family="Roboto,Arial,sans-serif" font-weight="700" font-size="11" letter-spacing="2">FANTASY UNIVERSITY</text><text x="122" y="108" fill="#ff9000" font-family="Roboto,Arial,sans-serif" font-weight="700" font-size="11" letter-spacing="2">PROJECTIONS &amp; ANALYSIS</text></svg><div class="lead"><article class="hero"><div class="kicker">'+esc(s[0].kicker)+'</div><h1>'+esc(s[0].title)+'</h1><p class="dek">'+esc(s[0].dek)+'</p><a class="more" href="#story-'+s[0].id+'">Read the story</a></article></div><div class="grid">'+s.slice(1).map(function(x){return '<div class="item"><div class="kicker">'+esc(x.kicker)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.dek)+'</p><a class="more" href="#story-'+x.id+'">Read</a></div>';}).join("")+'</div></div>';
     if(D.columns&&D.columns.length) h+='<div class="sec">'+head("The Rumor Mill","Opinion, hot takes and fake rumors from the press box.")+'<div class="cols">'+D.columns.map(colCard).join("")+'</div></div>';
     h+=playoffLooks();
     h+=underWire();
@@ -575,8 +590,10 @@ html:root .ticker{display:none}
   }
   function recap(){
     var r=D.recap;
-    var h='<div class="sec"><div class="kicker">Week '+(D.week-1)+' Recap</div><h1>'+esc(r.feature.title)+'</h1><div class="prose">'+paras(r.feature.body)+'</div></div>';
-    h+='<div class="sec">'+head("Week by Week","Blowouts, bad beats, and teams that shit the bed.")+r.weeks.slice().reverse().map(function(w){return '<div class="week"><div class="wk"><small>WEEK</small>'+w.w+'</div><div class="c1"><h4>Blowout</h4><p>'+esc(w.blowout)+'</p></div><div class="c2"><h4>Bad Beat</h4><p>'+esc(w.beat)+'</p></div><div class="c3"><h4>Shit the Bed</h4><p>'+esc(w.bed)+'</p></div></div>';}).join("")+'</div>';
+    var lw=r.weeks[r.weeks.length-1];
+    var h='<div class="blowie"><div class="bpic" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="#ff2d6f"/><path d="M50 18 C72 30 72 70 50 82 C28 70 28 30 50 18 Z" fill="#000"/><path d="M41 66 L50 32 L59 66 M44.5 54 L55.5 54" stroke="#ff9000" stroke-width="5" stroke-linecap="round" fill="none"/></svg></div><div class="bt"><small>Week '+lw.w+'</small><h2>Blowie of the Week</h2><p>'+esc(lw.blowout)+'</p></div></div>';
+    h+='<div class="sec"><div class="kicker">Week '+(D.week-1)+' Recap</div><h1>'+esc(r.feature.title)+'</h1><div class="prose">'+paras(r.feature.body)+'</div></div>';
+    h+='<div class="sec">'+head("Week by Week","Blowouts, bad beats, and teams that shit the bed.")+r.weeks.slice().reverse().map(function(w){return '<div class="week"><div class="wk"><small>WEEK</small>'+w.w+'</div><div class="c1"><h4>Blowie of the Week</h4><p>'+esc(w.blowout)+'</p></div><div class="c2"><h4>Bad Beat</h4><p>'+esc(w.beat)+'</p></div><div class="c3"><h4>Shit the Bed</h4><p>'+esc(w.bed)+'</p></div></div>';}).join("")+'</div>';
     return h;
   }
   function rankings(){
