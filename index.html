@@ -469,6 +469,11 @@ html:root .ticker{display:none}
 .watch{display:inline-block;background:#ff9000;color:#000;font-weight:900;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:6px 12px;border-radius:99px}
 @media(prefers-reduced-motion:reduce){.bulbs,.onair .dot{animation:none}}
 </style>
+<style id="logo-squeeze">
+.logo g:first-of-type{transform-box:view-box;transform-origin:50px 50px;animation:asqueeze 2.6s ease-in-out infinite}
+@keyframes asqueeze{0%,100%{transform:scale(1,1)}45%,55%{transform:scale(.12,.9)}}
+@media(prefers-reduced-motion:reduce){.logo g:first-of-type{animation:none}}
+</style>
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="#home" aria-label="A.N.A.L. home">
