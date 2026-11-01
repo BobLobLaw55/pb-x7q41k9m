@@ -1,5 +1,5 @@
 {
- "updated": "Saturday, Oct 31, 2026 · 6:45 AM ET",
+ "updated": "Sunday, Nov 1, 2026 · 8:15 AM ET",
  "week": 8,
  "ticker": [
   [
@@ -41,6 +41,11 @@
  ],
  "wire": [
   {
+   "t": "Oct 31: ChuckJ10 added AJ Barner and Chris Rodriguez Jr. and dropped Colby Parkinson; FatMikeR dropped Brandin Cooks. Week 8 Sunday slate kicks off at 1 p.m. ET with everyone but Thursday's players still at 0.00.",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
    "t": "Oct 31: Thursday night is final. Stroud of Turin leads Week 8 at 34.50 behind Chuba Hubbard (24.9) and Jalen Coker (9.6), Breece'sBurdenDeflowered has 35.20 (Josh Jacobs 23.2, Packers defense 12.0), Wild Goose Chase has 34.60 (Christian Watson 17.3, Tucker Kraft 17.3), and seven teams are sitting on 0.00.",
    "src": "League scoring (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -61,11 +66,6 @@
    "url": "https://sleeper.com/leagues/1339786949044473856"
   },
   {
-   "t": "Oct 31: Lamar Jackson was inactive in Week 7 but is described as very likely to play in Week 8. Aaron Jones is day-to-day with a knee injury and Jaylen Waddle left Week 7 with a chest injury.",
-   "src": "FantasyAlarm",
-   "url": "https://www.fantasyalarm.com/articles/nfl/injury-report/nfl-injury-report-2026-fantasy-football-week-8-jaylen-waddle-amon-ra-st-brown/197780"
-  },
-  {
    "t": "Oct 27: Omar Cooper Jr. is back from a month on IR with back-to-back 100-yard games (6-103-1, 5-115-1) and is the top waiver add this week. He scored 22.5 starting for Stroud of Turin on Sunday.",
    "src": "Yahoo Sports",
    "url": "https://sports.yahoo.com/fantasy/article/week-8-fantasy-football-waiver-wire-jonah-coleman-omar-cooper-jr-among-top-pickups-174541107.html"
@@ -83,15 +83,14 @@
  ],
  "stories": [
   {
-   "id": "thu8",
-   "kicker": "Week 8 Thursday Night",
-   "title": "Thursday night box score: Chuba Hubbard hung 24.9 for the guy who just traded for him",
-   "dek": "Stroud of Turin, Breece'sBurdenDeflowered and Wild Goose Chase all banked 34-plus. Seven teams have 0.00 and a lot of excuses.",
+   "id": "sun8",
+   "kicker": "Week 8 Sunday",
+   "title": "Sunday morning board: three teams banked 34-plus Thursday and seven are still at 0.00",
+   "dek": "Breece'sBurdenDeflowered, Wild Goose Chase and Stroud of Turin lead. Everyone else is praying to the 1 p.m. gods.",
    "body": [
-    "The Panthers-Packers game is final and it set the early Week 8 board. Breece'sBurdenDeflowered leads at 35.20 against Lead Nagger's 0.00, with Josh Jacobs at 23.2 and the Packers defense adding 12.0 for rtmcruise. Wild Goose Chase has 34.60 against NjigbaR Please! at 11.80, and Stroud of Turin is at 34.50 against MY DAD IS DEAD, who has nothing yet.",
-    "The headline is Chuba Hubbard. He scored 24.9 in the lineup of Stroud of Turin, which is the best score from either side of the Br0phy and RedDevil904 trade so far, and Br0phy sent him away along with Ja'Marr Chase. Jalen Coker added 9.6 for RedDevil904. Wild Goose Chase got 17.3 apiece from Christian Watson and Tucker Kraft, so Br0phy is fine, but nobody asked for the Hubbard highlight.",
-    "Elsewhere Achane in the Membrane has 20.9 from Matthew Golden against Nothing to see here's 0.00, and NjigbaR Please! got 11.8 from Tetairoa McMillan. A correction for the record: the last edition credited that 11.8 to the wrong player. Jordan Love also scored 21.52 on Br0phy's bench, which only matters if you think Sunday's quarterback decision gets harder, and it might.",
-    "Nothing is decided. Lawrence of a Labia, Bijan is your daddy, Llamageddon, Ivefallenandicantgetup, Lead Nagger, Nothing to see here and MY DAD IS DEAD are all at 0.00 with the Sunday slate coming. The Week 8 RB payout is live, and RedDevil904 holds it at 24.9 for now."
+    "Thursday night's Panthers-Packers game is the only thing on the board. Breece'sBurdenDeflowered has 35.20 against Lead Nagger's 0.00, Wild Goose Chase has 34.60 and Stroud of Turin has 34.50, built on Chuba Hubbard's 24.9. Everything else reads 0.00 until the early window kicks off.",
+    "The late waiver and free-agent scramble came from the bottom of the standings. ChuckJ10 (2-5) added AJ Barner and Chris Rodriguez Jr. and dropped Colby Parkinson. FatMikeR dropped Brandin Cooks. Both of those teams need Sunday to go well, and neither has earned the benefit of the doubt.",
+    "The standings are tight at the top: NjigbaR Please!, Ivefallenandicantgetup, Breece'sBurdenDeflowered and Lawrence of a Labia are all 5-2. Achane in the Membrane and MY DAD IS DEAD are both 1-6 and still searching for a pulse in the standings, nothing more. Check the matchup lines for the full Week 8 board."
    ]
   },
   {
@@ -958,16 +957,15 @@
  ],
  "columns": [
   {
-   "id": "mouth-w8b",
+   "id": "mouth-w8c",
    "by": "mouth",
    "kicker": "Hot Take",
-   "title": "BR0PHY TRADED CEEDEE LAMB'S OWNER A CEEDEE LAMB! WAIT. NO. THE OTHER WAY!",
-   "dek": "Two-for-two on a Wednesday night and nobody in the press box can tell who won.",
+   "title": "THREE TEAMS ARE AT 34 AND THE REST OF YOU ARE AT ZERO! SUNDAY IS HERE!",
+   "dek": "Thursday was the appetizer and seven teams haven't even sat down.",
    "body": [
-    "Sit DOWN. Br0phy and RedDevil904 made a trade at ONE IN THE MORNING eastern time, and I have read the transaction log SIX TIMES. Wild Goose Chase gets CeeDee Lamb and RJ Harvey. Stroud of Turin gets Ja'Marr Chase and Chuba Hubbard. TWO FOR TWO!",
-    "Here are the numbers, and they are REAL. Lamb scored 24.4 on Sunday. Harvey scored 15.0. That's 39.4 coming to Br0phy. Chase gave Br0phy 17.2 and Hubbard 10.0. That's 27.2 going to RedDevil904. Does that make it a winner for Wild Goose Chase? ONE WEEK! ONE WEEK OF DATA!",
-    "And look at what Br0phy is doing! Wild Goose Chase has the most points in the league at 941.92 and is only 4-3 and STILL goes out and makes the team better! That's the sign of a manager who is NOT SATISFIED! Meanwhile Stroud of Turin is 44-33 in all-play and ALSO went shopping! EVERYBODY is working!",
-    "The deadline is Nov. 10. We have DAYS. Somebody is going to look dumb. I just don't know who yet. And I'm LOVING IT. SEE YOU TOMORROW."
+    "Listen UP! Breece'sBurdenDeflowered has 35.20! Wild Goose Chase has 34.60! Stroud of Turin has 34.50! Those are the REAL numbers off the Thursday night board and everybody else is staring at a big fat 0.00!",
+    "Chuba Hubbard went for 24.9 for Stroud of Turin, and Br0phy sent him away a few days ago! I said it was a trade and now it's a LESSON! Somebody get Br0phy a pillow!",
+    "Now the early window starts and SEVEN teams find out whether the lineup they set at 2 a.m. was genius or a CRIME! I'll be in the press box, and I will be LOUD about it!"
    ]
   },
   {
@@ -984,16 +982,17 @@
    ]
   },
   {
-   "id": "dale-w8c",
+   "id": "dale-w8d",
    "by": "dale",
    "kicker": "Lawn Chair Advice",
-   "title": "Oliver Klozoff's 4 Rules for Surviving a 0.00 Saturday",
-   "dek": "Seven teams have 0.00 on the board. Here is the advice you did not ask for.",
+   "title": "How to Handle Waivers When You're 2-5: A Five-Step Plan",
+   "dek": "From the lawn chair, where the real managers sit.",
    "body": [
-    "Folks, I am writing this from my lawn chair, where the scoreboard looks great. Seven teams are at 0.00. That means seven teams have a perfect record of never having lost a football game this week. Remember that.",
-    "Rule 1: If your opponent has 35.20, like Breece'sBurdenDeflowered does, simply refresh the app until the number changes. It will. Rule 2: Do not drop anyone who scored on Thursday. Chuba Hubbard just put up 24.9 and I am told Br0phy traded him away, which proves nothing, but I am writing it down anyway.",
-    "Rule 3: Start the player with the most syllables. Rule 4: Pick up Geno Smith for $0, like dstafford4254 did, because the price is the whole point. krunkdd cut him after he scored 23.48 and spent $14 on Chris Godwin Jr., and I'd have done it the other way around because a free quarterback cannot disappoint you.",
-    "Follow these four rules and you will finish somewhere between first and twelfth. I stand by every word. Back to the lawn chair."
+    "1. Add two players in one night. ChuckJ10 added AJ Barner and Chris Rodriguez Jr. on Saturday. Adding people is how you win games, just like buying new socks makes you faster.",
+    "2. Drop someone with a question mark next to their name. Colby Parkinson went out the door Saturday. The injury tag is questionable, which in the lawn chair means he's definitely gone for good.",
+    "3. Ignore the standings. ChuckJ10 sits at 2-5 with 711.98 points for and 856.14 against. Numbers are just opinions with decimals.",
+    "4. Wait for Sunday. Nothing matters until the 1 p.m. window, so sit in the chair and trust the process.",
+    "5. If it fails, blame the kicker. It is always the kicker."
    ]
   },
   {
