@@ -281,6 +281,9 @@ td.pk{font-size:13px;color:var(--soft);min-width:9ch}
   .line{grid-template-columns:minmax(0,1fr) repeat(3,62px);gap:0 6px}
   .deal .gets{font-size:17px}
 }
+.buttrow{display:flex;justify-content:center;padding:0 0 14px}.buttrow[hidden]{display:none}
+html:root .buttbtn{text-decoration:none;font-family:var(--body);font-weight:800;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#000;background:#ff9000;border:1px solid #ff9000;border-radius:99px;padding:9px 22px}
+html:root .buttbtn:hover,html:root .buttbtn:focus-visible{background:#ffc766;border-color:#ffc766;outline:none}
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 
@@ -511,6 +514,7 @@ html:root .ticker{display:none}
       <a href="#rip">R.I.P.</a>
       <a href="#commish">Contacts for Your Mom</a>
     </nav>
+    <div class="buttrow" id="buttrow" hidden><a class="buttbtn" href="#butt">Let's talk Butt Stuff</a></div>
   </div>
 </header>
 <div class="ticker" aria-label="This week's matchups and win probabilities">
@@ -541,6 +545,7 @@ html:root .ticker{display:none}
   <section class="page" id="p-fupa" hidden></section>
   <section class="page" id="p-bracket" hidden></section>
   <section class="page" id="p-dynasty" hidden></section>
+  <section class="page" id="p-butt" hidden></section>
 </main>
 
 <footer><div class="wrap"><span>A.N.A.L. · Aniston News Always Live · Fantasy Addicks on Sleeper</span><span>Rumors are made up. Stats are real. Lines are for entertainment.</span></div></footer>
@@ -606,6 +611,10 @@ html:root .ticker{display:none}
   function story(id){
     var x=D.stories.filter(function(s){return s.id===id;})[0]; if(!x) return home();
     return '<div class="sec"><a class="back" href="#home">← Front page</a><div class="kicker" style="margin-top:16px">'+esc(x.kicker)+'</div><h1>'+esc(x.title)+'</h1><p class="dek">'+esc(x.dek)+'</p><div class="prose">'+paras(x.body)+'</div></div>';
+  }
+  function butt(){
+    var b=D.butt||[]; if(!b.length) return home();
+    return '<div class="sec"><a class="back" href="#home">← Front page</a>'+head("Let's talk Butt Stuff","Stories and research you asked for in the league chat.")+b.map(function(x){return '<div class="sec"><div class="kicker">'+esc(x.kicker)+'</div><h1>'+esc(x.title)+'</h1><p class="dek">'+esc(x.dek)+'</p><div class="prose">'+paras(x.body)+'</div></div>';}).join("")+'</div>';
   }
   function recap(){
     var r=D.recap;
@@ -745,7 +754,7 @@ html:root .ticker{display:none}
     if(Y.taxi&&Y.taxi.length) h+='<div class="sec">'+head("Taxi Squad Watch",Y.taxiNote)+'<div class="grid">'+Y.taxi.map(function(x){return '<div class="item"><div class="kicker">'+esc(x.tag)+'</div><h3>'+esc(x.p)+'</h3><p>'+esc(x.t)+'</p></div>';}).join("")+'</div></div>';
     return h;
   }
-  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","hour","fupa","bracket","dynasty"];
+  var pages=["home","recap","rankings","teams","team","rumors","trades","history","lines","story","opinion","col","payouts","hof","commish","rip","hour","fupa","bracket","dynasty","butt"];
   function addShare(el){
     var b=document.createElement("button");b.type="button";b.className="sharebtn";b.textContent="Copy link";
     b.onclick=function(){
@@ -763,7 +772,7 @@ html:root .ticker{display:none}
     else if(h.indexOf("col-")===0){view="col";arg=h.slice(4);}
     if(view==="history") view="hof";
     if(pages.indexOf(view)<0) view="home";
-    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,hour:hour,fupa:fupa,bracket:bracketPage,dynasty:dynasty}[view]();
+    var html={home:home,recap:recap,rankings:rankings,teams:teams,team:function(){return team(arg);},rumors:rumors,trades:trades,history:history,lines:lines,story:function(){return story(arg);},opinion:opinion,col:function(){return column(arg);},payouts:payouts,hof:hof,commish:commish,rip:ring,hour:hour,fupa:fupa,bracket:bracketPage,dynasty:dynasty,butt:butt}[view]();
     pages.forEach(function(p){var el=document.getElementById("p-"+p);el.hidden=(p!==view);if(p===view){ el.innerHTML=html; try{ mark(el); }catch(e){} if(view!=="home") addShare(el); }});
     var navKey=view==="team"?"teams":view==="story"?"home":view==="col"?"rumors":view;
     document.querySelectorAll("#nav a").forEach(function(a){if(a.getAttribute("href")==="#"+navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});
@@ -781,6 +790,7 @@ html:root .ticker{display:none}
       items=D.ticker.map(function(t){return '<span><b>'+esc(t[0])+' '+esc(t[1])+'</b> · '+esc(t[2])+' '+esc(t[3])+'</span>';}).join("");
     }
     [["payouts",D.payouts],["commish",D.commish],["rip",D.ring&&D.ring.banners&&D.ring.banners.length],["hour",D.hour&&D.hour.length],["dynasty",D.dyn]].forEach(function(x){if(!x[1]){var a=document.querySelector('#nav a[href="#'+x[0]+'"]');if(a)a.remove();}});
+    var br=document.getElementById("buttrow");if(br&&D.butt&&D.butt.length)br.hidden=false;
     document.getElementById("run").innerHTML=items+items;
     (function(){var tr=document.querySelector(".ticker .track"),rn=document.getElementById("run"),x=0,t0=null;if(!tr||!rn||!window.requestAnimationFrame)return;function tick(t){if(t0!==null){x+=Math.min(t-t0,100)*0.045;var half=rn.scrollWidth/2;if(half>0&&x>=half)x-=half;tr.scrollLeft=Math.round(x);}t0=t;requestAnimationFrame(tick);}requestAnimationFrame(tick);})();
     var src='<div class="sources">Sources: '+D.sources.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a>';}).join(" · ")+'</div>';
