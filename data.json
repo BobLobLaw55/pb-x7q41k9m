@@ -1,5 +1,5 @@
 {
- "updated": "Tuesday, Nov 3, 2026 · 8:45 AM ET",
+ "updated": "Tuesday, Nov 3, 2026 · 9:30 AM ET",
  "week": 9,
  "ticker": [
   [
@@ -87,7 +87,7 @@
     "Ivefallenandicantgetup took the blowout, 119.22 to 88.14 over Llamageddon, a margin of 31.08. Llamageddon's 88.14 was the low of the week: Tre Tucker 0.0, DK Metcalf 1.4, Drake London 1.8 and DEN D/ST 2.0 all started, and only 6.7 points sat on the bench. The closest game was Stroud of Turin 107.78 over MY DAD IS DEAD 104.70, by 3.08.",
     "Standings: NjigbaR Please!, Ivefallenandicantgetup and Lawrence of a Labia are all 6-2. NjigbaR Please! leads on points (1,020.80) and has the best all-play record in the league at 58-30. Lead Nagger, Breece'sBurdenDeflowered and Stroud of Turin are 5-3. Wild Goose Chase has the most points scored in the league (1,048.98) and is 4-4.",
     "Bill_Buttlicker is 6-2 and picked up Tyler Allgeier on Sunday, who scored 37.1 on his bench while J.K. Dobbins (1.3) started. He won by 18.56 anyway, which is the only reason this paragraph is allowed to exist. Wild Goose Chase lost by 20.38 and would have won by 0.48 had Br0phy started Dylan Sampson (14.86) over RJ Harvey (0.0) and SEA D/ST (3.0) over NYJ D/ST (-3.0).",
-    "Cat Fact of the Day (one run only, requested by RedDevil904): house cats sleep about 12 to 16 hours a day. Cats rest more than most of you set your lineups."
+    "Cat Fact, requested by RedDevil904: house cats sleep about 12 to 16 hours a day."
    ]
   },
   {
@@ -927,6 +927,10 @@
   [
    "Sleep Foundation: how much do cats sleep",
    "https://www.sleepfoundation.org/animals-and-sleep/how-much-do-cats-sleep"
+  ],
+  [
+   "Purr (Wikipedia)",
+   "https://en.wikipedia.org/wiki/Purr"
   ]
  ],
  "columnists": [
@@ -1750,25 +1754,23 @@
  "butt": [
   {
    "id": "rules",
-   "kicker": "You Asked · Rulebook",
-   "title": "A.N.A.L. is now keeping the rulebook, so everybody shut up",
-   "dek": "Bill_Buttlicker ordered us to track the rules from now on. Here are the ones that got settled in the chat this week.",
+   "kicker": "Requested by Bill_Buttlicker",
+   "title": "The Rulebook",
+   "dek": "Rules settled in the league chat.",
    "body": [
-    "Bill_Buttlicker told this site to \"keep track of rules from now on,\" and since nobody else in this league can remember what got voted on, fine. Consider this the first entry in the official A.N.A.L. rulebook.",
-    "Rule 1, defenses are out next year. RedDevil904 asked to get rid of them, ChuckJ10 said it had been tried before without enough votes, and then Bill_Buttlicker and ChuckJ10 both remembered it had already been voted on and passed: the defense slot goes away and a second flex goes in. RedDevil904 even admitted he was wrong about kickers, so that's two humbling moments in one chat.",
-    "Rule 2, weekly payouts go to starters only. When Bill_Buttlicker asked if bench points count, Pudge247 answered it plainly: bench points don't count for the matchup and they don't count for the bonus. That's how Bill_Buttlicker's Week 8 Highest-Scoring RB payout stands, with Tony Pollard's 29.7 for Lawrence of a Labia. A 37.10 sitting on someone's bench doesn't pay anything. Ask Pudge247.",
-    "We'll add to this list as the chat settles more things. If you want a rule written down, say \"Hey anal\" and then the rule."
+    "Defenses are out next year. The vote already passed: the defense slot goes away and a second flex goes in. RedDevil904 asked for it, ChuckJ10 confirmed it, and RedDevil904 admitted he was wrong about kickers too.",
+    "Weekly payouts go to starters only. Bench points don't count for the matchup and they don't count for the bonus. That's why Bill_Buttlicker's Week 8 Highest-Scoring RB payout stands, with Tony Pollard's 29.7 for Lawrence of a Labia."
    ]
   },
   {
    "id": "catfacts",
-   "kicker": "You Asked · Cat Facts",
-   "title": "Cat Facts, as ordered by RedDevil904",
-   "dek": "RedDevil904 asked for cat facts in the morning update. Today only, because that's how the rules work.",
+   "kicker": "Requested by RedDevil904",
+   "title": "Cat Facts",
+   "dek": "Cat facts, by request.",
    "body": [
-    "RedDevil904 said, \"Hey Anal, introduce CAT FACTS into every morning update.\" Per the commish's standing rule, a request to change the site gets one run, not forever, unless Bill_Buttlicker's user says to keep it. So here's today's cat fact and a matching one in the lead story.",
-    "Cat Fact: house cats sleep about 12 to 16 hours a day. That's more rest than Lawrence of a Labia's bench gets from its manager, and still less than the sleep Ivefallenandicantgetup's season has been giving every fan.",
-    "If this sticks, Bill_Buttlicker's user can tell us and cat facts go in every day. If not, they're gone tomorrow."
+    "House cats sleep about 12 to 16 hours a day.",
+    "A cat's purr has a fundamental frequency of around 25 Hz.",
+    "A cat's ears can swivel up to 180 degrees, each one on its own."
    ]
   }
  ]
