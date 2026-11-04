@@ -1,5 +1,5 @@
 {
- "updated": "Tuesday, Nov 3, 2026 · 9:30 AM ET",
+ "updated": "Wednesday, Nov 4, 2026 · 8:15 AM ET",
  "week": 9,
  "ticker": [
   [
@@ -41,6 +41,11 @@
  ],
  "wire": [
   {
+   "t": "Nov 4: Quiet waiver morning, all free agents and no FAAB spent. dcrabb added Keenan Allen (WR, Colts) for Llamageddon, ChuckJ10 added Greg Dulcich (TE, Dolphins) and swapped PIT D/ST for NO D/ST for Nothing to see here, and Bill_Buttlicker swapped NE D/ST for SF D/ST for Lawrence of a Labia. Pittsburgh and Tennessee are on bye in Week 9.",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
    "t": "Nov 3: Week 8 is final. Achane in the Membrane's 155.28 had the top score, Lead Nagger hit 153.28, and Llamageddon's 88.14 was the low. Ivefallenandicantgetup's 31.08-point win over Llamageddon was the biggest margin and Stroud of Turin's 3.08-point win over MY DAD IS DEAD was the closest.",
    "src": "League scoring (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -78,6 +83,18 @@
  ],
  "stories": [
   {
+   "id": "waiver9",
+   "kicker": "Waiver Wire",
+   "title": "Waiver Wednesday: zero dollars of FAAB spent, seven moves made, nothing fixed",
+   "dek": "dcrabb added Keenan Allen, ChuckJ10 added Greg Dulcich, and the defenses got shuffled. Week 9 is coming.",
+   "body": [
+    "Nobody spent a dollar of FAAB this morning, which is how you know everybody in this league is either broke or lazy. All seven moves were straight free-agent pickups and drops, and none of them are going to save a season.",
+    "dcrabb picked up Keenan Allen (WR, Colts) for Llamageddon. That is a fine add for a 3-5 team that put up 88.14 last week with Tre Tucker, DK Metcalf, Drake London and the Denver D/ST all stinking up the lineup. ChuckJ10 grabbed Greg Dulcich (TE, Dolphins) and swapped PIT D/ST for NO D/ST for Nothing to see here, a 2-6 team that has scored 844.96, the second-fewest points in the league. Pittsburgh is on bye in Week 9, so the defense swap at least has a reason.",
+    "Bill_Buttlicker swapped NE D/ST for SF D/ST for Lawrence of a Labia and cut two other players. Pudge247 also dropped a player for Lead Nagger without adding anyone. The commish is 6-2 and still has to prove he can start the right running back.",
+    "The real action starts when the Week 9 games kick off. NjigbaR Please!, Ivefallenandicantgetup and Lawrence of a Labia are all 6-2, Wild Goose Chase has the most points in the league at 1,048.98, and nobody has made a trade on the board all week. Set your lineups, idiots."
+   ]
+  },
+  {
    "id": "recap8",
    "kicker": "Weekly Recap",
    "title": "Achane in the Membrane hung the top score of the week, 155.28, and is still 2-6",
@@ -112,18 +129,6 @@
     "Swap Tyler Allgeier for J.K. Dobbins and the 126.80 is 162.60, which would have been the second-best score of the season. Tony Pollard (29.7) carried the lineup and takes the Week 8 Highest-Scoring RB payout, which means the commish wins his own payout. Auditors are welcome.",
     "For the record, Br0phy dropped Tyler Allgeier on Oct 29 and the guy scored 37.1 on somebody else's bench the next Sunday. Wild Goose Chase lost by 20.38 and is 4-4 with 1,048.98 points, the most in the league. Make it make sense.",
     "Week 9 is where the commish gets his comeuppance: Tony Pollard and Wan'Dale Robinson (Titans) and Pat Freiermuth (Steelers) are all on bye, and Ivefallenandicantgetup is a 12.5-point favorite. Sleeper lists Christian McCaffrey as questionable. Bill_Buttlicker will be fine, in the sense that he will have an excuse."
-   ]
-  },
-  {
-   "id": "bearbad",
-   "kicker": "Bad Beat of the Week",
-   "title": "MY DAD IS DEAD lost by 3.08 with Seth McGowan (7.02) on the bench behind Jordan Mason (2.0)",
-   "dek": "OneSillyBannana is 1-7. Two lineup spots decided a 3.08-point loss.",
-   "body": [
-    "Stroud of Turin beat MY DAD IS DEAD 107.78 to 104.70, a 3.08-point game, the closest of the week. OneSillyBannana started Jordan Mason (2.0) and Jeremiyah Love (2.3) at running back and left Seth McGowan (7.02) on the bench. Swap Seth McGowan for Jordan Mason and MY DAD IS DEAD wins by 1.94.",
-    "Treylon Burks put up 11.1 on the bench too, though there was no open spot for a receiver without bumping a better player. Rome Odunze (12.7), Ladd McConkey (12.6) and Josh Downs (13.1) were in the lineup and none of that is on OneSillyBannana.",
-    "MY DAD IS DEAD is 1-7 with the lowest points total in the league (821.94) and an all-play record of 20-68. It has spent all $200 of its FAAB. Week 9 against Achane in the Membrane is an 18.5-point spread in the wrong direction.",
-    "There is a version of this season where OneSillyBannana is 3-5 and nobody is writing about it. We are not in that version."
    ]
   }
  ],
@@ -991,30 +996,30 @@
    ]
   },
   {
-   "id": "dale-w9c",
+   "id": "dale-w9e",
    "by": "dale",
    "kicker": "Lawn Chair Advice",
-   "title": "Oliver Klozoff's Five Rules for the Steelers-Titans Bye Week",
-   "dek": "Pittsburgh and Tennessee are on bye. The rules do not care. Neither do I.",
+   "title": "Oliver Klozoff's Four-Step Plan to Fix Your 2-6 Team by Thursday",
+   "dek": "I have been sitting in this chair since 1991 and I have never once lost a bet to a number.",
    "body": [
-    "The Steelers and Titans are on bye in Week 9. I wrote five rules while sitting in my lawn chair. They are numbered so you know they are correct.",
-    "1. Start your bye-week players anyway. A zero is just a very small number, and you get to be early to find out. Tony Pollard scored 29.7 last week, and if he scores 29.7 again on bye, I want credit. I want it in writing.",
-    "2. Never trust a defense that has scored 22.0. PIT D/ST scored 22.0 for Nothing to see here and is on bye. That means it is due for another 22.0, because byes cancel out. I did the math in the chair.",
-    "3. If a player has a bad week, drop him immediately. Ask Br0phy. He dropped Tyler Allgeier on Oct 29 and Allgeier scored 37.1 for somebody else on Sunday. This proves the system works, because Br0phy is no longer burdened by Tyler Allgeier.",
-    "4. A 3.08-point loss is just a win with a head start. MY DAD IS DEAD lost by 3.08 and Stroud of Turin won by it. Put them together and the league has zero net change. 5. Always bring a snack. Do not share it with Seth McGowan."
+    "Achane in the Membrane is 2-6 with 981.20 points. Here is my plan, and I am not taking questions.",
+    "1. Score more points than the other team. Achane in the Membrane scored 155.28 in Week 8 and it was the best score in the league, so clearly the scoring part is solved. The losing part is on the schedule.",
+    "2. Blame the points against. MakeItRains has 1,058.04 against, the most in the league, so the fix is to ask the other eleven teams to score less. Send a polite text.",
+    "3. Pick up a kicker. A kicker is worth three points on a good day, and three points is about 1.9% of a 155-point week. Do the math. Actually don't, I did it for you.",
+    "4. Sit in a lawn chair. This has done nothing for any of you, but it has done wonders for me."
    ]
   },
   {
-   "id": "gary-w9d",
+   "id": "gary-w9f",
    "by": "gary",
    "kicker": "Analytics",
-   "title": "Connie Lingus: 76.98 is Exactly Half of 153.28, and That Changes Everything",
-   "dek": "The numbers do not lie. They just do not tell you what they mean.",
+   "title": "Connie Lingus Proves Points Don't Matter, Using Points",
+   "dek": "Wild Goose Chase has the most points in the league and is exactly .500. Here is why that is a good sign.",
    "body": [
-    "My model for Week 8 is simple. Joe Burrow scored 39.48 and Tee Higgins scored 37.5. Add them and you get 76.98. Lead Nagger scored 153.28. Divide one by the other and you get 0.502, which is basically 0.5, which is basically one. So Pudge247 does not need a lineup. He needs two Bengals.",
-    "Now look at the standings. NjigbaR Please! is 58-30 in all-play, which is 65.9%. MY DAD IS DEAD is 20-68, which is 22.7%. Subtract them and you get 43.2 percentage points. The distance between first and last is 43.2. The distance between Ja'Marr Chase (31.1) plus Chuba Hubbard (24.9) and CeeDee Lamb (12.8) plus RJ Harvey (0.0) is also 43.2 points. This is not a coincidence. I decline to explain it.",
-    "The real indicator is the 3.08. Stroud of Turin beat MY DAD IS DEAD by 3.08 points. 3.08 is 2.9% of Stroud of Turin's 107.78, so by my framework RedDevil904 is 97.1% safe from everything. Please do not check my math. Check my confidence.",
-    "Conclusion: the team with the most points after Week 8 is Wild Goose Chase at 1,048.98, and it is 4-4. Points do not cause wins. Wins cause points. That is why I keep correlation as a separate tab."
+    "Wild Goose Chase has scored 1,048.98 points through eight weeks, the most in the league, and is 4-4. Br0phy averages 131.12 per game.",
+    "Meanwhile NjigbaR Please! has 1,020.80 points, 28.18 fewer, and is 6-2 with a 58-30 all-play record. My model says that 28.18 points is worth exactly two wins. I made up the model. The 28.18 is real.",
+    "Lead Nagger has 1,017.00 and is 5-3. Ivefallenandicantgetup has 1,005.10 and is 6-2. Notice that the lower the points, the closer to 6-2. If you extend this line to zero points, you go undefeated. I would not test it.",
+    "Conclusion: stop scoring. A 4-4 team with the league lead in points is a team that is being punished for success. Sleeper has not responded to my emails."
    ]
   }
  ],
