@@ -1756,27 +1756,5 @@
   "Wild Goose Chase",
   "Breece'sBurdenDeflowered"
  ],
- "butt": [
-  {
-   "id": "rules",
-   "kicker": "Requested by Bill_Buttlicker",
-   "title": "The Rulebook",
-   "dek": "Rules settled in the league chat.",
-   "body": [
-    "Defenses are out next year. The vote already passed: the defense slot goes away and a second flex goes in. RedDevil904 asked for it, ChuckJ10 confirmed it, and RedDevil904 admitted he was wrong about kickers too.",
-    "Weekly payouts go to starters only. Bench points don't count for the matchup and they don't count for the bonus. That's why Bill_Buttlicker's Week 8 Highest-Scoring RB payout stands, with Tony Pollard's 29.7 for Lawrence of a Labia."
-   ]
-  },
-  {
-   "id": "catfacts",
-   "kicker": "Requested by RedDevil904",
-   "title": "Cat Facts",
-   "dek": "Cat facts, by request.",
-   "body": [
-    "House cats sleep about 12 to 16 hours a day.",
-    "A cat's purr has a fundamental frequency of around 25 Hz.",
-    "A cat's ears can swivel up to 180 degrees, each one on its own."
-   ]
-  }
- ]
+ "butt": []
 }
