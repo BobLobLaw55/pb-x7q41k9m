@@ -1,5 +1,5 @@
 {
- "updated": "Wednesday, Nov 4, 2026 · 8:15 AM ET",
+ "updated": "Thursday, Nov 5, 2026 · 6:45 AM ET",
  "week": 9,
  "ticker": [
   [
@@ -41,6 +41,16 @@
  ],
  "wire": [
   {
+   "t": "Nov 5: Late Wednesday roster moves hit three league rosters. rtmcruise added Malik Willis (QB, Dolphins) and Dalton Schultz (TE, Texans) for Breece'sBurdenDeflowered and cut Kyler Murray (Sleeper lists him questionable), Keaton Mitchell and GB D/ST. krunkdd swapped TB D/ST for PHI D/ST for Ivefallenandicantgetup. Bill_Buttlicker added Gardner Minshew II (QB, Cardinals) and cut Pat Freiermuth for Lawrence of a Labia.",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
+   "t": "Nov 5: Gardner Minshew II replaced Jacoby Brissett late in the third quarter of the Cardinals' Week 8 win over Dallas and went 17 of 23 for 188 yards and 3 TDs, QB10 for the week, per DraftSharks. The Cardinals visit Seattle in Week 9, a one-star matchup against the defense allowing the second-fewest points to QBs.",
+   "src": "Draft Sharks / FantasyPros matchup ratings",
+   "url": "https://www.draftsharks.com/fantasy-football-news/83890/gardner-minshew-replaces-jacoby-brissett-sparks-cardinals-comeback"
+  },
+  {
    "t": "Nov 4: Quiet waiver morning, all free agents and no FAAB spent. dcrabb added Keenan Allen (WR, Colts) for Llamageddon, ChuckJ10 added Greg Dulcich (TE, Dolphins) and swapped PIT D/ST for NO D/ST for Nothing to see here, and Bill_Buttlicker swapped NE D/ST for SF D/ST for Lawrence of a Labia. Pittsburgh and Tennessee are on bye in Week 9.",
    "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -69,29 +79,19 @@
    "t": "Nov 2: Mike Washington Jr. took 25 of the Raiders' 28 backfield carries in Week 8, 89%, and Ashton Jeanty lost early-down work. NjigbaR Please! owns both and started Jeanty (10.3) with Washington (8.3) on the bench.",
    "src": "Fantasy Football Hot Takes, Week 9 (FantasyAlarm)",
    "url": "https://www.fantasyalarm.com/articles/nfl/reactions/fantasy-football-hot-takes-week-9-bold-reactions-predictions/198119"
-  },
-  {
-   "t": "Nov 2: Trade rumors around Colts RB Jonathan Taylor are growing, per FantasyAlarm, with nothing confirmed. Seth McGowan would become the Colts' lead back if he moves. Llamageddon owns Taylor and MY DAD IS DEAD owns McGowan.",
-   "src": "Fantasy Football Hot Takes, Week 9 (FantasyAlarm)",
-   "url": "https://www.fantasyalarm.com/articles/nfl/reactions/fantasy-football-hot-takes-week-9-bold-reactions-predictions/198119"
-  },
-  {
-   "t": "Nov 2: Jameson Williams has out-targeted Sam LaPorta 15 to 6 since LaPorta's contract comments and has caught five of Detroit's last six receiving touchdowns. Lawrence of a Labia has Williams (17.0 Sunday); Bijan is your daddy has LaPorta (6.5).",
-   "src": "Fantasy Football Hot Takes, Week 9 (FantasyAlarm)",
-   "url": "https://www.fantasyalarm.com/articles/nfl/reactions/fantasy-football-hot-takes-week-9-bold-reactions-predictions/198119"
   }
  ],
  "stories": [
   {
-   "id": "waiver9",
-   "kicker": "Waiver Wire",
-   "title": "Waiver Wednesday: zero dollars of FAAB spent, seven moves made, nothing fixed",
-   "dek": "dcrabb added Keenan Allen, ChuckJ10 added Greg Dulcich, and the defenses got shuffled. Week 9 is coming.",
+   "id": "thu9",
+   "kicker": "Roster Moves",
+   "title": "Bill_Buttlicker picks up Gardner Minshew II, rtmcruise cuts three and adds two QBs and a TE",
+   "dek": "Late Wednesday moves on Sleeper: Lawrence of a Labia, Breece'sBurdenDeflowered and Ivefallenandicantgetup all shuffled before Week 9.",
    "body": [
-    "Nobody spent a dollar of FAAB this morning, which is how you know everybody in this league is either broke or lazy. All seven moves were straight free-agent pickups and drops, and none of them are going to save a season.",
-    "dcrabb picked up Keenan Allen (WR, Colts) for Llamageddon. That is a fine add for a 3-5 team that put up 88.14 last week with Tre Tucker, DK Metcalf, Drake London and the Denver D/ST all stinking up the lineup. ChuckJ10 grabbed Greg Dulcich (TE, Dolphins) and swapped PIT D/ST for NO D/ST for Nothing to see here, a 2-6 team that has scored 844.96, the second-fewest points in the league. Pittsburgh is on bye in Week 9, so the defense swap at least has a reason.",
-    "Bill_Buttlicker swapped NE D/ST for SF D/ST for Lawrence of a Labia and cut two other players. Pudge247 also dropped a player for Lead Nagger without adding anyone. The commish is 6-2 and still has to prove he can start the right running back.",
-    "The real action starts when the Week 9 games kick off. NjigbaR Please!, Ivefallenandicantgetup and Lawrence of a Labia are all 6-2, Wild Goose Chase has the most points in the league at 1,048.98, and nobody has made a trade on the board all week. Set your lineups, idiots."
+    "Nothing is on the trade block and nobody spent FAAB again, but the free-agent churn kept going after yesterday's edition went out. Bill_Buttlicker added Gardner Minshew II (QB, Cardinals) for Lawrence of a Labia and dropped Pat Freiermuth, who is on the Steelers' Week 9 bye. Minshew came in for Jacoby Brissett late in the third quarter of Arizona's Week 8 win over Dallas and went 17 of 23 for 188 yards and 3 TDs, QB10 for the week, per DraftSharks. Now he gets Seattle, which gives up the second-fewest points to QBs.",
+    "rtmcruise was busy. For Breece'sBurdenDeflowered he added Malik Willis (QB, Dolphins) and Dalton Schultz (TE, Texans) and dropped Kyler Murray, Keaton Mitchell and GB D/ST. Sleeper lists Murray as questionable, so that cut has an excuse. Breece'sBurdenDeflowered is 5-3 with 973.86 points and the fewest points against in the league (878.44), and faces NjigbaR Please! this week as a 6.5-point underdog.",
+    "krunkdd swapped TB D/ST for PHI D/ST for Ivefallenandicantgetup, a 6-2 team with 1,005.10 points that plays Lawrence of a Labia as a 12.5-point favorite. Lawrence of a Labia is also 6-2 and still has Tony Pollard and Wan'Dale Robinson on the Titans' bye.",
+    "Standings did not move since Tuesday: NjigbaR Please!, Ivefallenandicantgetup and Lawrence of a Labia are 6-2, MY DAD IS DEAD is 1-7 and still looking for win number two. Set your lineups, idiots."
    ]
   },
   {
@@ -936,6 +936,10 @@
   [
    "Purr (Wikipedia)",
    "https://en.wikipedia.org/wiki/Purr"
+  ],
+  [
+   "Gardner Minshew replaces Jacoby Brissett (DraftSharks)",
+   "https://www.draftsharks.com/fantasy-football-news/83890/gardner-minshew-replaces-jacoby-brissett-sparks-cardinals-comeback"
   ]
  ],
  "columnists": [
@@ -970,29 +974,27 @@
  ],
  "columns": [
   {
-   "id": "mouth-w9a",
+   "id": "mouth-w9g",
    "by": "mouth",
    "kicker": "Hot Take",
-   "title": "ONE HUNDRED FIFTY-FIVE POINTS AND STILL 2-6! SOMEBODY CALL THE POLICE!",
-   "dek": "Achane in the Membrane had the top score of the week and I am LOSING MY MIND.",
+   "title": "THREE TEAMS ARE 6-2 AND I WANT SOMEBODY TO BREAK THIS TIE RIGHT NOW!",
+   "dek": "Three teams are 6-2 and I REFUSE to accept a three-way tie.",
    "body": [
-    "SIT DOWN! I have been in this press box for thirty years and I have NEVER seen it! Achane in the Membrane scored 155.28! The top score of Week 8! And MakeItRains is 2-6! TWO AND SIX! You do not go 2-6 with that offense! You do not!",
-    "The numbers are a CRIME SCENE! MakeItRains has 981.20 points, sixth in the league! And the most points against in the league, 1,058.04! The schedule is out here ROBBING him! Nothing to see here put up 132.98, which is the highest score by a loser this week, and it still lost TO THAT!",
-    "And the bench! Adonai Mitchell with 27.2 on the bench! Patrick Mahomes with 26.44 ON THE BENCH! That is 53.64 combined and Achane in the Membrane won by 22.30 with those guys SITTING! This team could start a different 155 and WIN AGAIN!",
-    "Meanwhile Ivefallenandicantgetup won by 31.08 and NjigbaR Please! sits at 58-30 in all-play! I respect it! But give me Achane in the Membrane in Week 9, 18.5-point favorite against MY DAD IS DEAD! That is the ONLY team I trust to turn a good score into a sixth place finish!"
+    "THREE TEAMS ARE 6-2! NjigbaR Please! at 1,020.80 points! Ivefallenandicantgetup at 1,005.10! Lawrence of a Labia at 922.48! That last one is NINETY-EIGHT AND A THIRD... NO, 98.32 points behind the leader and it is STILL 6-2! Bill_Buttlicker is running a witness protection program for bad lineups!",
+    "Look at the all-play! NjigbaR Please! is 58-30! Ivefallenandicantgetup is 54-34! Lawrence of a Labia is 42-46! FORTY-TWO AND FORTY-SIX! That is a LOSING record against everybody and it is on top of the standings! The schedule gift-wrapped it!",
+    "And this week Ivefallenandicantgetup is a 12.5-point favorite over Lawrence of a Labia! I want to see it! I want to see the commish get exposed! Come on, Sleeper!"
    ]
   },
   {
-   "id": "tre-w9b",
+   "id": "tre-w9h",
    "by": "tre",
    "kicker": "Film Room",
-   "title": "I watched Pudge247's Week 8 box score. Two Bengals did 50% of it and a bench guy did 28.06.",
-   "dek": "Burrow 39.48. Higgins 37.5. Emmett Johnson 28.06 on the bench. Corey Kiner 3.8 in the lineup.",
+   "title": "rtmcruise cut three players in one night. That is called panic, and I can smell it.",
+   "dek": "Willis, Schultz in. Murray, Mitchell and GB D/ST out. Breece'sBurdenDeflowered is 5-3.",
    "body": [
-    "Lead Nagger scored 153.28 and beat Breece'sBurdenDeflowered by 26.00. Joe Burrow scored 39.48. Tee Higgins scored 37.5. That is 76.98 from two Bengals, 50.2% of the entire score. That is not a lineup. That is a hostage situation where the hostages scored.",
-    "Now watch the other tape. Emmett Johnson scored 28.06 on the bench. Corey Kiner scored 3.8 in the lineup. Pudge247 added Corey Kiner as a free agent on Oct 30. That is 24.26 points of pure softness left on the table, and Lead Nagger still won by 26.00.",
-    "I want to be fair. Jonah Coleman scored 20.4 and JAX D/ST scored 20.0. Those are good calls. George Pickens (6.8), Mason Taylor (4.9) and Corey Kiner (3.8) are not. Three starters under 7 and he still won. The league is soft.",
-    "Week 9: Lead Nagger is a 7.5-point favorite over Stroud of Turin, and Germie Bernard is on the Steelers' bye. Start Emmett Johnson. I'm tired of asking."
+    "I watched the transaction log. rtmcruise made three moves in about five minutes and cut GB D/ST for nothing. That is a man who is nervous about NjigbaR Please!. Be nervous. NjigbaR Please! is 6-2 and 58-30 in all-play.",
+    "Breece'sBurdenDeflowered has faced 878.44 points against, the fewest in the league, so the schedule has been kind. The 973.86 points scored sit seventh. You do not win a title with a lucky schedule.",
+    "Malik Willis and Dalton Schultz are not going to fix that. Kyler Murray is listed questionable, so I will not call that cut soft. But the rest of the roster needs to stop hoping and start blocking."
    ]
   },
   {
