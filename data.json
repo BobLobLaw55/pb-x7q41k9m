@@ -1,5 +1,5 @@
 {
- "updated": "Tuesday, Nov 10, 2026 · 7:30 AM ET",
+ "updated": "Wednesday, Nov 11, 2026 · 7:15 AM ET",
  "week": 10,
  "ticker": [
   [
@@ -41,13 +41,33 @@
  ],
  "wire": [
   {
-   "t": "Nov 10: Week 9 is final. Lead Nagger had the top score at 150.44, Stroud of Turin was second at 143.70 and still lost, and MY DAD IS DEAD had the low at 83.40. Wild Goose Chase's 41.00-point win over Bijan is your daddy was the biggest margin.",
-   "src": "League scoring (Sleeper)",
+   "t": "Nov 11: Week 10 waivers are in. krunkdd won Jakobi Meyers for 22 FAAB (Pudge247 bid 5, dstafford4254 bid 0) and cut Chris Bell. Pudge247 won Tank Dell for 20 FAAB after Dell scored 20.5 in Week 9.",
+   "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
   },
   {
-   "t": "Nov 10: The Week 9 bench payout goes to FatMikeR. Bijan is your daddy left 71.42 points on the bench, 0.20 ahead of Wild Goose Chase (71.22).",
-   "src": "League scoring (Sleeper)",
+   "t": "Nov 11: Also on waivers: ChuckJ10 added Darren Waller for 3 FAAB and J.J. McCarthy for 0, RedDevil904 swapped Jake Ferguson for Pat Freiermuth, dcrabb and krunkdd each paid 2 for a defense (Green Bay and Baltimore), and OneSillyBannana added Justice Hill and Reggie Virgil and cut Marvin Harrison Jr.",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
+   "t": "Nov 11: Week 10 byes are Chicago, Denver, Philadelphia and Tampa Bay. That takes out Bucky Irving for Nothing to see here, Chris Godwin Jr. and Courtland Sutton for Ivefallenandicantgetup, D'Andre Swift for Wild Goose Chase, Rome Odunze and Saquon Barkley for MY DAD IS DEAD, Dallas Goedert for Stroud of Turin and the Denver defense for Llamageddon.",
+   "src": "NFL Week 10 schedule (CBS Sports)",
+   "url": "https://www.cbssports.com/nfl/schedule/2026/regular/10/"
+  },
+  {
+   "t": "Nov 9: Cowboys coach Brian Schottenheimer said Jake Ferguson should miss multiple weeks after he was helped off against the Colts. RedDevil904 dropped him for Pat Freiermuth on waivers.",
+   "src": "AtoZ Sports",
+   "url": "https://atozsports.com/?p=512175"
+  },
+  {
+   "t": "Nov 12: Thursday night is Washington at the New York Giants (8:15 PM ET, Prime Video). Set lineups before kickoff.",
+   "src": "NFL Week 10 schedule (CBS Sports)",
+   "url": "https://www.cbssports.com/nfl/schedule/2026/regular/10/"
+  },
+  {
+   "t": "Nov 10: Sleeper lists Josh Jacobs and Jaylen Waddle as out and Patrick Mahomes, Puka Nacua and Drew Lock as questionable heading into Week 10. Check lineups before Sunday.",
+   "src": "Player status (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
   },
   {
@@ -56,27 +76,48 @@
    "url": "https://sleeper.com/leagues/1339786949044473856"
   },
   {
-   "t": "Nov 10: Sleeper lists Josh Jacobs and Jaylen Waddle as out and Patrick Mahomes, Puka Nacua and Drew Lock as questionable heading into Week 10. Check lineups before Sunday.",
-   "src": "Player status (Sleeper)",
+   "t": "Nov 10: Week 9 is final. Lead Nagger had the top score at 150.44, Stroud of Turin was second at 143.70 and still lost, and MY DAD IS DEAD had the low at 83.40. Wild Goose Chase's 41.00-point win over Bijan is your daddy was the biggest margin.",
+   "src": "League scoring (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
-  },
-  {
-   "t": "Nov 8: Sunday free-agent moves: Pudge247 added Darius Cooper and Kendre Raymond for Lead Nagger, OneSillyBannana added Efton Chism III for MY DAD IS DEAD, and Bill_Buttlicker added Drew Lock for Lawrence of a Labia. No FAAB was spent.",
-   "src": "League transactions (Sleeper)",
-   "url": "https://sleeper.com/leagues/1339786949044473856"
-  },
-  {
-   "t": "Nov 4: Last waiver run (Week 8): MakeItRains won Mike Gesicki for 3 FAAB and every other claim went through at 0. Chris Godwin Jr. (14 FAAB for krunkdd) is still the biggest bid of the last two weeks and scored 4.8 in Week 9.",
-   "src": "League transactions (Sleeper)",
-   "url": "https://sleeper.com/leagues/1339786949044473856"
-  },
-  {
-   "t": "Nov 6: Jaguars 33, Ravens 10 on Thursday night. Trevor Lawrence went 16 of 26 for 242 yards and a TD, and Cam Little hit four field goals.",
-   "src": "Thursday Night Football recap (NBC Sports / ProFootballTalk)",
-   "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-jaguars-blow-out-ravens-33-10"
   }
  ],
  "stories": [
+  {
+   "id": "waivers10",
+   "kicker": "Waiver Wednesday",
+   "title": "krunkdd drops 22 FAAB on Jakobi Meyers to patch a bye-week hole, and Pudge247 buys Tank Dell for 20",
+   "dek": "The 7-2 co-leader outbid Lead Nagger by 17 dollars, ChuckJ10 finally found a tight end, and OneSillyBannana cut Marvin Harrison Jr. for Reggie Virgil.",
+   "body": [
+    "Waivers cleared overnight and the biggest check came from the guy tied for first. krunkdd paid 22 FAAB for Jakobi Meyers, beating Pudge247's 5 and dstafford4254's 0, and cut Chris Bell to make room. Meyers has 75.6 PPR points in eight games (9.45 a game) and scored 10.5 in Week 9. It is not a luxury buy: Chris Godwin Jr. and Courtland Sutton are both on bye this week, and Sleeper shows Ivefallenandicantgetup with two empty lineup spots, one of them the defense, heading into a game against Wild Goose Chase. krunkdd also paid 2 for the Baltimore defense and dropped Philadelphia, which is on bye.",
+    "Pudge247 lost the Meyers bid and won Tank Dell for 20 instead. Dell caught 4 balls for 105 yards and a touchdown in Week 9 (20.5 points), so at least Pudge247 bought the guy who just did something. Lead Nagger also cut Devin Singletary, Kalif Raymond and Darius Cooper this week, which is a lot of roster churn for a 6-3 team with the second-most points in the league. Pudge247 has now spent 150 FAAB this season.",
+    "ChuckJ10 added Darren Waller for 3 FAAB and J.J. McCarthy for 0 after starting Greg Dulcich (3.4) at tight end in Week 9, and cut Dulcich, Tyjae Spears and Terrance Ferguson (on IR) over the last two days. RedDevil904 dropped Jake Ferguson for Pat Freiermuth, and that one is not a roast: the Cowboys say Ferguson will miss multiple weeks. dcrabb paid 2 for the Green Bay defense because Denver is on bye.",
+    "And then there is OneSillyBannana, who cut Marvin Harrison Jr. (4.0 in Week 9) for Reggie Virgil (3.5 in Week 9), swapped Joe Milton for Justice Hill and traded the Chicago defense for Kansas City on the bye. MY DAD IS DEAD is 1-8, a 23.5-point underdog to Llamageddon, and has spent 200 FAAB this year. FatMikeR has spent 0 and is 3-6, so there are two ways to be bad at this."
+   ]
+  },
+  {
+   "id": "byes10",
+   "kicker": "Bye Week",
+   "title": "Bye-pocalypse: Chicago, Denver, Philadelphia and Tampa Bay are off, and Ivefallenandicantgetup and Nothing to see here feel it most",
+   "dek": "Bucky Irving is still sitting in ChuckJ10's lineup, krunkdd has two empty spots, and dcrabb already bought a backup defense.",
+   "body": [
+    "Four teams are on bye in Week 10: the Bears, Broncos, Eagles and Buccaneers. Nothing to see here gets hit hardest in the lineup: Bucky Irving (159.1 points this season, 17.7 a game) is on bye and was still listed as a starter in Sleeper this morning, next to an empty spot. ChuckJ10 is a 10.5-point underdog to Lawrence of a Labia after a 3-point nudge for that.",
+    "Ivefallenandicantgetup loses Chris Godwin Jr. and Courtland Sutton, which is why krunkdd paid 22 for Jakobi Meyers. Sleeper still shows two empty lineup spots for the 7-2 co-leader, so Wild Goose Chase is now an 11.5-point favorite after a 3-point nudge. Br0phy has his own bye problem with D'Andre Swift (153.8 points) off, but Swift is not in the current Wild Goose Chase lineup.",
+    "MY DAD IS DEAD loses Rome Odunze and Saquon Barkley, Stroud of Turin loses Dallas Goedert, Lawrence of a Labia has DeVonta Smith, J.K. Dobbins and Kyle Monangai on Chicago, Denver and Philadelphia, and Lead Nagger has Emeka Egbuka on Tampa Bay. None of those players is in a current starting lineup. Bo Nix is on bye too, sitting on FatMikeR's bench.",
+    "Llamageddon still has the Denver defense in the lineup, but dcrabb paid 2 FAAB for Green Bay, so that should be fixed by Sunday. Thursday night is Washington at the Giants. Check your lineup before 8:15 PM ET, because the Week 10 payout is Highest-Scoring Receiver and an empty slot scores zero."
+   ]
+  },
+  {
+   "id": "wk10",
+   "kicker": "Week 10 Preview",
+   "title": "Week 10 preview: NjigbaR Please! is a 15.5-point favorite, and byes widen two lines",
+   "dek": "Lead Nagger hosts Achane in the Membrane, Wild Goose Chase is up to an 11.5-point favorite, and every WR and TE slot is a payout ticket.",
+   "body": [
+    "Week 10 is live. NjigbaR Please! (7-2) faces Bijan is your daddy (3-6) and is a 15.5-point favorite. Ivefallenandicantgetup (7-2) draws Wild Goose Chase, the highest-scoring team in the league at 1,185.74 points, and is an 11.5-point underdog after a 3-point nudge for Chris Godwin Jr. and Courtland Sutton being on bye.",
+    "Lead Nagger (6-3) plays Achane in the Membrane (3-6) and is favored by 8.5. Lawrence of a Labia (6-3) plays Nothing to see here (2-7) and is favored by 10.5, a 3-point nudge because Bucky Irving is on bye. Bill_Buttlicker has a 44-55 all-play record to prove he does not deserve it.",
+    "Stroud of Turin (5-4) plays Breece'sBurdenDeflowered (5-4) in the coin flip of the week, 4.5 points apart. Llamageddon (4-5) is a 23.5-point favorite over MY DAD IS DEAD (1-8), the biggest spread of Week 10.",
+    "Sleeper lists Josh Jacobs and Jaylen Waddle as out, and Puka Nacua, Patrick Mahomes and Drew Lock as questionable. Check the status before kickoff. Week 10's payout is Highest-Scoring Receiver, so every WR and TE slot is a lottery ticket."
+   ]
+  },
   {
    "id": "recap9",
    "kicker": "Weekly Recap",
@@ -87,41 +128,6 @@
     "The blowout was Wild Goose Chase over Bijan is your daddy, 136.76 to 95.76 (+41.00). CeeDee Lamb scored 34.5 for Br0phy, and Cam Skattebo and Deebo Samuel Sr. both put up 0.0 in the Bijan is your daddy lineup. Llamageddon beat Nothing to see here by 33.70 behind Puka Nacua's 35.0, and NjigbaR Please! beat Breece'sBurdenDeflowered by 28.28.",
     "The low score was MY DAD IS DEAD at 83.40 in a 25.08-point loss to Achane in the Membrane, which is 3-6 and has won two straight. OneSillyBannana left 67.96 on the bench, third-most in the league, and is 1-8. The closest game was Ivefallenandicantgetup 101.76 over Lawrence of a Labia 93.28, and Bill_Buttlicker is 6-3 with a 44-55 all-play record, so the commish has no room to laugh.",
     "The standings: NjigbaR Please! and Ivefallenandicantgetup are 7-2 on top, Lead Nagger and Lawrence of a Labia are 6-3, and three teams sit at 5-4. The Week 9 payout, Highest-Scoring Bench, goes to FatMikeR (71.42). Week 10 is live."
-   ]
-  },
-  {
-   "id": "bench9",
-   "kicker": "Payout Decided",
-   "title": "FatMikeR wins the bench payout by 0.20 points over Br0phy",
-   "dek": "Bijan is your daddy left 71.42 on the pine in a 41-point loss. Wild Goose Chase left 71.22 and won by 41.",
-   "body": [
-    "Week 9's payout was Highest-Scoring Bench (total), and it came down to 0.20. Bijan is your daddy's bench scored 71.42, led by Jordan Watkins (18.6) and Bo Nix (15.68). FatMikeR lost by 41.00 and started Cam Skattebo and Deebo Samuel Sr. for 0.0 each, so he can take the check and keep the lesson.",
-    "Wild Goose Chase was right behind at 71.22, led by Jordan Love (36.18) and Bryce Young (20.34). Br0phy won by 41.00 anyway, so the bench was a luxury, and he finishes 0.20 short of the money with a better excuse than anyone.",
-    "MY DAD IS DEAD was third at 67.96 and Lead Nagger fourth at 60.84. Stroud of Turin (58.6) and Nothing to see here (54.5) rounded out the top six. Six teams left more than 54 points sitting on the pine.",
-    "FatMikeR takes the Week 9 payout. Week 10 is Highest-Scoring Receiver (starting WR/TE) and it is already live, so go check your WR slots."
-   ]
-  },
-  {
-   "id": "trade9",
-   "kicker": "Trade Court",
-   "title": "The Chase and Lamb trade is now two weeks old, and the Oct 20 Waddle deal is a dead heat",
-   "dek": "Re-judging every trade on the books with Week 9 in the box score.",
-   "body": [
-    "Br0phy traded Ja'Marr Chase and Chuba Hubbard to RedDevil904 for CeeDee Lamb and RJ Harvey on Oct 29. Over two weeks, Chase (31.1, 32.5) and Hubbard (24.9, 13.6) have given Stroud of Turin 102.1 points, and Lamb (12.8, 34.5) and Harvey (0.0, 0.0) have given Wild Goose Chase 47.3. Wild Goose Chase won in Week 9 and Stroud of Turin lost by 6.74, so the record did not follow the points. Sleeper lists Harvey on IR.",
-    "Nothing to see here and Breece'sBurdenDeflowered swapped on Oct 26. Bucky Irving (28.5) and Michael Wilson (12.0) gave ChuckJ10 40.5 in Week 9 against 10.5 from Chase Brown and 0.0 from A.J. Brown for rtmcruise. Over two weeks it is 88.3 to 26.6 for Nothing to see here. Both ChuckJ10 and rtmcruise lost anyway.",
-    "The Oct 20 deal between MakeItRains and RedDevil904 is a push. Achane in the Membrane got Kirk Cousins and Jaylen Waddle, who scored 28.18 and 14.9 in Week 8 and 12.64 on the bench with 3.2 from Waddle in Week 9. Stroud of Turin got C.J. Stroud, who put up 37.36 in Week 9. Starters only, it is 55.08 for Achane in the Membrane and 53.88 for Stroud of Turin."
-   ]
-  },
-  {
-   "id": "wk10",
-   "kicker": "Week 10 Preview",
-   "title": "Week 10 preview: NjigbaR Please! is a 15.5-point favorite and Stroud of Turin plays a coin flip",
-   "dek": "Lead Nagger hosts Achane in the Membrane, Wild Goose Chase faces a 7-2 team, and every WR and TE slot is a payout ticket.",
-   "body": [
-    "Week 10 is live. NjigbaR Please! (7-2) faces Bijan is your daddy (3-6) and is a 15.5-point favorite, the second-biggest of the week. Ivefallenandicantgetup (7-2) draws Wild Goose Chase, the highest-scoring team in the league at 1,185.74 points, and is the underdog by 8.5.",
-    "Lead Nagger (6-3) plays Achane in the Membrane (3-6) and is favored by 8.5. Lawrence of a Labia (6-3) plays Nothing to see here (2-7), and Bill_Buttlicker is favored by 7.5 and has a 44-55 all-play record to prove he does not deserve it.",
-    "Stroud of Turin (5-4) plays Breece'sBurdenDeflowered (5-4) in the coin flip of the week, 4.5 points apart. Llamageddon (4-5) is a 23.5-point favorite over MY DAD IS DEAD (1-8), which is the biggest spread of Week 10.",
-    "Sleeper lists Josh Jacobs and Jaylen Waddle as out, and Puka Nacua, Patrick Mahomes and Drew Lock as questionable. Check the status before kickoff. Week 10's payout is Highest-Scoring Receiver, so every WR and TE slot is a lottery ticket."
    ]
   }
  ],
@@ -425,7 +431,7 @@
    "past": [
     "Skatt Men (2025, 5-9)"
    ],
-   "w7": "vs. Ivefallenandicantgetup · favored by 8.5",
+   "w7": "vs. Ivefallenandicantgetup · favored by 11.5",
    "inj": [
     "Xavier Worthy is out, per Sleeper",
     "RJ Harvey is on IR, per Sleeper"
@@ -445,14 +451,14 @@
    "since": "2026",
    "titles": 0,
    "past": [],
-   "w7": "vs. Wild Goose Chase · underdog by 8.5",
+   "w7": "vs. Wild Goose Chase · underdog by 11.5",
    "inj": [
     "Carnell Tate is out, per Sleeper",
     "Jalen McMillan is on IR, per Sleeper"
    ],
    "body": [
     "krunkdd is 7-2 and has won four straight, the latest 101.76 to 93.28 over Lawrence of a Labia (+8.48). Chris Godwin Jr. scored 4.8 in the lineup, and Quentin Johnston (14.3) sat on the bench.",
-    "Ivefallenandicantgetup is tied for first, but its 1,106.86 points are fifth in the league. Wild Goose Chase, which has scored the most, is the next test."
+    "Ivefallenandicantgetup is tied for first, but its 1,106.86 points are fifth in the league. Chris Godwin Jr. and Courtland Sutton are on bye, so krunkdd paid 22 FAAB for Jakobi Meyers and 2 for the Baltimore defense. Wild Goose Chase, the top-scoring team, is an 11.5-point favorite."
    ]
   },
   {
@@ -500,7 +506,7 @@
    ],
    "body": [
     "Pudge247 had the top score of Week 9 at 150.44, beating Stroud of Turin by 6.74. Kenneth Walker III scored 36.3 and Joe Burrow 30.54, and Corey Kiner (20.46) and Audric Estime (14.7) sat on the bench.",
-    "Lead Nagger is 6-3 with the second-most points in the league (1,167.44) and has won two straight. Pudge247 added Darius Cooper and Kendre Raymond on Sunday and cut Dike, and Cooper scored 4.5 in the lineup."
+    "Lead Nagger is 6-3 with the second-most points in the league (1,167.44) and has won two straight. Pudge247 lost the Jakobi Meyers bid (5 to krunkdd's 22), won Tank Dell (20.5 in Week 9) for 20 FAAB, and cut Devin Singletary, Kalif Raymond and Darius Cooper."
    ]
   },
   {
@@ -523,7 +529,7 @@
    ],
    "body": [
     "dcrabb beat Nothing to see here 136.66 to 102.96 (+33.70) with Puka Nacua at 35.0. Nobody in the lineup scored under 5, and the bench only left 16.7 behind, the second-cleanest in the league.",
-    "Llamageddon is 4-5 with the fourth-most points in the league (1,118.86) and has more points against (1,120.12) than for. MY DAD IS DEAD is next, a 23.5-point line."
+    "Llamageddon is 4-5 with the fourth-most points in the league (1,118.86) and has more points against (1,120.12) than for. dcrabb paid 2 FAAB for the Green Bay defense with Denver on bye. MY DAD IS DEAD is next, a 23.5-point line."
    ]
   },
   {
@@ -542,12 +548,11 @@
    ],
    "w7": "vs. Breece'sBurdenDeflowered · favored by 4.5",
    "inj": [
-    "Jake Ferguson is out, per Sleeper",
     "Roman Wilson, Romeo Doubs are on IR, per Sleeper"
    ],
    "body": [
     "RedDevil904 scored 143.70, the second-best score of Week 9, and still lost to Lead Nagger by 6.74. C.J. Stroud put up 37.36 and Ja'Marr Chase 32.5 in the lineup, and nobody scored under 5.",
-    "Stroud of Turin is 5-4 with 1,103.78 points and has lost three of its last five. The bench scored 58.6, with DeMario Douglas at 15.2. Breece'sBurdenDeflowered is next, a 4.5-point line."
+    "Stroud of Turin is 5-4 with 1,103.78 points and has lost three of its last five. RedDevil904 replaced Jake Ferguson, who the Cowboys say will miss multiple weeks, with Pat Freiermuth, and Dallas Goedert is on bye. Breece'sBurdenDeflowered is next, a 4.5-point line."
    ]
   },
   {
@@ -587,14 +592,14 @@
     "Sack-Joe (2023)",
     "Duuuuuvaaaaaala-lalallala (2025, 3rd place)"
    ],
-   "w7": "vs. Nothing to see here · favored by 7.5",
+   "w7": "vs. Nothing to see here · favored by 10.5",
    "inj": [
     "Kyle Monangai, DeVonta Smith are out, per Sleeper",
     "Drew Lock, Gardner Minshew II are questionable, per Sleeper"
    ],
    "body": [
     "Bill_Buttlicker lost 101.76 to 93.28 to Ivefallenandicantgetup (-8.48). Jordan Addison (4.8) and Brenton Strange (4.2) started, and Drew Lock (12.6) sat on the bench. Lawrence of a Labia has left 173.02 points on the bench this season, the most in the league.",
-    "Lawrence of a Labia is 6-3 on 1,015.76 points, the lowest total of any team above 5-4. The all-play record is 44-55, so the record is lucky. Nothing to see here (2-7) is next, a 7.5-point line, and the commish has not earned it."
+    "Lawrence of a Labia is 6-3 on 1,015.76 points, the lowest total of any team above 5-4. The all-play record is 44-55, so the record is lucky. Nothing to see here (2-7) is next, a 10.5-point line with Bucky Irving on bye, and the commish has not earned it."
    ]
   },
   {
@@ -656,13 +661,13 @@
     "Sack-Joe (2023, 3rd place)",
     "We're not worthy!! (2025, 11-3 top seed)"
    ],
-   "w7": "vs. Lawrence of a Labia · underdog by 7.5",
+   "w7": "vs. Lawrence of a Labia · underdog by 10.5",
    "inj": [
-    "Michael Wilson, Rhamondre Stevenson, Tyjae Spears are out, per Sleeper"
+    "Michael Wilson, Rhamondre Stevenson are out, per Sleeper"
    ],
    "body": [
     "ChuckJ10 lost to Llamageddon 136.66 to 102.96 (-33.70), a fifth straight loss. Nothing to see here has the most points against in the league (1,148.08), and the bench scored 54.5 with Caleb Douglas at 13.0 and Makai Lemon at 12.1.",
-    "Nothing to see here is 2-7 with 947.92 points, second-fewest in the league. Lawrence of a Labia is next, and the 7.5-point line says it is the best chance for a win in a month."
+    "Nothing to see here is 2-7 with 947.92 points, second-fewest in the league. ChuckJ10 added Darren Waller (3 FAAB) and J.J. McCarthy, but Bucky Irving is on bye and still in the lineup. Lawrence of a Labia is next, a 10.5-point line."
    ]
   },
   {
@@ -687,14 +692,14 @@
    ],
    "body": [
     "OneSillyBannana lost to Achane in the Membrane 108.48 to 83.40, the low score of the week and an eighth straight loss. Ladd McConkey scored 0.0 and Marvin Harrison Jr. 4.0, and the bench had 67.96 with Rome Odunze (16.0) and Efton Chism III (15.9).",
-    "MY DAD IS DEAD is 1-8 with the fewest points in the league (905.34). Llamageddon is next, a 23.5-point line, the biggest of the week."
+    "MY DAD IS DEAD is 1-8 with the fewest points in the league (905.34). OneSillyBannana cut Marvin Harrison Jr. for Reggie Virgil and Joe Milton for Justice Hill, and Rome Odunze and Saquon Barkley are on bye. Llamageddon is next, a 23.5-point line."
    ]
   }
  ],
  "rumors": [
   {
    "src": "Per league sources",
-   "t": "Br0phy has reportedly asked the league to count bench points as a tiebreaker for the bench payout. FatMikeR has reportedly asked for 0.20 more."
+   "t": "krunkdd has reportedly paid 22 FAAB for Jakobi Meyers and asked Sleeper whether that also covers a lineup that fills itself in."
   },
   {
    "src": "Developing",
@@ -702,7 +707,7 @@
   },
   {
    "src": "Unconfirmed",
-   "t": "OneSillyBannana is reportedly teaching Efton Chism III how to start himself. Sources say it is going badly."
+   "t": "OneSillyBannana has reportedly cut Marvin Harrison Jr. for Reggie Virgil on the advice of a Magic 8-Ball that said 'Ask again later.' He did not ask again later."
   },
   {
    "src": "Whispers",
@@ -714,15 +719,15 @@
   },
   {
    "src": "Rumor mill",
-   "t": "Pudge247 has reportedly started charging Joe Burrow rent for the 30.54 he put up on his roster."
+   "t": "Pudge247 has reportedly cut three receivers in two days and is now interviewing Tank Dell for the role of 'guy who stays.'"
   },
   {
    "src": "Developing",
    "t": "MakeItRains has reportedly been calling a 3-6 record 'a good start in the second half of the first half'."
   },
   {
-   "src": "Per league sources",
-   "t": "dstafford4254 has reportedly never lost an argument in the group chat, because he has never been in one. 7-2, no comment."
+   "src": "Developing",
+   "t": "ChuckJ10 has reportedly started Bucky Irving on a bye week as 'a show of loyalty.' Bucky Irving has reportedly been at a Benihana."
   }
  ],
  "trades": [
@@ -774,7 +779,7 @@
    "bget": [
     "Dallas Goedert"
    ],
-   "why": "ChuckJ10 started Greg Dulcich at tight end (3.4) and has a deep running back room with Chris Rodriguez Jr. (11.2 on the bench). RedDevil904 has Dallas Goedert, Kenyon Sadiq and a thin backfield. A tight end for a back.",
+   "why": "RedDevil904 now has three tight ends after adding Pat Freiermuth (Dallas Goedert, Kenyon Sadiq, Freiermuth) and a thin backfield. ChuckJ10 has a deep running back room with Chris Rodriguez Jr. (11.2 on the bench in Week 9) and is relying on Darren Waller, a 3-FAAB pickup, at tight end. Goedert is on bye this week, so this is a rest-of-season deal.",
    "tag": "TE for RB",
    "bad": false
   },
@@ -827,7 +832,7 @@
    ],
    [
     "Nothing to see here",
-    "2-7 with the most points against in the league (1,148.08) and five straight losses. ChuckJ10 left 54.5 on the bench in Week 9."
+    "2-7, five straight losses and the most points against (1,148.08). ChuckJ10 has Bucky Irving on bye in the lineup and is a 10.5-point underdog."
    ],
    [
     "Lawrence of a Labia",
@@ -845,7 +850,7 @@
    ],
    [
     "Ivefallenandicantgetup",
-    "7-2 and four straight wins, with Chris Godwin Jr. at 4.8 in the lineup. krunkdd has the schedule and the luck."
+    "7-2, four straight wins, and krunkdd paid 22 FAAB for Jakobi Meyers to cover the Chris Godwin Jr. and Courtland Sutton bye. The luck is real and now it has a backup plan."
    ]
   ]
  },
@@ -853,10 +858,10 @@
   {
    "fav": "Lawrence of a Labia",
    "dog": "Nothing to see here",
-   "spread": "-7.5",
+   "spread": "-10.5",
    "total": "218.2",
-   "note": "Season PPG: Lawrence of a Labia 112.86, Nothing to see here 105.32. Spread is the PPG gap, no nudge. Sleeper lists Kyle Monangai as out and Drew Lock questionable for Lawrence of a Labia, and Michael Wilson and Rhamondre Stevenson as out for Nothing to see here.",
-   "prob": 60
+   "note": "Season PPG: Lawrence of a Labia 112.86, Nothing to see here 105.32 (gap 7.54). Nudged 3 points toward Lawrence of a Labia because Bucky Irving (TB) is on bye and still in the Nothing to see here lineup next to an empty spot. Sleeper lists Kyle Monangai as out and Drew Lock as questionable for Lawrence of a Labia.",
+   "prob": 63
   },
   {
    "fav": "Lead Nagger",
@@ -871,7 +876,7 @@
    "dog": "Breece'sBurdenDeflowered",
    "spread": "-4.5",
    "total": "240.7",
-   "note": "Season PPG: Stroud of Turin 122.64, Breece'sBurdenDeflowered 118.04. Spread is the PPG gap, no nudge. Josh Jacobs is out for Breece'sBurdenDeflowered per Sleeper.",
+   "note": "Season PPG: Stroud of Turin 122.64, Breece'sBurdenDeflowered 118.04. Spread is the PPG gap, no nudge. Josh Jacobs is out for Breece'sBurdenDeflowered per Sleeper, and Stroud of Turin's Dallas Goedert is on bye but not in the lineup.",
    "prob": 56
   },
   {
@@ -887,30 +892,34 @@
    "dog": "MY DAD IS DEAD",
    "spread": "-23.5",
    "total": "224.9",
-   "note": "Season PPG: Llamageddon 124.32, MY DAD IS DEAD 100.59. Spread is the PPG gap, no nudge. Puka Nacua is questionable for Llamageddon per Sleeper.",
+   "note": "Season PPG: Llamageddon 124.32, MY DAD IS DEAD 100.59. Spread is the PPG gap, no nudge. Puka Nacua is questionable for Llamageddon per Sleeper, and dcrabb added the Green Bay defense for the Denver bye.",
    "prob": 78
   },
   {
    "fav": "Wild Goose Chase",
    "dog": "Ivefallenandicantgetup",
-   "spread": "-8.5",
+   "spread": "-11.5",
    "total": "254.7",
-   "note": "Season PPG: Wild Goose Chase 131.75, Ivefallenandicantgetup 122.98. Spread is the PPG gap, no nudge. Xavier Worthy is out for Wild Goose Chase and Carnell Tate is out for Ivefallenandicantgetup per Sleeper.",
-   "prob": 61
+   "note": "Season PPG: Wild Goose Chase 131.75, Ivefallenandicantgetup 122.98 (gap 8.77). Nudged 3 points toward Wild Goose Chase because Chris Godwin Jr. and Courtland Sutton are on bye and Sleeper shows two empty Ivefallenandicantgetup lineup spots. Xavier Worthy is out for Wild Goose Chase and Carnell Tate is out for Ivefallenandicantgetup per Sleeper.",
+   "prob": 64
   }
  ],
  "sources": [
   [
-   "Sleeper league matchups, standings and transactions, Week 9 final",
+   "Sleeper league rosters, matchups and Week 9-10 transactions",
    "https://sleeper.com/leagues/1339786949044473856"
   ],
   [
-   "Sleeper player injury statuses (Week 10)",
-   "https://sleeper.com/leagues/1339786949044473856"
+   "Sleeper player pages and 2026 stats (Jakobi Meyers, Tank Dell, Marvin Harrison Jr., bye-week players)",
+   "https://api.sleeper.com/stats/nfl/2026?season_type=regular&position[]=WR&order_by=pts_ppr"
   ],
   [
-   "Thursday Night Football recap: Jaguars blow out Ravens 33-10 (NBC Sports)",
-   "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-jaguars-blow-out-ravens-33-10"
+   "NFL Week 10 schedule and byes (CBS Sports)",
+   "https://www.cbssports.com/nfl/schedule/2026/regular/10/"
+  ],
+  [
+   "Cowboys rule out 3 for Week 10, Jake Ferguson to miss multiple games (AtoZ Sports)",
+   "https://atozsports.com/?p=512175"
   ]
  ],
  "columnists": [
@@ -945,16 +954,17 @@
  ],
  "columns": [
   {
-   "id": "mouth-w10",
+   "id": "mouth-faab",
    "by": "mouth",
    "kicker": "Hot Take",
-   "title": "143.70 AND YOU STILL LOST?! THE SCHEDULE IS A CRIME SCENE, REDDEVIL904!",
-   "dek": "Barry \"The Mouth\" McCockiner has one question about Stroud of Turin: WHAT MORE DO YOU WANT?",
+   "title": "TWENTY-TWO DOLLARS FOR JAKOBI MEYERS?! KRUNKDD IS PLAYING CHESS AND THE REST OF YOU ARE EATING THE PIECES!",
+   "dek": "Barry \"The Mouth\" McCockiner watched the Week 10 waiver run and has lost his voice for the fifth time this season.",
    "body": [
-    "LISTEN TO ME! Stroud of Turin scored 143.70 in Week 9! THAT IS THE SECOND-BEST SCORE IN THE LEAGUE! C.J. Stroud put up 37.36, Ja'Marr Chase put up 32.5, NOBODY in the lineup scored under 5, and RedDevil904 STILL got a loss for his trouble!",
-    "Why? Because Lead Nagger scored 150.44! That's Kenneth Walker III at 36.3 and Joe Burrow at 30.54, and Pudge247 beat Stroud of Turin by 6.74 points! SIX POINT SEVEN FOUR! You can lose that on one missed extra point! You can lose it on a fumble at the one!",
-    "AND HERE'S WHAT MAKES ME WANT TO FLIP THE DESK! Stroud of Turin's 143.70 would have beaten every team in the league except ONE that week! And it's 5-4 with 1,103.78 points, sixth in the league! That's not a bad team, that's a team that got hit by a truck in the parking lot!",
-    "So what now? Breece'sBurdenDeflowered is next at a 4.5-point line, and rtmcruise is 5-4 too! WIN THAT ONE, REDDEVIL904! Because if you lose with 143.70 again, I'm going to need someone to explain to me what the point of this game even IS!"
+    "I'M SORRY, I NEED EVERYONE TO SIT DOWN. krunkdd is 7-2. TIED FOR FIRST. Four straight wins! And this man looks at his roster, sees Chris Godwin Jr. and Courtland Sutton on bye, and does not panic. He does not cry. He walks into the waiver office and puts down TWENTY-TWO FAAB on Jakobi Meyers! 75.6 points in eight games! THAT IS A MAN WHO KNOWS WHAT A BYE WEEK IS!",
+    "And who did he beat? PUDGE247! Pudge247 bid FIVE DOLLARS. FIVE! You are 6-3 with the second-most points in the league and you bid FIVE DOLLARS like you were tipping a valet! And dstafford4254 bid ZERO. ZERO! The 7-2 co-leader put in a bid of ZERO on a starting receiver, which is not a bid, THAT IS A WISH!",
+    "Now, credit where it is due. Pudge247 turned around and paid 20 for Tank Dell, who just went 4 catches, 105 yards and a touchdown for 20.5. Fine! FINE! But you also cut Devin Singletary, Kalif Raymond AND Darius Cooper in two days! That is not a roster, Pudge247, THAT IS A REVOLVING DOOR!",
+    "And OneSillyBannana. OH, OneSillyBannana. You cut Marvin Harrison Jr. for Reggie Virgil. Harrison scored 4.0 in Week 9. Virgil scored 3.5. You DOWNGRADED by half a point ON PURPOSE! You are 1-8! You have spent 200 FAAB! And you are a 23.5-point underdog!",
+    "Meanwhile krunkdd is sitting on 58 FAAB spent all season and a share of first place. EFFICIENCY! DISCIPLINE! TWENTY-TWO DOLLARS! If Ivefallenandicantgetup fills those two empty lineup spots before Sunday, I am buying a jersey. I DON'T KNOW WHOSE. I'M BUYING IT ANYWAY!"
    ]
   },
   {
@@ -984,16 +994,17 @@
    ]
   },
   {
-   "id": "gary-w10",
+   "id": "gary-faab",
    "by": "gary",
-   "kicker": "Analytics",
-   "title": "Lawrence of a Labia is 6-3 and the all-play record says it should be 4-5",
-   "dek": "Connie Lingus ran the numbers on Bill_Buttlicker's schedule and got a different team.",
+   "kicker": "By the Numbers",
+   "title": "Connie Lingus: the FAAB data says FatMikeR is the best manager in the league, and the math is undefeated",
+   "dek": "Wins per FAAB dollar is the only stat that matters, and one team has an infinite number of them.",
    "body": [
-    "Lawrence of a Labia is 6-3. In all-play, where every team plays every other team every week, it is 44-55. That is a win rate of 44.4%. Over nine games, that rounds to 4.0 expected wins, which means Bill_Buttlicker is 2.0 wins ahead of the line.",
-    "Lawrence of a Labia has scored 1,015.76 points, 1,010.60 against. That is a differential of +5.16 over nine weeks, or +0.57 per game. In my model that is called 'a coin with a logo.'",
-    "Then the bench. Sleeper says Lawrence of a Labia could have scored 1,188.78 with a perfect lineup, which means 173.02 points left on the bench. That is more than any other team in the league, and it is the equivalent of 1.5 extra games' worth of scoring.",
-    "Conclusion: the 2.0 wins are luck, the 173.02 points are choices, and I recommend Bill_Buttlicker stop reading the standings and start reading the box score."
+    "I built a new model this week, and I want to be clear that it is the most important model in fantasy football. It is called Wins Per FAAB Dollar. You take a team's wins and divide by the FAAB it has spent this season. That's it. That's the model. The league has spent 1,320 FAAB dollars this year, so there is plenty of data.",
+    "The leader is FatMikeR. Bijan is your daddy has 3 wins and has spent 0 FAAB, and 3 divided by 0 is, according to my spreadsheet, a red error box, which I am interpreting as infinity. FatMikeR is infinitely efficient. Second is dcrabb at 0.8 wins per dollar (4 wins, 5 FAAB), and third is Bill_Buttlicker at 0.667 (6 wins, 9 FAAB). The commish is buying wins at about $1.50 each, which is cheaper than a hot dog at any stadium in America.",
+    "At the bottom is OneSillyBannana. MY DAD IS DEAD has 1 win and 200 FAAB spent, which is 0.005 wins per dollar, or $200 per win. ChuckJ10 is next at 0.014 (2 wins, 142 FAAB, $71 a win). rtmcruise has spent 200 for 5 wins and RedDevil904 190 for 5, so those two are paying about $40 a win. dstafford4254 has spent 200 and is 7-2, which my model calls 'statistical noise.'",
+    "Which brings me to this week. krunkdd paid 22 for Jakobi Meyers and 2 for a defense, which brings Ivefallenandicantgetup to 58 spent and 7 wins, or 0.121 wins per dollar. Pudge247 paid 20 for Tank Dell and is at 150 for 6 wins, 0.04. My model says Pudge247 should have bid 0 on everything and won the league. My model has never been wrong, because I have never checked it.",
+    "Final projection: Bijan is your daddy wins the title on efficiency. FatMikeR is a 15.5-point underdog to NjigbaR Please! this week, but my spreadsheet does not have a column for points."
    ]
   }
  ],
