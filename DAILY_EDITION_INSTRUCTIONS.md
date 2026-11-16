@@ -14,6 +14,24 @@ HOW THE SITE IS LAID OUT (so you write the right content)
 - Trade Court page = trade history from data.json "tradehist" (see below).
 - Hall of Fame (gold sparkle), R.I.P. (cemetery, plus "Where Is He Now?" from ring.banners[].wihn), Contacts for Your Mom (the commish page; keep commish.title = "Contacts for Your Mom").
 
+
+## v3 LAYOUT (Nov 16, 2026) — overrides any layout notes below
+
+The site now uses the "Is This Just Foreplay" layout with A.N.A.L. branding (logo centered, A.N.A.L. under it, black/hot pink/orange, Barlow Condensed + Inter). index.html keeps an empty `<style id="latenight-c">` marker so older routine prompts never reapply the Late Night redesign; do not remove it.
+
+Tabs: Home, Recap, Power Bottoms (power rankings + team files merged), M.I.L.F., F.U.P.A. (every story and column), Climax Bracket, Aniston Hour, Payouts, Hall of Fame, R.I.P., Contacts for Your Mom. Rumor Mill, Trade Desk, Teams and Trade Court are no longer tabs.
+
+Front page order: Weekly Payout box + Climax Bracket box ("My favorites to win the Aniston": the two projected finalists, then projected champion) · Top Stories (stories[0] + side list) · The Picks (3 cards from "picks") · Live Cams · Hot Seat · Quick Matchups (from "lines"; cards show the "Final:"/"Live:" sentences of each note, so start the result sentence with "Final:" or "Live:") + Under Wire · From the Desk (columns) · Standings.
+
+New / changed data.json keys (keep every other key as before):
+- picks: {"week": N, "review": {"w": N-1, "items": [{"label","hit": true/false,"result"}], "note"}, "items": [3 objects]} — one each of type "motw" (Matchup of the Week: highest total / biggest stakes), "shit" (Shit Show of the Week: the ugliest game, usually the lowest total or worst teams), "blowie" (Blowie of the Week: biggest spread). Each item: id ("pick-motw", "pick-shit", "pick-blowie"), type, label, fav, dog, spread, total, prob (copied from the matching "lines" entry), pick ("<fav> by <spread without minus>"), title, dek, body (3 paragraphs, real numbers only). On Tuesdays fill review.items with last week's three picks graded Hit/Miss with final scores.
+- climax: the projected playoff run, NOT "if the playoffs started today". Simulate the rest of the regular season (weeks through playoff_week_start-1) with each team's season PPG (normal, sd 24) and the real Sleeper schedule (/matchups/{week} for future weeks gives matchup_id pairs), 20,000 runs in python. Seeds = teams ranked by projected wins, then projected PF. Bracket (6 teams): 4v5 and 3v6 wild card; 1 plays the 4/5 winner, 2 plays the 3/6 winner; final. Pick each game's winner as the higher-PPG team; p = round(100*Phi((ppgW-ppgL)/(24*sqrt2))). Shape: {"note","seeds":[{"seed","team","now","proj","po"}] (6), "out":[{"team","now","proj","po"}] (next 3), "wc":[{"a","b","w","p"},{...}] (4v5 first, then 3v6), "semis":[{1 vs W45},{2 vs W36}], "final":{"a","b","w","p"}, "champ": final winner, "favs":[{"team","odds"}] (the two finalists, champion first)}. Also set "bracket" to the 6 projected seed names.
+- columns: still exactly 4, but each column now carries one rumor paragraph and "rumor": true. The rumor paragraph uses a tell like "I'm HEARING things", "word around", "sources say", "I'm told", is obviously made up and absurd, says it is not confirmed (e.g. "None of this is confirmed."), is about fantasy decisions only, and sits among real-stat paragraphs. Every number in the column stays real. The front-page card pulls a sentence from that paragraph as "The whisper".
+- rumors, exits, trades: no longer shown. Carry them over unchanged (or leave as-is); do not spend time writing them.
+- tradehist: kept in data but not linked from the nav.
+- butt: unchanged (Butt Stuff button appears only when non-empty).
+
+
 STEPS
 1. The repo is attached and cloned; work in that checkout (else git clone --depth 1 https://github.com/BobLobLaw55/pb-x7q41k9m). Read data.json as the current version. Keep the exact schema: updated, week, ticker, wire, stories, standings, recap, rankings, teams, rumors, exits, trades, hotseat, history, lines, sources, columnists, columns, hof, payouts, commish, ring, bracket, tradehist, hour. history, columnists, commish, ring (including each wihn) and hour (the Aniston Hour video list, which Tyler adds to) are static; carry them over unchanged.
 2. Pull league data with WebFetch (the shell cannot reach these hosts; fetch Sleeper pages a few at a time to avoid rate limits). League id 1339786949044473856.
