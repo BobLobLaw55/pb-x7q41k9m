@@ -1,5 +1,5 @@
 {
- "updated": "Saturday, Nov 21, 2026 · 7:45 AM ET",
+ "updated": "Sunday, Nov 22, 2026 · 7:20 AM ET",
  "week": 11,
  "ticker": [
   [
@@ -41,14 +41,19 @@
  ],
  "wire": [
   {
+   "t": "Nov 21: The Titans placed Tyjae Spears (knee) on injured reserve the day before their game in Dallas, so he misses at least four games, and as of Sunday morning he is still in the Wild Goose Chase FLEX. Tony Pollard keeps the Tennessee backfield, and Michael Carter was elevated from the practice squad.",
+   "src": "NBC Sports",
+   "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-21/titans-send-tyjae-spears-knee-to-injured-reserve"
+  },
+  {
+   "t": "Nov 21: FatMikeR added Austin Ekeler and dropped Jordan Watkins, putting a second Washington running back on the Bijan is your daddy roster before Monday night. Jacory Croskey-Merritt, in the lineup, is still listed on injured reserve by Sleeper Sunday morning.",
+   "src": "League transactions (Sleeper)",
+   "url": "https://sleeper.com/leagues/1339786949044473856"
+  },
+  {
    "t": "Nov 20: Dalton Kincaid (thumb/ankle) is doubtful for Sunday after missing practice all week, and Ivefallenandicantgetup is starting Dawson Knox, added Friday for Hunter Henry (New England, bye). Carnell Tate (shoulder) is questionable but trending toward playing.",
    "src": "Yardbarker",
    "url": "https://www.yardbarker.com/nfl/articles/week_11_nfl_inactives_update_walker_ruled_out_devonta_smith_returns/s1_17668_44594034"
-  },
-  {
-   "t": "Nov 20: Tyjae Spears (knee) practiced fully Friday and is listed questionable for Titans at Cowboys; Br0phy added him Friday night and moved him into the Wild Goose Chase FLEX in place of Tucker Kraft (Green Bay, bye).",
-   "src": "Tennessee Titans / League transactions (Sleeper)",
-   "url": "https://www.tennesseetitans.com/news/week-11-injury-report-titans-at-cowboys"
   },
   {
    "t": "Nov 20: Kenneth Walker III (groin) and Jordan Addison (thumb) were ruled out for Sunday; both are on the Lead Nagger bench. Brock Bowers (Llamageddon) is questionable after returning to practice Thursday.",
@@ -71,11 +76,6 @@
    "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-19/schefter-puka-nacua-to-serve-suspension-on-ir"
   },
   {
-   "t": "Nov 19 trade: Bill_Buttlicker sent Jordan Addison to Pudge247 for Chimere Dike. Addison had thumb surgery this week and will not go on injured reserve, per Kevin O'Connell, with no return date set.",
-   "src": "League transactions (Sleeper) / 4for4",
-   "url": "https://www.4for4.com/node/182355"
-  },
-  {
    "t": "Nov 20 waivers: dcrabb claimed Elic Ayomanor for $13 and dropped Zonovan Knight, beating Br0phy ($5) and Pudge247 ($0). krunkdd had cut Ayomanor two days earlier for Justice Hill.",
    "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
@@ -83,41 +83,30 @@
  ],
  "stories": [
   {
-   "id": "sat11",
-   "kicker": "Lineup Watch",
-   "title": "Br0phy benches the bye-week tight end, dstafford4254 adds the Rams defense on their bye and drops it 60 seconds later",
-   "dek": "Friday's final injury reports, every lineup fix made overnight, and who is still starting somebody shaky on Saturday morning.",
+   "id": "sun11",
+   "kicker": "Sunday Alarm",
+   "title": "Tyjae Spears goes on IR a day after Br0phy put him in the FLEX, and Wild Goose Chase has nobody on the bench to replace him",
+   "dek": "The Titans moved Spears to injured reserve on Saturday. Br0phy has until Titans at Cowboys to find a ninth starter, and the only healthy answers are on waivers.",
    "body": [
-    "The good news first, because there isn't much of it. Br0phy fixed it. As of Friday morning Wild Goose Chase had Tucker Kraft in the FLEX with Green Bay on bye, a guaranteed zero. At 11:32 PM Friday Br0phy added Tyjae Spears as a free agent and put him in Kraft's spot. Spears practiced fully Friday and is listed questionable for Titans at Cowboys, per the Titans' injury report. He has 30.9 PPR points in 7 games, so this is a desperation play, but a desperation play beats a bye. Wild Goose Chase leads Nothing to see here 19.00 to 0.00 and is a 16.5-point favorite.",
-    "Now the bad news for dstafford4254, who had a busy Friday night. At 11:00 PM he added the Rams defense and dropped Cincinnati. At 11:01 PM he dropped the Rams defense, who are on bye, and added Carolina. That's the fastest regret in league history, and the Carolina defense is now starting for NjigbaR Please!. A minute earlier he added Myles Price and dropped Dohnte Meyers, who has outscored Price 52.8 to 29.5 this year, and started Price. In fairness, Jordan Addison is out for Minnesota Sunday, which is the whole case for Price. NjigbaR Please! trails Stroud of Turin 24.76 to 0.00.",
-    "The final injury reports, per Yardbarker's Friday inactives update. Dalton Kincaid (thumb/ankle) is doubtful, and krunkdd already swapped him out, adding Dawson Knox for Hunter Henry (New England, bye) and starting Knox at tight end for Ivefallenandicantgetup. Carnell Tate (shoulder) is questionable but trending toward playing. Kenneth Walker III (groin) and Jordan Addison (thumb) are out, both on the Lead Nagger bench. Brock Bowers (Llamageddon) and Mike Evans (Breece'sBurdenDeflowered) are questionable and both in lineups. T.J. Hockenson practiced fully and is active for MY DAD IS DEAD, and DeVonta Smith is off the report and in my FLEX.",
-    "The one to watch is Monday night in Washington. Jacory Croskey-Merritt is expected to come off injured reserve against the Bengals and is in the Bijan is your daddy lineup, and Rachaad White, starting for Llamageddon in that same backfield, was added to Friday's report with a heel injury. If White can't go, dcrabb finds out Monday night with no backup plan. Elsewhere: ChuckJ10 added Kalif Raymond and dropped Keon Coleman, and Pudge247 added Gavin Bartholomew. As of Saturday morning, nobody in the league is starting a player on bye, which might be a league record."
+    "Br0phy did the right thing Friday night. Tucker Kraft was in the Wild Goose Chase FLEX with Green Bay on bye, so at 11:32 PM he added Tyjae Spears, who had practiced fully and was listed questionable, and started him. Then on Saturday the Titans put Spears on injured reserve with the knee injury he's been playing through since October, per NBC Sports. He misses at least four games. As of 7 AM Sunday, Spears is still in the FLEX. Not a dumb move. A dead one.",
+    "Here's the problem: there is nobody on the bench. Drake Maye is out, Jordan Love, Christian Watson and Tucker Kraft are on bye with Green Bay, Dylan Sampson is on bye with Cleveland, RJ Harvey is on IR and the Seattle defense is on bye. Seven bench spots, zero playable players. The fix has to come off waivers, and the best healthy free agent with a game is Keon Coleman, 73.5 PPR points in 9 games, whom ChuckJ10 dropped Friday night. Darnell Washington (63.9) and Malachi Fields (63.0) are next. Br0phy has to drop somebody to do it, and Spears himself is the obvious cut.",
+    "The line moves. Wild Goose Chase was a 16.5-point favorite over Nothing to see here with the FLEX filled; with a zero in it, it's 13.5, a 67% favorite. Wild Goose Chase still leads 19.00 to 0.00 after Nico Collins (15.8) and Tyler Warren (3.2) played Thursday, and Bryce Young is the only quarterback on the roster with a game. Nothing to see here is 2-8 and has lost six straight, so the cushion is real, but the Climax Bracket has Wild Goose Chase as the 6 seed at 72%, and that's not a number you protect with an empty roster spot.",
+    "The rest of the Sunday watch list. Brock Bowers (ankle) is questionable for Llamageddon and the Raiders play Denver at 4:25 PM ET; his coach said he doesn't need to practice to play. Mike Evans (Achilles tendinitis) is questionable and starting for Breece'sBurdenDeflowered after one limited practice. Carnell Tate (shoulder) is questionable but trending toward playing for Ivefallenandicantgetup, and krunkdd already benched the doubtful Dalton Kincaid for Dawson Knox. Monday night, Washington's backfield decides two matchups: Rachaad White (heel, questionable) starts for Llamageddon, and FatMikeR has Jacory Croskey-Merritt starting and just added Austin Ekeler as insurance."
    ]
   },
   {
    "id": "wire11",
    "kicker": "Waiver Wire",
-   "title": "dstafford4254 adds the Rams defense on their bye, krunkdd swaps tight ends, and every Week 11 claim and add",
+   "title": "FatMikeR adds Austin Ekeler, dstafford4254 adds the Rams defense on their bye, and every Week 11 claim and add",
    "dek": "The full Week 11 waiver and free-agent log, kept apart from the trade and the injury news, plus FAAB spent by every team.",
    "body": [
+    "Saturday free-agent add (Nov 21). FatMikeR added Austin Ekeler and dropped Jordan Watkins (7:03 PM ET). Ekeler has 30.3 PPR points in 6 games for Washington and goes on the Bijan is your daddy bench behind Jacory Croskey-Merritt, who Sleeper still lists on injured reserve Sunday morning. Watkins had 45.3 points in 7 games for San Francisco. No other adds, drops or claims since Saturday morning, and Br0phy has not yet replaced Tyjae Spears, who went on IR Saturday.",
     "Friday free-agent adds (Nov 20). krunkdd added Dawson Knox and dropped Hunter Henry (1:20 PM ET), with Dalton Kincaid doubtful and Henry on bye. Pudge247 added Gavin Bartholomew with no drop (3:21 PM). ChuckJ10 added Kalif Raymond and dropped Keon Coleman (7:07 PM). dstafford4254 added Myles Price and dropped Dohnte Meyers (10:59 PM), added the Rams defense and dropped Cincinnati (11:00 PM), then dropped the Rams defense and added Carolina (11:01 PM). Br0phy added Tyjae Spears with no drop (11:32 PM) and started him. No FAAB is spent on free agents.",
     "Friday waiver claim (processed Nov 20, 2:14 AM ET). dcrabb claimed Elic Ayomanor for $13 and dropped Zonovan Knight. Br0phy bid $5 and Pudge247 bid $0, and both lost. krunkdd dropped Ayomanor on Wednesday to make room for Justice Hill. Ayomanor has 53.0 PPR points in 9 games per Sleeper, and his Titans just lost Wan'Dale Robinson for the season, which is the whole case for the bid.",
     "Thursday waiver claim (processed Nov 19, 6:44 AM ET). rtmcruise claimed J.J. McCarthy for $0 and dropped Jacoby Brissett, a day after adding Cam Ward for Demarcus Robinson. Matthew Stafford is on bye, and Cam Ward is the Breece'sBurdenDeflowered starter this week.",
     "Wednesday waiver claims (processed Nov 18, 3:05 AM ET). ChuckJ10 claimed Mark Andrews for $5 (beating $0 bids from OneSillyBannana and Pudge247), the Pittsburgh defense for $2 (dropped Indianapolis) and the Carolina defense for $2, which he cut at 5:13 AM. RedDevil904 claimed Xavier Hutchinson for $10 and dropped Kenyon Sadiq; Hutchinson scored 3.3 Thursday. krunkdd claimed Justice Hill for $14 (dropped Elic Ayomanor) and the Tampa Bay defense for $12 (dropped Baltimore). dstafford4254 claimed Dohnte Meyers for $0 and dropped Geno Smith.",
     "Week 11 free-agent adds and drops. OneSillyBannana added Michael Mayer (dropped Tyler Higbee) and the Detroit defense (dropped Reggie Virgil). MakeItRains added the Chicago defense and dropped the Rams defense. rtmcruise added Cam Ward and dropped Demarcus Robinson. FatMikeR added Jacory Croskey-Merritt and dropped Cooper Kupp. ChuckJ10 added Keon Coleman with no drop. Pudge247 added Emari Demercado with no drop (Nov 19, 9:06 AM ET; 4.9 on his bench Thursday). Bill_Buttlicker dropped Tutu Atwell (Nov 19, 7:22 PM ET). The Bill_Buttlicker and Pudge247 trade has its own story.",
     "FAAB spent, out of $200: Bijan is your daddy $0, My Dad is Dead2 $9, Llamageddon $18, Wild Goose Chase $50, Ivefallenandicantgetup $84, Achane in the Membrane $117, Lead Nagger $150, Nothing to see here $151. NjigbaR Please!, Breece'sBurdenDeflowered, Stroud of Turin and MY DAD IS DEAD are out at $200. The league has spent $1,379 of $2,400, and FatMikeR still has every dollar of his."
-   ]
-  },
-  {
-   "id": "trade11",
-   "kicker": "Trade",
-   "title": "Bill_Buttlicker trades Jordan Addison to Pudge247 for Chimere Dike, and I'd like a word with myself",
-   "dek": "The commish's receiver room lost Wan'Dale Robinson for the season and Addison to thumb surgery in the same week. So he traded one for a Titan.",
-   "body": [
-    "The trade, processed Nov 19 at 9:04 AM ET: My Dad is Dead2 gets Chimere Dike, Lead Nagger gets Jordan Addison. That's it, one for one. Addison had thumb surgery this week; Kevin O'Connell said it went well and that Addison will not go on injured reserve, but there is no return date, per 4for4. Dike has 13 catches and 29.5 PPR points in 9 games per Sleeper and scored 10.34 on the Lead Nagger bench in Week 10.",
-    "Why I did it, since I'm the one who did it: my receivers are falling apart. Titans coach Robert Saleh said Wednesday that Wan'Dale Robinson is out for the season with an ankle injury (TSN). Robinson had 81.3 points in 9 games on my bench. Addison was out this week regardless, and Tutu Atwell and Konata Mumpfield are on the Rams' bye. Dike plays for the same Tennessee team that just lost Robinson, so somebody has to catch Cam Ward's passes, and I'm betting it's my guy. Dike is in my Week 11 lineup. I also dropped Tutu Atwell Wednesday night, which was the least controversial move I've made all year.",
-    "Why Pudge247 did it: Addison has 53.9 points in 7 games this year, including 21.0 in Week 3 (on my bench, naturally), and Lead Nagger has the most points in the league and a deep enough roster to park a receiver until he's back for a playoff run. Pudge247 also added Emari Demercado as a free agent the same morning. Lead Nagger is the projected champion; he's shopping for January, and I'm shopping for Sunday.",
-    "Verdict: too early to call, and it's in the trade history as such. If Dike gets Robinson's targets and Addison misses a month, I win the trade. If Addison is back for the Wild Card round and Dike keeps catching two balls a game, I traded a starter for a guy I'll cut in December. Either way, I'm 7-3, the projected 2 seed, and I just made a trade with the projected champion. Somebody check on me."
    ]
   },
   {
@@ -130,6 +119,18 @@
     "The other Thursday games. Wild Goose Chase leads Nothing to see here 19.00 to 0.00: Nico Collins caught three passes for 58 yards and a touchdown (15.8) and Tyler Warren added 3.2, while Woody Marks sat out for ChuckJ10. Breece'sBurdenDeflowered leads Achane in the Membrane 16.00 to 15.40 in the strangest race of the night: the Houston defense held the Colts to 3 points for 16.0, and David Montgomery ran 26 times for 107 yards for 15.4. Llamageddon leads Lead Nagger 6.70 to 0.00 because Jonathan Taylor, the top-scoring running back on any roster in this league, ran into that same Houston defense.",
     "On the benches: Dalton Schultz scored 2.1 for Breece'sBurdenDeflowered, Tank Dell (5.7) and Emari Demercado (4.9) scored for Lead Nagger, and Seth McGowan scored 6.48 for MY DAD IS DEAD before he was ruled out with a hamstring injury, per NFL Network's Jane Slater. Pudge247 added Demercado as a free agent Wednesday, so at least he put up something, just not anywhere it counts.",
     "The Week 11 payout is the highest-scoring defense, and the Houston defense on Breece'sBurdenDeflowered leads with 16.0. The other 11 starting defenses play Sunday and Monday. The Climax Bracket now counts each Thursday leader as a Week 11 winner, which moves Stroud of Turin to the 3 seed and drops Lead Nagger to the 5 seed. Lead Nagger is still the projected champion, at 21%, and Stroud of Turin has the best title odds at 23%."
+   ]
+  },
+  {
+   "id": "trade11",
+   "kicker": "Trade",
+   "title": "Bill_Buttlicker trades Jordan Addison to Pudge247 for Chimere Dike, and I'd like a word with myself",
+   "dek": "The commish's receiver room lost Wan'Dale Robinson for the season and Addison to thumb surgery in the same week. So he traded one for a Titan.",
+   "body": [
+    "The trade, processed Nov 19 at 9:04 AM ET: My Dad is Dead2 gets Chimere Dike, Lead Nagger gets Jordan Addison. That's it, one for one. Addison had thumb surgery this week; Kevin O'Connell said it went well and that Addison will not go on injured reserve, but there is no return date, per 4for4. Dike has 13 catches and 29.5 PPR points in 9 games per Sleeper and scored 10.34 on the Lead Nagger bench in Week 10.",
+    "Why I did it, since I'm the one who did it: my receivers are falling apart. Titans coach Robert Saleh said Wednesday that Wan'Dale Robinson is out for the season with an ankle injury (TSN). Robinson had 81.3 points in 9 games on my bench. Addison was out this week regardless, and Tutu Atwell and Konata Mumpfield are on the Rams' bye. Dike plays for the same Tennessee team that just lost Robinson, so somebody has to catch Cam Ward's passes, and I'm betting it's my guy. Dike is in my Week 11 lineup. I also dropped Tutu Atwell Wednesday night, which was the least controversial move I've made all year.",
+    "Why Pudge247 did it: Addison has 53.9 points in 7 games this year, including 21.0 in Week 3 (on my bench, naturally), and Lead Nagger has the most points in the league and a deep enough roster to park a receiver until he's back for a playoff run. Pudge247 also added Emari Demercado as a free agent the same morning. Lead Nagger is the projected champion; he's shopping for January, and I'm shopping for Sunday.",
+    "Verdict: too early to call, and it's in the trade history as such. If Dike gets Robinson's targets and Addison misses a month, I win the trade. If Addison is back for the Wild Card round and Dike keeps catching two balls a game, I traded a starter for a guy I'll cut in December. Either way, I'm 7-3, the projected 2 seed, and I just made a trade with the projected champion. Somebody check on me."
    ]
   }
  ],
@@ -439,15 +440,15 @@
    "past": [
     "Skatt Men (2025, 5-9)"
    ],
-   "w7": "vs. Nothing to see here · favored by 16.5 (70%)",
+   "w7": "vs. Nothing to see here · favored by 13.5 (67%)",
    "inj": [
     "Drake Maye (ankle): Out per Sleeper; NE on bye in Week 11; reportedly a fractured ankle, could miss the rest of the season (NFL Network)",
     "RJ Harvey (knee): IR per Sleeper",
-    "Tyjae Spears (knee): Questionable; full practice Friday (Titans injury report)"
+    "Tyjae Spears (knee): placed on injured reserve Saturday, out at least four games; still in the FLEX as of Sunday morning (NBC Sports)"
    ],
    "body": [
     "Wild Goose Chase scored 89.82 in Week 10, the low of the week, and lost to Ivefallenandicantgetup by 15.22. Drake Maye left in the first quarter after 3.02, and Tyler Warren (2.4) and Tucker Kraft (2.9) didn't help. Nico Collins (24.4) and CeeDee Lamb (20.2) did their part. The best possible lineup was 97.60, still short.",
-    "Week 11 is Nothing to see here as a 16.5-point favorite, and Wild Goose Chase leads 19.00 to 0.00 after Nico Collins (15.8) and Tyler Warren (3.2) played Thursday. Maye is out and Jordan Love, Christian Watson, Tucker Kraft, Dylan Sampson and the Seattle defense are on bye, but Br0phy added Tyjae Spears Friday night and put him in Kraft's FLEX spot. 5-5, the projected 6 seed at 72%."
+    "Week 11 is Nothing to see here, now as a 13.5-point favorite, and Wild Goose Chase leads 19.00 to 0.00 after Nico Collins (15.8) and Tyler Warren (3.2) played Thursday. Maye is out and Jordan Love, Christian Watson, Tucker Kraft, Dylan Sampson and the Seattle defense are on bye. Br0phy added Tyjae Spears Friday night for the FLEX, and the Titans put Spears on IR Saturday, so Br0phy needs a free agent before Titans at Cowboys. 5-5, the projected 6 seed at 72%."
    ]
   },
   {
@@ -660,7 +661,7 @@
    ],
    "body": [
     "Bijan is your daddy beat NjigbaR Please! 128.50 to 101.98 as a 15.5-point underdog. Deebo Samuel Sr. (28.54), Jayden Daniels (20.76) and Stefon Diggs (20.3) led it, while Cam Skattebo (27.2) and Ryan Flournoy (19.1) scored 46.3 on the bench.",
-    "Week 11 is Ivefallenandicantgetup as a 12.5-point underdog, with Bijan Robinson, Zach Charbonnet, Jadarian Price and Cooper Kupp on bye. Jacory Croskey-Merritt is expected to come off IR for Monday night against the Bengals and is in the lineup. FatMikeR still has $200 in FAAB and a 2% playoff chance. Spend it."
+    "Week 11 is Ivefallenandicantgetup as a 12.5-point underdog, with Bijan Robinson, Zach Charbonnet, Jadarian Price and Cooper Kupp on bye. Jacory Croskey-Merritt is expected to come off IR for Monday night against the Bengals and is in the lineup. FatMikeR still has $200 in FAAB and a 2% playoff chance. Spend it. Saturday night FatMikeR added Austin Ekeler and dropped Jordan Watkins, so he has two Washington backs for Monday night."
    ]
   },
   {
@@ -678,7 +679,7 @@
     "Sack-Joe (2023, 3rd place)",
     "We're not worthy!! (2025, 11-3 top seed)"
    ],
-   "w7": "vs. Wild Goose Chase · underdog by 16.5",
+   "w7": "vs. Wild Goose Chase · underdog by 13.5",
    "inj": [
     "Woody Marks (concussion): Out per Sleeper; inactive Thursday",
     "Michael Wilson (neck): IR per Sleeper",
@@ -865,8 +866,8 @@
     "Down 24.76 to 0.00, then dstafford4254 added the Rams defense on their bye and dropped it one minute later. Start trying, starting with checking the bye list."
    ],
    [
-    "Lead Nagger",
-    "Most points in the league, down 6.70 to 0.00, and Kenneth Walker III and Jordan Addison are both ruled out. Pudge247 still has 10.6 Thursday bench points and zero in the lineup."
+    "Wild Goose Chase",
+    "Tyjae Spears went on IR Saturday and is still in the FLEX, and the bench is all byes and injuries. Br0phy, Keon Coleman is sitting on waivers. Start trying before Titans at Cowboys."
    ],
    [
     "MY DAD IS DEAD",
@@ -879,8 +880,8 @@
     "C.J. Stroud threw three touchdowns Thursday, RedDevil904 leads 24.76 to 0.00, and the simulator now gives him the best title odds in the league at 23%."
    ],
    [
-    "Wild Goose Chase",
-    "Br0phy pulled the bye-week Tucker Kraft out of the FLEX at 11:32 PM Friday and leads 19.00 to 0.00. Took long enough."
+    "Bijan is your daddy",
+    "FatMikeR still hasn't spent a dollar of FAAB, but he grabbed Austin Ekeler for free Saturday night as insurance on Jacory Croskey-Merritt. A $0 hedge is still a hedge."
    ],
    [
     "Ivefallenandicantgetup",
@@ -894,7 +895,7 @@
    "dog": "NjigbaR Please!",
    "spread": "-11.5",
    "total": "253.7",
-   "note": "Season PPG: Stroud of Turin 129.79, NjigbaR Please! 123.96 (gap 5.83). Nudged 6 points toward Stroud of Turin because NjigbaR Please! loses Jaxon Smith-Njigba (Seattle), Kyren Williams (Rams), Harold Fannin Jr. and KC Concepcion Jr. (Cleveland) to byes, four Week 10 starters. Stroud of Turin loses Quinshon Judkins (Cleveland) and DeMario Douglas (New England). dstafford4254 has Alvin Kamara, Kaelon Black and Jordyn Tyson to plug in, the same three who scored 50.0 on the bench last week. Waivers: RedDevil904 claimed Xavier Hutchinson ($10), who scored 15.8 in Week 10 and plays Thursday night. dstafford4254 claimed Dohnte Meyers ($0) and dropped Geno Smith, whose Jets are expected to start Cade Klubnik. Thursday preview: C.J. Stroud and Hutchinson play tonight against the Colts. Sleeper lists Jordyn Tyson (chest) as questionable for NjigbaR Please!. Live: Stroud of Turin 24.76, NjigbaR Please! 0.00 after Thursday night. C.J. Stroud threw three touchdowns for 21.46 in Houston's 26-3 win and Xavier Hutchinson added 3.3; NjigbaR Please! plays everyone else Sunday and Monday. Saturday update: dstafford4254 swapped Dohnte Meyers for Myles Price, with Jordan Addison out for Minnesota, and added the Rams defense (bye) and then Carolina a minute later. Jordyn Tyson is questionable. No line change.",
+   "note": "Season PPG: Stroud of Turin 129.79, NjigbaR Please! 123.96 (gap 5.83). Nudged 6 points toward Stroud of Turin because NjigbaR Please! loses Jaxon Smith-Njigba (Seattle), Kyren Williams (Rams), Harold Fannin Jr. and KC Concepcion Jr. (Cleveland) to byes, four Week 10 starters. Stroud of Turin loses Quinshon Judkins (Cleveland) and DeMario Douglas (New England). dstafford4254 has Alvin Kamara, Kaelon Black and Jordyn Tyson to plug in, the same three who scored 50.0 on the bench last week. Waivers: RedDevil904 claimed Xavier Hutchinson ($10), who scored 15.8 in Week 10 and plays Thursday night. dstafford4254 claimed Dohnte Meyers ($0) and dropped Geno Smith, whose Jets are expected to start Cade Klubnik. Thursday preview: C.J. Stroud and Hutchinson play tonight against the Colts. Sleeper lists Jordyn Tyson (chest) as questionable for NjigbaR Please!. Live: Stroud of Turin 24.76, NjigbaR Please! 0.00 after Thursday night. C.J. Stroud threw three touchdowns for 21.46 in Houston's 26-3 win and Xavier Hutchinson added 3.3; NjigbaR Please! plays everyone else Sunday and Monday. Saturday update: dstafford4254 swapped Dohnte Meyers for Myles Price, with Jordan Addison out for Minnesota, and added the Rams defense (bye) and then Carolina a minute later. Jordyn Tyson is questionable. No line change. Sunday update: no moves since Saturday, Kyren Williams (Rams, bye) stays on the NjigbaR Please! bench, and Jordyn Tyson starts. No line change.",
    "prob": 64
   },
   {
@@ -902,23 +903,23 @@
    "dog": "Llamageddon",
    "spread": "-13.5",
    "total": "255.6",
-   "note": "Season PPG: Lead Nagger 133.17, Llamageddon 122.41 (gap 10.76). Nudged 3 points toward Lead Nagger because Llamageddon loses Drake London (Atlanta, bye) and the Green Bay defense (bye), and Sleeper lists Brock Bowers as out and Puka Nacua on IR. Lead Nagger loses Corey Kiner (New England, bye), and Kenneth Walker III (groin) is still listed as out. Lead Nagger has the most points in the league (1,331.74). Brock Bowers' ankle injury is expected to be minor and he is day-to-day per Fantasy Alarm; Sleeper now lists him as questionable. No line change until he practices. Pudge247 lost $0 bids on Mark Andrews and Xavier Hutchinson. Thursday preview: Jonathan Taylor (Llamageddon) and Tank Dell (Lead Nagger) play tonight. Live: Llamageddon 6.70, Lead Nagger 0.00 after Thursday night. Jonathan Taylor got 6.7 against the Houston defense, and Tank Dell (5.7) and Emari Demercado (4.9) scored on the Lead Nagger bench. Friday update: dcrabb claimed Elic Ayomanor ($13) for Zonovan Knight, Bowers was limited Thursday, Walker didn't practice, and Puka Nacua was suspended three games, served on IR. No line change. Saturday update: Kenneth Walker III and Jordan Addison are ruled out on the Lead Nagger bench, Brock Bowers is questionable, and Rachaad White (heel) was added to Friday's injury report before Llamageddon's Monday night start. No line change.",
+   "note": "Season PPG: Lead Nagger 133.17, Llamageddon 122.41 (gap 10.76). Nudged 3 points toward Lead Nagger because Llamageddon loses Drake London (Atlanta, bye) and the Green Bay defense (bye), and Sleeper lists Brock Bowers as out and Puka Nacua on IR. Lead Nagger loses Corey Kiner (New England, bye), and Kenneth Walker III (groin) is still listed as out. Lead Nagger has the most points in the league (1,331.74). Brock Bowers' ankle injury is expected to be minor and he is day-to-day per Fantasy Alarm; Sleeper now lists him as questionable. No line change until he practices. Pudge247 lost $0 bids on Mark Andrews and Xavier Hutchinson. Thursday preview: Jonathan Taylor (Llamageddon) and Tank Dell (Lead Nagger) play tonight. Live: Llamageddon 6.70, Lead Nagger 0.00 after Thursday night. Jonathan Taylor got 6.7 against the Houston defense, and Tank Dell (5.7) and Emari Demercado (4.9) scored on the Lead Nagger bench. Friday update: dcrabb claimed Elic Ayomanor ($13) for Zonovan Knight, Bowers was limited Thursday, Walker didn't practice, and Puka Nacua was suspended three games, served on IR. No line change. Saturday update: Kenneth Walker III and Jordan Addison are ruled out on the Lead Nagger bench, Brock Bowers is questionable, and Rachaad White (heel) was added to Friday's injury report before Llamageddon's Monday night start. No line change. Sunday update: Brock Bowers is questionable for the 4:25 PM ET game against Denver; Raiders coach Klint Kubiak said he doesn't need to practice to play. No line change.",
    "prob": 67
   },
   {
    "fav": "Wild Goose Chase",
    "dog": "Nothing to see here",
-   "spread": "-16.5",
+   "spread": "-13.5",
    "total": "232.8",
-   "note": "Season PPG: Wild Goose Chase 127.56, Nothing to see here 105.25 (gap 22.30). Nudged 6 points toward Nothing to see here because Wild Goose Chase loses Drake Maye (ankle, out), Jordan Love, Christian Watson and Tucker Kraft (Green Bay, bye), Dylan Sampson (Cleveland, bye) and the Seattle defense (bye). Bryce Young is the only Wild Goose Chase quarterback with a game. Nothing to see here loses Rhamondre Stevenson (New England, bye) off the bench, and Woody Marks (concussion) is unlikely for Thursday per DeMeco Ryans. Maye is reportedly believed to have a fractured ankle. ChuckJ10 claimed Mark Andrews ($5, 8 catches for 16.2 in Week 10) and the Pittsburgh defense ($2) on waivers, and the Texans ruled Woody Marks out for Thursday on Wednesday. ChuckJ10 also added Keon Coleman as a free agent. No line change; the 16.5 already assumed no Marks. Live: Wild Goose Chase 19.00, Nothing to see here 0.00 after Thursday night. Nico Collins caught a touchdown for 15.8 and Tyler Warren added 3.2, while Woody Marks sat out for Nothing to see here. As of Friday morning Br0phy has Tucker Kraft (Green Bay, bye) in the FLEX. Saturday update: Br0phy added Tyjae Spears (questionable, full practice Friday) and started him in place of Tucker Kraft. ChuckJ10 added Kalif Raymond for Keon Coleman. No line change; the 16.5 assumed a full lineup.",
-   "prob": 70
+   "note": "Season PPG: Wild Goose Chase 127.56, Nothing to see here 105.25 (gap 22.30). Nudged 6 points toward Nothing to see here because Wild Goose Chase loses Drake Maye (ankle, out), Jordan Love, Christian Watson and Tucker Kraft (Green Bay, bye), Dylan Sampson (Cleveland, bye) and the Seattle defense (bye). Bryce Young is the only Wild Goose Chase quarterback with a game. Nothing to see here loses Rhamondre Stevenson (New England, bye) off the bench, and Woody Marks (concussion) is unlikely for Thursday per DeMeco Ryans. Maye is reportedly believed to have a fractured ankle. ChuckJ10 claimed Mark Andrews ($5, 8 catches for 16.2 in Week 10) and the Pittsburgh defense ($2) on waivers, and the Texans ruled Woody Marks out for Thursday on Wednesday. ChuckJ10 also added Keon Coleman as a free agent. No line change; the 16.5 already assumed no Marks. Live: Wild Goose Chase 19.00, Nothing to see here 0.00 after Thursday night. Nico Collins caught a touchdown for 15.8 and Tyler Warren added 3.2, while Woody Marks sat out for Nothing to see here. As of Friday morning Br0phy has Tucker Kraft (Green Bay, bye) in the FLEX. Saturday update: Br0phy added Tyjae Spears (questionable, full practice Friday) and started him in place of Tucker Kraft. ChuckJ10 added Kalif Raymond for Keon Coleman. No line change; the 16.5 assumed a full lineup. Sunday update: the Titans put Tyjae Spears on injured reserve Saturday, and he is still in the Wild Goose Chase FLEX. Nudged 3 more points toward Nothing to see here (16.5 to 13.5) because Br0phy has no healthy bench player with a game; the fix is a free agent like Keon Coleman (73.5 points), whom ChuckJ10 dropped Friday.",
+   "prob": 67
   },
   {
    "fav": "Achane in the Membrane",
    "dog": "Breece'sBurdenDeflowered",
    "spread": "-6.5",
    "total": "243.7",
-   "note": "Season PPG: Achane in the Membrane 125.99, Breece'sBurdenDeflowered 117.74 (gap 8.25). Nudged 2 points toward Breece'sBurdenDeflowered because Achane in the Membrane loses three Week 10 starters and its defense to byes (Blake Corum, Matthew Golden, Kyle Pitts Sr., the Rams defense) while Breece'sBurdenDeflowered loses Matthew Stafford (Rams, bye); Josh Jacobs and A.J. Brown are out and on bye anyway. rtmcruise added Cam Ward and then claimed J.J. McCarthy for $0, dropping Jacoby Brissett (340 yards Monday), so the Breece'sBurdenDeflowered quarterback is now Ward or McCarthy. David Montgomery (groin) was a full participant Monday and looks likely to lead the Houston backfield Thursday, which gives MakeItRains a running back back from the bench. MakeItRains also added the Chicago defense for the Rams defense, which is on bye. Thursday preview: Houston ruled out Marvin Harrison Jr. (on the Achane in the Membrane bench) and Woody Marks, so Montgomery should lead the backfield tonight. The Houston defense, on Breece'sBurdenDeflowered, also plays tonight. No line change. Live: Breece'sBurdenDeflowered 16.00, Achane in the Membrane 15.40 after Thursday night. The Houston defense held the Colts to 3 points and David Montgomery ran for 107 yards; Jaylen Waddle (concussion) practiced fully Thursday. Saturday update: Mike Evans is questionable for Breece'sBurdenDeflowered and Jaylen Waddle is active for Achane in the Membrane. No line change.",
+   "note": "Season PPG: Achane in the Membrane 125.99, Breece'sBurdenDeflowered 117.74 (gap 8.25). Nudged 2 points toward Breece'sBurdenDeflowered because Achane in the Membrane loses three Week 10 starters and its defense to byes (Blake Corum, Matthew Golden, Kyle Pitts Sr., the Rams defense) while Breece'sBurdenDeflowered loses Matthew Stafford (Rams, bye); Josh Jacobs and A.J. Brown are out and on bye anyway. rtmcruise added Cam Ward and then claimed J.J. McCarthy for $0, dropping Jacoby Brissett (340 yards Monday), so the Breece'sBurdenDeflowered quarterback is now Ward or McCarthy. David Montgomery (groin) was a full participant Monday and looks likely to lead the Houston backfield Thursday, which gives MakeItRains a running back back from the bench. MakeItRains also added the Chicago defense for the Rams defense, which is on bye. Thursday preview: Houston ruled out Marvin Harrison Jr. (on the Achane in the Membrane bench) and Woody Marks, so Montgomery should lead the backfield tonight. The Houston defense, on Breece'sBurdenDeflowered, also plays tonight. No line change. Live: Breece'sBurdenDeflowered 16.00, Achane in the Membrane 15.40 after Thursday night. The Houston defense held the Colts to 3 points and David Montgomery ran for 107 yards; Jaylen Waddle (concussion) practiced fully Thursday. Saturday update: Mike Evans is questionable for Breece'sBurdenDeflowered and Jaylen Waddle is active for Achane in the Membrane. No line change. Sunday update: Mike Evans (Achilles tendinitis) is still questionable after his first practice since Oct. 19 and is starting for Breece'sBurdenDeflowered. No line change.",
    "prob": 58
   },
   {
@@ -926,7 +927,7 @@
    "dog": "Bijan is your daddy",
    "spread": "-12.5",
    "total": "234.2",
-   "note": "Season PPG: Ivefallenandicantgetup 121.19, Bijan is your daddy 112.97 (gap 8.22). Nudged 4 points toward Ivefallenandicantgetup because Bijan is your daddy loses Bijan Robinson (Atlanta, bye) and Zach Charbonnet, Jadarian Price and Cooper Kupp (Seattle, bye). FatMikeR still has Cam Skattebo (27.2 on the bench in Week 10). Ivefallenandicantgetup loses only Hunter Henry (New England, bye), and krunkdd gets Chris Godwin Jr. and Courtland Sutton back from byes. krunkdd claimed Justice Hill ($14) and the Tampa Bay defense ($12) on waivers. FatMikeR has still spent $0 of $200. Thursday preview: FatMikeR added Jacory Croskey-Merritt (eligible to come off IR this week) for Cooper Kupp, who is on bye anyway. Sleeper lists Dalton Kincaid (thumb), Carnell Tate (shoulder) and Jakobi Meyers (appendix) as questionable for Ivefallenandicantgetup; no line change until Friday's reports. Friday update: Dalton Kincaid (thumb/ankle) and Bhayshul Tuten (ankle/foot) did not practice Thursday, and Carnell Tate and Jakobi Meyers were limited. Jacory Croskey-Merritt practiced fully and is in the Bijan is your daddy lineup. No line change yet. Saturday update: Dalton Kincaid is doubtful, and krunkdd added Dawson Knox for Hunter Henry and started him. Carnell Tate is questionable but trending toward playing, and Jacory Croskey-Merritt is expected off IR for Monday night. No line change.",
+   "note": "Season PPG: Ivefallenandicantgetup 121.19, Bijan is your daddy 112.97 (gap 8.22). Nudged 4 points toward Ivefallenandicantgetup because Bijan is your daddy loses Bijan Robinson (Atlanta, bye) and Zach Charbonnet, Jadarian Price and Cooper Kupp (Seattle, bye). FatMikeR still has Cam Skattebo (27.2 on the bench in Week 10). Ivefallenandicantgetup loses only Hunter Henry (New England, bye), and krunkdd gets Chris Godwin Jr. and Courtland Sutton back from byes. krunkdd claimed Justice Hill ($14) and the Tampa Bay defense ($12) on waivers. FatMikeR has still spent $0 of $200. Thursday preview: FatMikeR added Jacory Croskey-Merritt (eligible to come off IR this week) for Cooper Kupp, who is on bye anyway. Sleeper lists Dalton Kincaid (thumb), Carnell Tate (shoulder) and Jakobi Meyers (appendix) as questionable for Ivefallenandicantgetup; no line change until Friday's reports. Friday update: Dalton Kincaid (thumb/ankle) and Bhayshul Tuten (ankle/foot) did not practice Thursday, and Carnell Tate and Jakobi Meyers were limited. Jacory Croskey-Merritt practiced fully and is in the Bijan is your daddy lineup. No line change yet. Saturday update: Dalton Kincaid is doubtful, and krunkdd added Dawson Knox for Hunter Henry and started him. Carnell Tate is questionable but trending toward playing, and Jacory Croskey-Merritt is expected off IR for Monday night. No line change. Sunday update: FatMikeR added Austin Ekeler (30.3 points in 6 games) Saturday night as Washington backfield insurance, with Jacory Croskey-Merritt still listed on IR by Sleeper. Ekeler is on the bench. No line change.",
    "prob": 66
   },
   {
@@ -934,11 +935,15 @@
    "dog": "MY DAD IS DEAD",
    "spread": "-16.5",
    "total": "217.0",
-   "note": "Season PPG: My Dad is Dead2 116.96, MY DAD IS DEAD 100.08 (gap 16.89). Spread is the PPG gap, no nudge. Tutu Atwell and Konata Mumpfield (Rams, bye) and Tyler Higbee (Rams, bye) are out of play, Sleeper lists Jordan Addison, DeVonta Smith and Kyle Monangai as out and Wan'Dale Robinson as questionable for My Dad is Dead2, and Ladd McConkey, T.J. Hockenson and Davante Adams (IR) are out for MY DAD IS DEAD. Both benches got thinner, so call it a wash. Bill_Buttlicker is coming off a season-high 153.88; OneSillyBannana is coming off a loss with the winning lineup on the bench. Jordan Addison needs thumb surgery and is expected to miss a few weeks; Kyle Monangai no longer carries an injury designation on Sleeper. OneSillyBannana added Michael Mayer and the Detroit defense as free agents. Seth McGowan plays tonight for MY DAD IS DEAD. Friday update: Bill_Buttlicker traded Jordan Addison to Pudge247 for Chimere Dike, who is in the Week 11 lineup, Wan'Dale Robinson is out for the season, and DeVonta Smith practiced fully. Seth McGowan scored 6.48 on the MY DAD IS DEAD bench Thursday before leaving with a hamstring injury. Neither team has a starter on the board yet. The line stays 16.5. Saturday update: DeVonta Smith is off the injury report and in the My Dad is Dead2 FLEX, and T.J. Hockenson practiced fully and starts for MY DAD IS DEAD. No line change.",
+   "note": "Season PPG: My Dad is Dead2 116.96, MY DAD IS DEAD 100.08 (gap 16.89). Spread is the PPG gap, no nudge. Tutu Atwell and Konata Mumpfield (Rams, bye) and Tyler Higbee (Rams, bye) are out of play, Sleeper lists Jordan Addison, DeVonta Smith and Kyle Monangai as out and Wan'Dale Robinson as questionable for My Dad is Dead2, and Ladd McConkey, T.J. Hockenson and Davante Adams (IR) are out for MY DAD IS DEAD. Both benches got thinner, so call it a wash. Bill_Buttlicker is coming off a season-high 153.88; OneSillyBannana is coming off a loss with the winning lineup on the bench. Jordan Addison needs thumb surgery and is expected to miss a few weeks; Kyle Monangai no longer carries an injury designation on Sleeper. OneSillyBannana added Michael Mayer and the Detroit defense as free agents. Seth McGowan plays tonight for MY DAD IS DEAD. Friday update: Bill_Buttlicker traded Jordan Addison to Pudge247 for Chimere Dike, who is in the Week 11 lineup, Wan'Dale Robinson is out for the season, and DeVonta Smith practiced fully. Seth McGowan scored 6.48 on the MY DAD IS DEAD bench Thursday before leaving with a hamstring injury. Neither team has a starter on the board yet. The line stays 16.5. Saturday update: DeVonta Smith is off the injury report and in the My Dad is Dead2 FLEX, and T.J. Hockenson practiced fully and starts for MY DAD IS DEAD. No line change. Sunday update: no moves since Saturday on either side. No line change.",
    "prob": 70
   }
  ],
  "sources": [
+  [
+   "Titans send Tyjae Spears (knee) to injured reserve (NBC Sports)",
+   "https://www.nbcsports.com/fantasy/football/player-news/2026-11-21/titans-send-tyjae-spears-knee-to-injured-reserve"
+  ],
   [
    "Week 11 NFL inactives update: Walker ruled out, DeVonta Smith returns (Yardbarker)",
    "https://www.yardbarker.com/nfl/articles/week_11_nfl_inactives_update_walker_ruled_out_devonta_smith_returns/s1_17668_44594034"
@@ -1036,35 +1041,35 @@
    "rumor": true
   },
   {
-   "id": "dale-comeback",
+   "id": "dale-spears",
    "by": "dale",
    "kicker": "Lawn Chair",
-   "rumor": true,
-   "title": "Oliver Klozoff's six-step plan for dstafford4254 to erase a 24.76-point Thursday hole",
-   "dek": "NjigbaR Please! is down 24.76 to 0.00 before it plays a snap. Oliver Klozoff has a plan, a lawn chair and no business giving advice.",
+   "title": "Oliver Klozoff's seven-step plan for Br0phy's empty FLEX, ranked from good to illegal",
+   "dek": "Tyjae Spears is on IR. Wild Goose Chase has seven bench spots and nobody to play. Pull up a chair.",
    "body": [
-    "Folks, I watched Thursday night from the lawn chair with the bad leg, and I saw C.J. Stroud throw three touchdowns for 21.46 points, Xavier Hutchinson add 3.3, and NjigbaR Please! go down 24.76 to 0.00 without anybody on the field. dstafford4254, I'm here for you. Here is your plan.",
-    "1. Bench everybody. Think about it: if you score 0.00, you can only lose by 24.76 plus whatever Stroud of Turin does on Sunday. If you score points, you're just giving the other guy something to beat. Defense wins championships.",
-    "2. Stroud of Turin averages 129.79 points a week and has already scored 24.76. That means it only has 105.03 left in the tank. NjigbaR Please! averages 123.96. 123.96 is bigger than 105.03. You're actually up 18.93. Nobody's told the scoreboard yet.",
-    "3. Start Alvin Kamara, Kaelon Black and Jordyn Tyson. They scored 50.0 on your bench last week, and points on the bench clearly don't count, so the only logical move is to put them somewhere they do. Wait, you already did this. Then ignore step 1. 4. Your best score this year is 162.14, in Week 4. Just do that again. 5. Your worst is 84.56, in Week 5. Don't do that again. That's the whole playbook. 6. The line was 11.5. You're down 24.76. That's only 13.26 worse than the line, which is basically the line.",
-    "Word around the cul-de-sac is that dstafford4254 has already emailed the commish asking whether Thursday points can be refunded for teams that had nobody playing, like a rain check at a ballgame, and that Bill_Buttlicker replied with a picture of the scoreboard. None of this is confirmed, and I made up the email, the picture and the cul-de-sac.",
-    "Bottom line: Stroud of Turin is still a 64% favorite on the line, and that number came out before Thursday. I've got NjigbaR Please! by a touchdown, or eight, whatever's easier. Chair's not getting any younger, and neither is this lead."
-   ]
+    "I've been sitting in this lawn chair since Saturday afternoon, when the Titans put Tyjae Spears on injured reserve, and I haven't moved because I knew Br0phy would need me. Here's the situation, and every number here is real: Spears is in the Wild Goose Chase FLEX, he's out at least four games, and the bench is Drake Maye (out), Jordan Love, Christian Watson, Tucker Kraft (all Green Bay, bye), Dylan Sampson (Cleveland, bye), RJ Harvey (IR) and the Seattle defense (bye). That's a bench built like my shed: full, and none of it works.",
+    "So here's my plan. 1. Leave Spears in. He scored 30.9 points in 7 games while hurt, so imagine what he does fully rested on IR. Rest is a skill. 2. Start Christian Watson anyway. He has 183.6 points this year, the most on the roster, and a bye is just a game where nobody can tackle him. 3. Move Bryce Young to the FLEX and Drake Maye to quarterback. Two quarterbacks is twice the passing.",
+    "4. Do NOT pick up Keon Coleman. Yes, he has 73.5 points in 9 games and plays Sunday for Buffalo. But ChuckJ10 dropped him Friday, and you never take a man's leftovers when you're beating him 19.00 to 0.00. That's just rude. 5. If you must add someone, add Darnell Washington (63.9 points), because he shares a last name with a whole city and that's a lot of home-field advantage.",
+    "I'm HEARING things from the folding-chair community, and I'll be honest, none of this is confirmed. Sources say Br0phy saw the Spears news Saturday, opened the app, and spent forty minutes trying to drag Tucker Kraft onto the Titans. Word around the cul-de-sac is he then filed a commissioner request asking for a 'bye-week exemption' that lets him start Green Bay players as long as he watches their highlights from last week. None of this is confirmed. I support all of it.",
+    "6. Trust the math. Wild Goose Chase scores 127.56 a week, Nothing to see here scores 105.25, and the line only dropped from 16.5 to 13.5. Three points is nothing. That's one field goal, and Spears isn't even kicking. 7. Go to bed. The 6 seed at 72% playoff odds isn't going anywhere, unless it is.",
+    "Real talk from the chair, just this once: put Keon Coleman in the FLEX, cut Spears, and do it before Titans at Cowboys. Then ignore steps 1 through 7. Especially 2."
+   ],
+   "rumor": true
   },
   {
-   "id": "gary-thursday",
+   "id": "gary-washington",
    "by": "gary",
    "kicker": "Numbers Don't Lie (She Does)",
-   "rumor": true,
-   "title": "Connie Lingus: the five teams that scored Thursday are exactly .500, so Thursday points are worth exactly nothing",
-   "dek": "81.86 points went up on Thursday night. Connie Lingus ran the numbers and has determined, with total confidence, that none of them matter.",
+   "title": "Connie Lingus: three Washington running backs, two fantasy teams, and why Monday night is mathematically a tie",
+   "dek": "Rachaad White, Jacory Croskey-Merritt and Austin Ekeler have 151.1 combined PPR points. I divided that by everything I could find.",
    "body": [
-    "Five teams in this league got points on Thursday night: Stroud of Turin (24.76), Wild Goose Chase (19.00), Breece'sBurdenDeflowered (16.00), Achane in the Membrane (15.40) and Llamageddon (6.70). Their combined record coming into Week 11 is 25-25. The seven teams that got nothing are a combined 35-35. Both groups are exactly .500. You know what that tells me? Thursday points have a predictive value of precisely zero. I'm not saying Stroud of Turin is tied with NjigbaR Please!. The math is saying it.",
-    "Let's go deeper, because I always do. Seven starters played on Thursday and scored 81.86 points, or 11.69 per starter. The average starting slot in this league has scored 13.31 points per week this season. So the Thursday starters underperformed the league by 1.62 points each, which means every team that got Thursday points is technically losing to its own average. Breece'sBurdenDeflowered is up 0.60 on Achane in the Membrane. That's 0.60 points of pure regression waiting to happen.",
-    "Stroud of Turin's 24.76 is 19.1% of its 129.79 season scoring average. With roughly 81% of the week left to play, the 24.76 is, statistically speaking, a rounding error with a touchdown pass attached. And Llamageddon's 6.70 lead on Lead Nagger came from Jonathan Taylor, the top-scoring running back on any roster in the league, scoring less than the 10.6 that Tank Dell and Emari Demercado put up on the Lead Nagger bench. When the best back in the league gets outscored by a bench, I call that a market inefficiency. I don't know which market.",
-    "Sources say Br0phy left Tucker Kraft in the Wild Goose Chase FLEX on purpose, because a player on bye has a standard deviation of exactly 0.00, which makes Kraft the lowest-risk asset on the roster. I'm told Br0phy is calling it 'volatility hedging.' None of this is confirmed, and Kraft is still on bye.",
-    "The model's call: the Climax Bracket still has Lead Nagger winning the Aniston at 27%, and Lead Nagger is trailing Llamageddon after Thursday. Down on Thursday, champion in January. Correlation is causation if you believe in yourself."
-   ]
+    "Let's talk about the most crowded backfield in this league, and I mean Washington's, not anyone's bench. On Monday night against Cincinnati, Llamageddon starts Rachaad White, who has 75.9 PPR points in 8 games and was added to Friday's injury report with a heel. Bijan is your daddy starts Jacory Croskey-Merritt, 44.9 points in 5 games, who is expected off injured reserve and is still listed on IR by Sleeper as of Sunday morning. And on Saturday night FatMikeR added Austin Ekeler, 30.3 points in 6 games, and dropped Jordan Watkins.",
+    "Now the analysis. Add them up and you get 151.1 points across 19 games played, which is 7.95 points per back per game. Divide by three backs and each one owns exactly 2.65 points of the Washington backfield per game. FatMikeR now owns two of the three backs, so he owns 66.7% of the backfield, which by my model means he's a 66.7% favorite to win a matchup that isn't even against dcrabb. That's how good the number is.",
+    "The real numbers keep going. Bijan is your daddy is 4-6 and a 12.5-point underdog to Ivefallenandicantgetup, a 66% line. FatMikeR has spent $0 of his $200 FAAB, the only owner in the league still at $0, and both of his Washington backs cost exactly nothing. That's a points-per-dollar rate of infinity, which is the highest number I'm legally allowed to publish.",
+    "Sources tell me, and I want to stress that nobody has confirmed this, that dcrabb has built a spreadsheet tracking which of the three Washington backs sits closest to the Gatorade cooler on the sideline, on the theory that the cooler is where the snaps get handed out. I'm told FatMikeR answered by adding Ekeler purely so he could own 'the cooler side' of the bench. None of this is confirmed, and I've never seen a cooler score a touchdown.",
+    "Here's my conclusion. Llamageddon is a 13.5-point underdog to Lead Nagger and Bijan is your daddy is a 12.5-point underdog, so the two Washington-dependent teams are separated by exactly one point. One point is basically zero, which means both teams are tied, which means Monday night is a tie, which means I'm right. Numbers don't lie. I just help them along."
+   ],
+   "rumor": true
   }
  ],
  "exits": [
@@ -1889,16 +1894,16 @@
     "label": "Blowie of the Week",
     "fav": "Wild Goose Chase",
     "dog": "Nothing to see here",
-    "spread": "-16.5",
+    "spread": "-13.5",
     "total": "232.8",
-    "prob": 70,
-    "pick": "Wild Goose Chase by 16.5",
-    "title": "Wild Goose Chase over Nothing to see here by 16.5: six players on bye and still the biggest favorite",
-    "dek": "The biggest spread of Week 11 (tied), even after a 6-point haircut for a Wild Goose Chase roster that loses its top two quarterbacks.",
+    "prob": 67,
+    "pick": "Wild Goose Chase by 13.5",
+    "title": "Wild Goose Chase over Nothing to see here by 13.5: six players on bye, and now the FLEX is on IR",
+    "dek": "Still a two-touchdown favorite after a 6-point bye haircut and a 3-point IR haircut, because Nothing to see here has lost six straight.",
     "body": [
      "Wild Goose Chase scores 127.56 a week, third in the league. Nothing to see here scores 105.25, is 2-8, has lost six straight and has 1,301.96 points scored against it, second-most in the league. The raw gap is 22.30 points.",
-     "The line is Wild Goose Chase by 16.5 after a 6-point nudge toward Nothing to see here. Drake Maye is out with an ankle injury, and Jordan Love, Christian Watson, Tucker Kraft, Dylan Sampson and the Seattle defense are all on bye. Bryce Young is the only Wild Goose Chase quarterback with a game. Nothing to see here loses Rhamondre Stevenson off the bench, and Woody Marks is unlikely for Thursday with a concussion. Wild Goose Chase is a 70% favorite, tied with My Dad is Dead2 for the biggest spread.",
-     "Thursday helped. Nico Collins caught three balls for 58 yards and a touchdown (15.8) and Tyler Warren added 3.2, so Wild Goose Chase leads 19.00 to 0.00, and Woody Marks sat out for Nothing to see here. The Tucker Kraft problem is solved: Br0phy added Tyjae Spears at 11:32 PM Friday and put him in the FLEX, and Spears practiced fully Friday and is listed questionable. ChuckJ10 has Mark Andrews and Makai Lemon in the lineup and added Kalif Raymond. The line stays 16.5, and now Br0phy actually has nine players."
+     "The line opened at Wild Goose Chase by 16.5 after a 6-point nudge toward Nothing to see here: Drake Maye is out with an ankle injury, and Jordan Love, Christian Watson, Tucker Kraft, Dylan Sampson and the Seattle defense are all on bye. Bryce Young is the only Wild Goose Chase quarterback with a game. On Sunday it moved 3 more points to 13.5, a 67% favorite, because the Titans put Tyjae Spears on injured reserve Saturday and Br0phy has no healthy bench player to replace him.",
+     "Thursday helped. Nico Collins caught three balls for 58 yards and a touchdown (15.8) and Tyler Warren added 3.2, so Wild Goose Chase leads 19.00 to 0.00, and Woody Marks sat out for Nothing to see here. Br0phy fixed the Tucker Kraft hole Friday night with Tyjae Spears, who then went on IR Saturday. As of Sunday morning Spears is still in the FLEX, and the best healthy free agent with a game is Keon Coleman, whom ChuckJ10 dropped Friday. ChuckJ10 has Mark Andrews and Makai Lemon in the lineup and added Kalif Raymond."
     ]
    }
   ]
