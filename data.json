@@ -1,245 +1,244 @@
 {
- "updated": "Monday, Nov 23, 2026 · 7:15 AM ET",
- "week": 11,
+ "updated": "Tuesday, Nov 24, 2026 · 7:15 AM ET",
+ "week": 12,
  "ticker": [
   [
-   "My Dad is Dead2",
-   "153.88",
-   "Nothing to see here",
-   "104.62"
-  ],
-  [
-   "Achane in the Membrane",
-   "170.24",
-   "Lead Nagger",
-   "164.30"
-  ],
-  [
+   "NjigbaR Please!",
+   "116.50",
    "Stroud of Turin",
-   "194.14",
-   "Breece'sBurdenDeflowered",
-   "115.06"
+   "106.56"
   ],
   [
    "Bijan is your daddy",
-   "128.50",
-   "NjigbaR Please!",
-   "101.98"
-  ],
-  [
-   "Llamageddon",
-   "105.26",
-   "MY DAD IS DEAD",
-   "95.42"
-  ],
-  [
+   "104.34",
    "Ivefallenandicantgetup",
-   "105.04",
+   "101.26"
+  ],
+  [
+   "Breece'sBurdenDeflowered",
+   "128.22",
+   "Achane in the Membrane",
+   "128.16"
+  ],
+  [
    "Wild Goose Chase",
-   "89.82"
+   "108.16",
+   "Nothing to see here",
+   "90.94"
+  ],
+  [
+   "Lead Nagger",
+   "137.80",
+   "Llamageddon",
+   "58.52"
+  ],
+  [
+   "My Dad is Dead2",
+   "143.22",
+   "MY DAD IS DEAD",
+   "124.70"
   ]
  ],
  "wire": [
   {
-   "t": "Nov 22: Brock Bowers was inactive with ankle and quad injuries, and he sat in the Llamageddon lineup for a 0.0. Las Vegas leaned on three-receiver sets without him, and Sleeper still lists Bowers as out.",
+   "t": "Nov 23: Washington beat Cincinnati 22-20 on a Drew Stevens field goal with two seconds left, and Ja'Marr Chase scored 8.1, so NjigbaR Please! held on to beat Stroud of Turin 116.50 to 106.56. Chase needed 18.05.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/6-takeaways-commanders-22-20-080056375.html"
+  },
+  {
+   "t": "Nov 23: Jacory Croskey-Merritt came off IR, started, and ran 13 times for 54 yards and a touchdown, 15.7 for Bijan is your daddy. Rachaad White (heel) was used mostly on third downs and didn't play in the third quarter; PFF doesn't see him as fantasy-viable going forward.",
    "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-bengals-commanders"
   },
   {
-   "t": "Nov 22: Saquon Barkley left Philadelphia's game with an apparent arm injury after a full week of practice, and Sleeper lists him as questionable (arm). He scored 13.5 for MY DAD IS DEAD before leaving.",
-   "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "t": "Nov 23: Derrick Henry is in the concussion protocol ahead of Baltimore's game against Houston, and Justice Hill is the fallback. Both are on the Ivefallenandicantgetup roster.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/loop-fantasy-football-report-week-220400805.html"
   },
   {
-   "t": "Nov 22: DK Metcalf was ejected in the third quarter for two unsportsmanlike conduct penalties, and PFF says a suspension is possible. He scored 1.2 in the Llamageddon lineup.",
-   "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "t": "Nov 23: Saquon Barkley was limited on Philadelphia's estimated report (neck) after a late stinger and is expected to play Thanksgiving against Dallas below full strength. Dallas Goedert (shin) was also limited and is expected to play.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/eagles-issue-estimated-injury-report-221113505.html"
   },
   {
-   "t": "Nov 22: Bhayshul Tuten left Jacksonville's game in the fourth quarter with an ankle and foot injury and did not return; he scored 8.3 for Ivefallenandicantgetup. Derrick Henry (19.1 on the same bench) left after a touchdown and passed concussion protocol.",
-   "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "t": "Nov 23: DJ Moore (knee) is a game-time decision for Buffalo's Thanksgiving game at Kansas City, and Kyren Williams (toe) was limited ahead of the Rams' Wednesday game against Green Bay.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/loop-fantasy-football-report-week-220400805.html"
   },
   {
-   "t": "Nov 22: Jonah Coleman ran 24 times for 111 yards and three touchdowns and caught four passes, 34.9 points for Lead Nagger. PFF says RJ Harvey (Wild Goose Chase, IR) is still at least a week away.",
-   "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "t": "Nov 23: Josh Jacobs is recovering from finger surgery and is unlikely to play Wednesday, and Kenneth Walker III (groin) didn't practice Monday after missing two games. Bhayshul Tuten is banged up, and Chris Rodriguez Jr. could see more work against Tennessee.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/loop-fantasy-football-report-week-220400805.html"
   },
   {
-   "t": "Nov 21: Rachaad White (heel) is questionable for Monday night after sitting out Saturday's practice, though Dan Quinn expects him to play. He is the last Llamageddon starter, and Jacory Croskey-Merritt (groin, questionable, needs activation from IR) is on the Bijan is your daddy bench behind Austin Ekeler.",
-   "src": "Sports Illustrated",
-   "url": "https://www.si.com/nfl/commanders/onsi/commanders-bengals-final-injury-report-week-11"
+   "t": "Nov 23: Antonio Williams caught 9 passes for 122 yards on Monday night, including two big gains on the winning drive. He scored 21.2 on the Nothing to see here bench.",
+   "src": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/6-takeaways-commanders-22-20-080056375.html"
   },
   {
-   "t": "Nov 22: Jalen Coker entered concussion protocol after scoring 8.7 on the Stroud of Turin bench, and Juwan Johnson (Llamageddon bench) left with a hamstring injury in the third quarter.",
-   "src": "PFF",
-   "url": "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
-  },
-  {
-   "t": "Nov 22: RedDevil904 dropped Roman Wilson (IR, finger) at 12:57 PM ET, the only league transaction since Saturday night. No Week 12 waiver claims have processed yet.",
+   "t": "Nov 24: No Week 12 waiver claims have processed yet, and the last league transaction was RedDevil904 dropping Roman Wilson on Sunday. Week 12 kicks off Wednesday night with Green Bay at the Rams.",
    "src": "League transactions (Sleeper)",
    "url": "https://sleeper.com/leagues/1339786949044473856"
   }
  ],
  "stories": [
   {
-   "id": "sun11",
-   "kicker": "Monday Morning",
-   "title": "Llamageddon scores 56.60, the lowest score in the league this year, and Rachaad White is all that stands between dcrabb and the Hall of Fame's basement",
-   "dek": "Five Sunday games are basically settled, Achane in the Membrane trails by 4.16 with one Bengal each left, and Ja'Marr Chase needs 18.05 to save Stroud of Turin.",
+   "id": "recap11",
+   "kicker": "Week 11 Recap",
+   "title": "Achane in the Membrane loses by six hundredths, Bijan is your daddy comes back from 38 down on Monday night, and Llamageddon's 58.52 makes the Hall of Fame",
+   "dek": "Three Commanders erase a 38.18-point deficit, Mike Gesicki falls 0.06 short, Ja'Marr Chase falls 9.95 short, and there are now three 8-3 teams.",
    "body": [
-    "Llamageddon put up 56.60 on Sunday, the lowest score anyone in this league has posted in 2026 (the old low was Nothing to see here's 63.02 in Week 3). Brock Bowers was inactive with ankle and quad injuries and sat in the lineup for a 0.0, Ja'Kobi Lane got 0.0, DK Metcalf got 1.2 and then got ejected in the third quarter, and Jonathan Taylor managed 6.7. Brock Purdy (22.2) and the Denver defense (14.0) scored 36.2 of the 56.60. Even the best possible lineup was 63.60, so this one isn't really a lineup crime, it's a roster crime. Lead Nagger leads 105.60 to 56.60 with Joe Burrow and Tee Higgins still to play, and Jonah Coleman's 34.9 (111 yards, three touchdowns) did most of that.",
-    "Here's the fun part. Rachaad White (heel, questionable) is the only Llamageddon starter left, in Washington's Monday night game against Cincinnati. The fifth-lowest score in league history is 58.64. If White scores under 2.04, Llamageddon's 56.60-plus-whatever goes into the Hall of Fame's Lowest-Scoring Week list. Under 1.68 and it passes TStark7's 58.28. If he doesn't play at all, 56.60 is third-worst ever, behind only Pudge247's 51.96 and RammerJammer17's 52.30. dcrabb, the whole league is rooting for your running back to get hurt, which is a sentence I'll take back the second it happens.",
-    "The rest of Monday night: NjigbaR Please! leads Stroud of Turin 116.50 to 98.46, and RedDevil904 has only Ja'Marr Chase left, so Chase needs 18.05. Breece'sBurdenDeflowered leads Achane in the Membrane 119.62 to 115.46, and it's Chase Brown (Breece'sBurdenDeflowered) against Mike Gesicki (Achane in the Membrane), so MakeItRains needs his tight end to outscore rtmcruise's running back by 4.17. MakeItRains had Devaughn Vele (14.6) on the bench and started Adonai Mitchell (5.0), so if he loses by less than 9.6, that's on him. Ivefallenandicantgetup leads Bijan is your daddy 101.26 to 63.08, and FatMikeR needs 38.18 from Jayden Daniels, Austin Ekeler and Stefon Diggs, which is a lot but they all play in the same game, so at least he only has to pray once.",
-    "The finished and nearly finished ones: Wild Goose Chase beat Nothing to see here 108.16 to 90.94 with Tyjae Spears sitting in the FLEX on injured reserve for a 0.0, CeeDee Lamb (30.2) covering for him. My Dad is Dead2 leads MY DAD IS DEAD 143.22 to 114.10, the high score of the week so far, with only Chig Okonkwo left for OneSillyBannana; Dak Prescott's 35.9 is the best starter of the week and still wasn't enough. And yes, I had Fernando Mendoza (23.88) on my bench and started Trevor Lawrence (12.74). The best possible lineup was 154.36. The commish leaves points on the bench every single week and still wins. Learn nothing from me."
+    "Monday night decided three games and made two people sick. Bijan is your daddy went into Monday down 101.26 to 63.08 to Ivefallenandicantgetup, and Jayden Daniels (17.06), Jacory Croskey-Merritt (15.7, a touchdown in his first game off IR) and Stefon Diggs (8.5) scored 41.26 to win 104.34 to 101.26. krunkdd had nobody left to play, Derrick Henry (19.1) and Justice Hill (17.6) on the bench, and a best possible lineup of 112.46 that wins. The Tampa Bay defense, a $12 claim, scored 0.0.",
+    "Achane in the Membrane went into Monday down 4.16 to Breece'sBurdenDeflowered, with Mike Gesicki against Chase Brown. Gesicki caught 5 passes for 77 yards, 12.7 points. Chase Brown scored 8.6. Final: Breece'sBurdenDeflowered 128.22, Achane in the Membrane 128.16. Six hundredths. Devaughn Vele scored 14.6 on MakeItRains's bench while Adonai Mitchell started and scored 5.0, and the best possible lineup was 137.86. It's the fourth-highest score of the week and Achane in the Membrane is 4-7 with a 68-53 all-play record.",
+    "Stroud of Turin needed 18.05 from Ja'Marr Chase and got 8.1, so NjigbaR Please! won 116.50 to 106.56 behind Ashton Jeanty (28.9) and Travis Kelce (25.4). Lead Nagger beat Llamageddon 137.80 to 58.52, a 79.28-point margin and the biggest of the week. Llamageddon's 58.52 is the lowest score in the league this season and the fifth-lowest in league history, which bumps RedDevil904's 58.64 out of the Hall of Fame's basement. My Dad is Dead2 scored 143.22, the high of the week, and beat MY DAD IS DEAD (124.70, with Dak Prescott at 35.9) by 18.52, with Fernando Mendoza's 23.88 on my own bench behind Trevor Lawrence's 12.74. Wild Goose Chase beat Nothing to see here 108.16 to 90.94 while Antonio Williams scored 21.2 on ChuckJ10's bench.",
+    "Where that leaves us: NjigbaR Please!, Ivefallenandicantgetup and My Dad is Dead2 are all 8-3, Lead Nagger is 7-4, and Stroud of Turin, Wild Goose Chase and Breece'sBurdenDeflowered are 6-5 fighting over two spots. Three weeks left. MakeItRains won the Week 11 defense payout with the Chicago Bears (17.0), which is the most expensive consolation prize in league history."
    ]
   },
   {
-   "id": "wire11",
+   "id": "wire12",
    "kicker": "Waiver Wire",
-   "title": "One drop since Saturday, nobody spent a dollar, and every Week 11 claim and add on one page",
-   "dek": "The Week 11 waiver and free-agent log, kept apart from the trade and the injury news, plus FAAB spent by every team.",
+   "title": "No Week 12 claims yet, FatMikeR still has $200, and the full Week 11 waiver and free-agent log",
+   "dek": "Every claim and add from the last two weeks, apart from trades and injuries, and FAAB spent by every team.",
    "body": [
-    "Sunday free-agent move (Nov 22). RedDevil904 dropped Roman Wilson (IR, finger) at 12:57 PM ET with no add. That's the only transaction in the league since FatMikeR added Austin Ekeler Saturday night. Br0phy never replaced Tyjae Spears, who went on IR Saturday and scored 0.0 in the Wild Goose Chase FLEX; Wild Goose Chase won anyway. No Week 12 claims have processed yet.",
-    "Saturday free-agent add (Nov 21). FatMikeR added Austin Ekeler and dropped Jordan Watkins (7:03 PM ET), then started Ekeler over Jacory Croskey-Merritt, whom Sleeper still lists on injured reserve. Both play Monday night for Washington.",
-    "Friday free-agent adds (Nov 20). krunkdd added Dawson Knox and dropped Hunter Henry (1:20 PM ET); Knox scored 5.1 with Dalton Kincaid inactive. Pudge247 added Gavin Bartholomew with no drop (3:21 PM; 1.5 on the bench). ChuckJ10 added Kalif Raymond and dropped Keon Coleman (7:07 PM; Raymond scored 2.4 on the bench). dstafford4254 added Myles Price and dropped Dohnte Meyers (10:59 PM; Price started and scored 9.12), then swapped Cincinnati's defense for the Rams' and the Rams' for Carolina's inside two minutes (Carolina scored 8.0). Br0phy added Tyjae Spears with no drop (11:32 PM).",
-    "Waiver claims (processed Nov 18-20). dcrabb claimed Elic Ayomanor for $13 and dropped Zonovan Knight (Ayomanor scored 5.7). rtmcruise claimed J.J. McCarthy for $0 and dropped Jacoby Brissett (14.22 on the bench). ChuckJ10 claimed Mark Andrews for $5 (3.4 in the lineup), the Pittsburgh defense for $2 (7.0) and the Carolina defense for $2, cut the same morning. RedDevil904 claimed Xavier Hutchinson for $10 and dropped Kenyon Sadiq (3.3). krunkdd claimed Justice Hill for $14 (17.6 on the bench) and the Tampa Bay defense for $12 (0.0 in the lineup). dstafford4254 claimed Dohnte Meyers for $0 and dropped Geno Smith.",
-    "Other Week 11 free-agent moves: OneSillyBannana added Michael Mayer (dropped Tyler Higbee) and the Detroit defense (dropped Reggie Virgil). MakeItRains added the Chicago defense and dropped the Rams', and the Bears scored 17.0, the best of the week. rtmcruise added Cam Ward (23.22 in the lineup) and dropped Demarcus Robinson. FatMikeR added Jacory Croskey-Merritt and dropped Cooper Kupp. ChuckJ10 added Keon Coleman, Pudge247 added Emari Demercado, and Bill_Buttlicker dropped Tutu Atwell.",
-    "FAAB spent, out of $200: Bijan is your daddy $0, My Dad is Dead2 $9, Llamageddon $18, Wild Goose Chase $50, Ivefallenandicantgetup $84, Achane in the Membrane $117, Lead Nagger $150, Nothing to see here $151. NjigbaR Please!, Breece'sBurdenDeflowered, Stroud of Turin and MY DAD IS DEAD are out at $200. FatMikeR still has all $200 with three weeks of regular season left."
+    "Week 12 waivers. None have processed yet. The last move in the league was RedDevil904 dropping Roman Wilson (IR) on Sunday at 12:57 PM ET with no add. With Wednesday and Thursday games this week, anyone chasing a Derrick Henry, Saquon Barkley or Kyren Williams fallback needs to get claims in early.",
+    "Week 11 waiver claims (processed Nov 18-20). dcrabb claimed Elic Ayomanor for $13, dropped Zonovan Knight. rtmcruise claimed J.J. McCarthy for $0, dropped Jacoby Brissett. ChuckJ10 claimed Mark Andrews for $5, the Pittsburgh defense for $2 (dropped the Colts) and the Carolina defense for $2. RedDevil904 claimed Xavier Hutchinson for $10, dropped Kenyon Sadiq. krunkdd claimed Justice Hill for $14, dropped Elic Ayomanor, and claimed the Tampa Bay defense for $12, dropped Baltimore's. dstafford4254 claimed Dohnte Meyers for $0, dropped Geno Smith. MakeItRains claimed Marvin Harrison Jr. for $1, dropped Keon Coleman.",
+    "Week 11 free-agent adds. FatMikeR: Austin Ekeler (dropped Jordan Watkins) and Jacory Croskey-Merritt (dropped Cooper Kupp). Br0phy: Tyjae Spears. dstafford4254: Myles Price (dropped Dohnte Meyers), then the Rams defense (dropped Cincinnati's) and Carolina's (dropped the Rams') inside two minutes. ChuckJ10: Keon Coleman, then Kalif Raymond (dropped Coleman). Pudge247: Emari Demercado and Gavin Bartholomew. krunkdd: Dawson Knox (dropped Hunter Henry). rtmcruise: Cam Ward (dropped Demarcus Robinson). MakeItRains: the Chicago defense (dropped the Rams'). OneSillyBannana: Michael Mayer (dropped Tyler Higbee) and the Detroit defense (dropped Reggie Virgil). Drops with no add: Bill_Buttlicker cut Tutu Atwell, RedDevil904 cut Roman Wilson.",
+    "How it paid off: Croskey-Merritt 15.7 and the Bears 17.0 in lineups, Cam Ward 23.22 in a 0.06 win, McCarthy 14.22 on a bench, Justice Hill 17.6 on a bench, Tampa Bay 0.0 in a lineup. FAAB spent out of $200: Bijan is your daddy $0, My Dad is Dead2 $9, Llamageddon $18, Wild Goose Chase $50, Ivefallenandicantgetup $84, Achane in the Membrane $117, Lead Nagger $150, Nothing to see here $151. NjigbaR Please!, Breece'sBurdenDeflowered, Stroud of Turin and MY DAD IS DEAD are tapped out. FatMikeR has the only full wallet in the league and 5% playoff odds to spend it on."
    ]
   },
   {
-   "id": "bed11",
-   "kicker": "Sunday Scoreboard",
-   "title": "Dak Prescott scores 35.9, MY DAD IS DEAD scores 114.10, and the commish scores 143.22 with 23.88 on the bench",
-   "dek": "Every Sunday number from Week 11: the best starters, the worst benches, and the Chicago defense locking up a payout.",
+   "id": "race12",
+   "kicker": "Playoff Race",
+   "title": "Three 8-3 teams, one first-place game: NjigbaR Please! and Ivefallenandicantgetup meet for the 1 seed",
+   "dek": "The simulator's seeds, the three-way tie at the top, and the 6-5 logjam fighting over two spots.",
    "body": [
-    "The top starters of Week 11 so far: Dak Prescott 35.9 (MY DAD IS DEAD), Jonah Coleman 34.9 (Lead Nagger), CeeDee Lamb 30.2 (Wild Goose Chase), Ashton Jeanty 28.9 (NjigbaR Please!), Jahmyr Gibbs 27.8 (Achane in the Membrane), Chuba Hubbard 26.0 (Stroud of Turin) and Travis Kelce 25.4 (NjigbaR Please!). Prescott's 35.9 is the best starter of the week, and OneSillyBannana is still down 29.12 with one tight end left.",
-    "Points left on the bench Sunday, by best possible lineup: My Dad is Dead2 11.14 (Fernando Mendoza's 23.88 behind Trevor Lawrence's 12.74; that's me), Ivefallenandicantgetup 11.20 (Derrick Henry 19.1 and Justice Hill 17.6 sat while Bhayshul Tuten scored 8.3), MY DAD IS DEAD 20.70 (Ladd McConkey's 20.7 on the bench), Stroud of Turin 14.40 (Aaron Rodgers 15.98 and Pat Freiermuth 9.0 behind Dallas Goedert's 4.8), Breece'sBurdenDeflowered 13.50 and Bijan is your daddy 13.60 (Bo Nix's 11.5 on the bench, with Jayden Daniels still to play). Wild Goose Chase was the only team at its best possible lineup, which is easy when the bench is all byes.",
-    "The Week 11 payout is the highest-scoring defense, and it's locked: the Chicago defense scored 17.0 for MakeItRains, ahead of San Francisco (16.0, My Dad is Dead2) and Houston (16.0, Breece'sBurdenDeflowered). Nobody starts Cincinnati or Washington's defense Monday night. MakeItRains picked up the Bears Wednesday morning for the Rams on bye, which is the best free-agent move anyone made this week.",
-    "If the Monday night leaders hold, Ivefallenandicantgetup goes to 9-2, NjigbaR Please! and My Dad is Dead2 to 8-3, Lead Nagger to 7-4, and Stroud of Turin, Wild Goose Chase and Breece'sBurdenDeflowered to 6-5. Week 12 is NjigbaR Please! against Ivefallenandicantgetup for first place and My Dad is Dead2 against Lead Nagger, and I'd like to be excused."
+    "Three teams are 8-3. NjigbaR Please! leads on points (1,356.08), then Ivefallenandicantgetup (1,313.16) and My Dad is Dead2 (1,312.86), separated by 30 cents. Lead Nagger is 7-4 and leads the league in scoring at 133.59 a week with an 80-41 all-play record. Then come three 6-5 teams: Stroud of Turin (127.68 a week), Wild Goose Chase (125.79) and Breece'sBurdenDeflowered (118.70).",
+    "The Climax Bracket ran the last three weeks 20,000 times. Projected seeds: Ivefallenandicantgetup (9.8 wins), NjigbaR Please! (9.7), My Dad is Dead2 (9.2), Lead Nagger (9.0), Wild Goose Chase (7.8, 73% playoff odds) and Stroud of Turin (7.7, 76%). Breece'sBurdenDeflowered is first out at 42%, and Llamageddon (7%), Achane in the Membrane (7%) and Bijan is your daddy (5%) need help. Nothing to see here and MY DAD IS DEAD are out.",
+    "Week 12 sets it up. NjigbaR Please! is a 3.5-point favorite over Ivefallenandicantgetup for first place. Lead Nagger is a 14.5-point favorite over My Dad is Dead2, so the commish gets the league's best offense on Thanksgiving week. Breece'sBurdenDeflowered gets Llamageddon (2.5 points) and Wild Goose Chase gets MY DAD IS DEAD (23.5). Week 13 has Lead Nagger vs. Wild Goose Chase and My Dad is Dead2 vs. Breece'sBurdenDeflowered; Week 14 has My Dad is Dead2 vs. Stroud of Turin and Breece'sBurdenDeflowered vs. Wild Goose Chase.",
+    "Title odds if the seeds hold: Lead Nagger 24%, NjigbaR Please! 23%, Stroud of Turin 17%, Ivefallenandicantgetup 17%, Wild Goose Chase 12%, My Dad is Dead2 8%. The commish has the third-best record and the sixth-best title odds, which is the most My Dad is Dead2 sentence I have ever typed."
    ]
   },
   {
-   "id": "trade11",
-   "kicker": "Trade",
-   "title": "One week in, the Chimere Dike trade is 18.38 to 0.00, and I'm going to enjoy that while it lasts",
-   "dek": "Bill_Buttlicker sent Jordan Addison to Pudge247 for Chimere Dike. Addison sat out again; Dike started and scored.",
+   "id": "thx12",
+   "kicker": "Injury Watch",
+   "title": "Wednesday, Thursday and Friday games: the Week 12 injuries that hit league rosters before you get to set a lineup",
+   "dek": "Derrick Henry is in the protocol, Saquon Barkley and DJ Moore play on Thanksgiving banged up, and Kyren Williams plays Wednesday.",
    "body": [
-    "On Nov. 19, Bill_Buttlicker traded Jordan Addison to Pudge247 for Chimere Dike. Addison had 53.9 points in seven games and had just had thumb surgery; Dike had 29.5 in nine games on a Titans team that had just lost Wan'Dale Robinson for the season.",
-    "Week 11: Dike started for My Dad is Dead2 and scored 18.38 in Tennessee's game at Dallas. Addison was ruled out for a second straight week and sat on the Lead Nagger bench for a 0.0. Pudge247 is still up 105.60 to 56.60 on Llamageddon, so he won't miss him this week.",
-    "The long view is different. Kevin O'Connell said Addison won't go on IR, and when he's back he's a better receiver than Dike on a better offense. Pudge247 is the projected champion at 27% and is buying for December, and I'm buying for next Sunday, when, of course, I play Lead Nagger. Too early to call, but I'm ahead, and I'm writing the newsletter."
+    "This is a short week with five early games: Green Bay at the Rams on Wednesday, then Buffalo at Kansas City, Chicago at Detroit and Dallas at Philadelphia on Thanksgiving, and Denver at Pittsburgh on Friday. Every team plays, so no byes this week. Check your lineup before Wednesday night.",
+    "Ivefallenandicantgetup: Derrick Henry is in the concussion protocol ahead of Baltimore's game against Houston on Sunday, with Justice Hill the fallback, and krunkdd has both. Bhayshul Tuten is banged up, and Chris Rodriguez Jr. (Nothing to see here bench) could see more work. Dalton Kincaid (thumb) is out per Sleeper. NjigbaR Please!: Kyren Williams (toe) was limited ahead of Wednesday's game, and Yahoo sees little reason to rely on him.",
+    "My Dad is Dead2: DJ Moore (knee) is a game-time decision for Thursday at Kansas City. MY DAD IS DEAD: Saquon Barkley was limited with a neck issue after a stinger and is expected to play below full strength; Seth McGowan (hamstring) is out per Sleeper. Stroud of Turin: Dallas Goedert (shin) was limited and is expected to play Thursday. Lead Nagger: Kenneth Walker III (groin) didn't practice Monday after missing two games, and Jordan Addison (thumb) is out per Sleeper.",
+    "Breece'sBurdenDeflowered: Josh Jacobs is unlikely to play Wednesday after finger surgery, and A.J. Brown (hamstring) is out per Sleeper. Llamageddon: Brock Bowers (ankle) is out per Sleeper, and Drake London (head) and Juwan Johnson (hamstring) are questionable. Wild Goose Chase: Drake Maye (ankle) is out per Sleeper and Tyjae Spears and RJ Harvey are on IR. Achane in the Membrane: Marvin Harrison Jr. (hamstring) is out per Sleeper."
    ]
   }
  ],
  "standings": [
   [
-   "Ivefallenandicantgetup",
-   "krunkdd",
-   "8-2",
-   "1211.90",
-   "1082.36",
-   "62-48",
-   "W5"
-  ],
-  [
    "NjigbaR Please!",
    "dstafford4254",
-   "7-3",
-   "1239.58",
-   "1127.10",
-   "67-43",
+   "8-3",
+   "1356.08",
+   "1233.66",
+   "73-48",
+   "W1"
+  ],
+  [
+   "Ivefallenandicantgetup",
+   "krunkdd",
+   "8-3",
+   "1313.16",
+   "1186.70",
+   "64-57",
    "L1"
   ],
   [
    "My Dad is Dead2",
    "Bill_Buttlicker",
-   "7-3",
-   "1169.64",
-   "1115.22",
-   "52-58",
-   "W1"
+   "8-3",
+   "1312.86",
+   "1239.92",
+   "63-58",
+   "W2"
   ],
   [
    "Lead Nagger",
    "Pudge247",
-   "6-4",
-   "1331.74",
-   "1257.36",
-   "70-40",
-   "L1"
+   "7-4",
+   "1469.54",
+   "1315.88",
+   "80-41",
+   "W1"
   ],
   [
    "Stroud of Turin",
    "RedDevil904",
-   "6-4",
-   "1297.92",
-   "1191.26",
-   "68-42",
-   "W1"
+   "6-5",
+   "1404.48",
+   "1307.76",
+   "72-49",
+   "L1"
   ],
   [
    "Wild Goose Chase",
    "Br0phy",
-   "5-5",
-   "1275.56",
-   "1213.12",
-   "62-48",
-   "L1"
-  ],
-  [
-   "Llamageddon",
-   "dcrabb",
-   "5-5",
-   "1224.12",
-   "1215.54",
-   "61-49",
-   "W2"
+   "6-5",
+   "1383.72",
+   "1304.06",
+   "67-54",
+   "W1"
   ],
   [
    "Breece'sBurdenDeflowered",
    "rtmcruise",
-   "5-5",
-   "1177.44",
-   "1189.38",
-   "51-59",
-   "L3"
+   "6-5",
+   "1305.66",
+   "1317.54",
+   "60-61",
+   "W1"
   ],
   [
-   "Achane in the Membrane",
-   "MakeItRains",
-   "4-6",
-   "1259.92",
-   "1305.74",
-   "60-50",
-   "W3"
+   "Llamageddon",
+   "dcrabb",
+   "5-6",
+   "1282.64",
+   "1353.34",
+   "61-60",
+   "L1"
   ],
   [
    "Bijan is your daddy",
    "FatMikeR",
-   "4-6",
-   "1129.68",
-   "1175.84",
-   "47-63",
-   "W1"
+   "5-6",
+   "1234.02",
+   "1277.10",
+   "50-71",
+   "W2"
+  ],
+  [
+   "Achane in the Membrane",
+   "MakeItRains",
+   "4-7",
+   "1388.08",
+   "1433.96",
+   "68-53",
+   "L1"
   ],
   [
    "Nothing to see here",
    "ChuckJ10",
-   "2-8",
-   "1052.54",
-   "1301.96",
-   "39-71",
-   "L6"
+   "2-9",
+   "1143.48",
+   "1410.12",
+   "40-81",
+   "L7"
   ],
   [
    "MY DAD IS DEAD",
    "OneSillyBannana",
-   "1-9",
-   "1000.76",
-   "1195.92",
-   "21-89",
-   "L8"
+   "1-10",
+   "1125.46",
+   "1339.14",
+   "28-93",
+   "L9"
   ]
  ],
  "recap": {
@@ -303,126 +302,132 @@
     "blowout": "Stroud of Turin 194.14 over Breece'sBurdenDeflowered 115.06 (+79.08)",
     "beat": "Lead Nagger scores 164.30, third-best of the week, and loses by 5.94 to Achane in the Membrane. The best possible Lead Nagger lineup was 189.04, with Omarion Hampton (17.5) and Chimere Dike (10.34) on the bench while Corey Kiner (6.14), Audric Estime (2.1) and Germie Bernard (1.0) started. MY DAD IS DEAD loses by 9.84 with Seth McGowan (16.14) and Josh Downs (15.7) on the bench; the best lineup (121.36) wins.",
     "bed": "Wild Goose Chase, 89.82. Drake Maye left in the first quarter after 3.02, and Tyler Warren (2.4) and Tucker Kraft (2.9) didn't help."
+   },
+   {
+    "w": 11,
+    "blowout": "Lead Nagger 137.80 over Llamageddon 58.52 (+79.28)",
+    "beat": "Achane in the Membrane scores 128.16, fourth-best of the week, and loses to Breece'sBurdenDeflowered by 0.06 when Mike Gesicki's 12.7 on Monday night comes up short against Chase Brown's 8.6; Devaughn Vele (14.6) sat on the bench while Adonai Mitchell (5.0) started. Ivefallenandicantgetup leads 101.26 to 63.08 going into Monday and loses 104.34 to 101.26, with Derrick Henry (19.1) and Justice Hill (17.6) on the bench.",
+    "bed": "Llamageddon, 58.52, the lowest score in the league this season and fifth-lowest in league history. Brock Bowers (inactive, ankle) and Ja'Kobi Lane scored 0.0 in the lineup, DK Metcalf was ejected after 1.2, and the best possible lineup was 65.52."
    }
   ],
   "feature": {
-   "title": "Week 10: Stroud of Turin drops 194.14, the favorites go 3-3, and krunkdd wins without Derrick Henry",
+   "title": "Week 11: six hundredths, a 38-point Monday night comeback, and 58.52",
    "body": [
-    "Stroud of Turin put up 194.14 with a perfect lineup, the best score in the league this season, and beat Breece'sBurdenDeflowered 194.14 to 115.06. The 79.08-point margin is the second-biggest of the year, behind Nothing to see here's 81.04 over NjigbaR Please! in Week 3. Chuba Hubbard (34.2), Ja'Marr Chase (34.1), Parker Washington (28.6) and Amon-Ra St. Brown (26.8) all went off, and the Minnesota defense added 21.0. The league average was 127.35.",
-    "Achane in the Membrane beat Lead Nagger 170.24 to 164.30 with another perfect lineup, behind Jahmyr Gibbs (44.2) and Patrick Mahomes (36.42). Pudge247 got 43.5 from George Pickens, which wins the Week 10 receiver payout, and 35.1 from Emmett Johnson, and still lost with Omarion Hampton (17.5) on the bench. My Dad is Dead2 beat Nothing to see here 153.88 to 104.62, a season high for Bill_Buttlicker, thanks to Christian McCaffrey's 48.3. Bijan is your daddy beat NjigbaR Please! 128.50 to 101.98 as a 15.5-point underdog, with 39.88 left on the bench.",
-    "Ivefallenandicantgetup beat Wild Goose Chase 105.04 to 89.82 for a fifth straight win. Drake Maye left in the first quarter in Munich after 3.02, and krunkdd won even with Derrick Henry (19.0, two touchdowns Monday night) on the bench. Ivefallenandicantgetup is 8-2 and hasn't clinched anything, but the simulator rounds its playoff odds to 100%.",
-    "Monday night settled the last game. MY DAD IS DEAD needed 23.45 from Tre' Harris and got 13.6, losing to Llamageddon 105.26 to 95.42. Llamageddon won but didn't cover the 20.5. The A.N.A.L. picks went 0-3, which is honestly impressive, and OneSillyBannana is 1-9 after losing a game the best possible lineup (121.36) would have won. Wild Goose Chase had the low of the week at 89.82."
+    "The league averaged 112.37 in Week 11, and three games were decided on Monday night by players from one 22-20 game in Landover. Bijan is your daddy trailed Ivefallenandicantgetup 101.26 to 63.08 going into the night and won 104.34 to 101.26 behind Jayden Daniels (17.06), Jacory Croskey-Merritt (15.7) and Stefon Diggs (8.5). FatMikeR picked up Croskey-Merritt on Nov 18 off IR and he scored a touchdown in his first game back. krunkdd's best possible lineup was 112.46, with Derrick Henry (19.1) and Justice Hill (17.6) on the bench, and Bhayshul Tuten (8.3) left hurt in the fourth quarter.",
+    "Achane in the Membrane and Breece'sBurdenDeflowered played to 128.16 and 128.22. Breece'sBurdenDeflowered led by 4.16 going into Monday; Mike Gesicki gave MakeItRains 12.7 and Chase Brown gave rtmcruise 8.6, and the difference is the six hundredths. Cam Ward scored 23.22 and Mike Evans 22.9 for the winners. MakeItRains started Adonai Mitchell (5.0) over Devaughn Vele (14.6), and the best possible lineup (137.86) wins by almost ten. It's the closest game in the league this year.",
+    "Stroud of Turin needed 18.05 from Ja'Marr Chase and got 8.1 on 5 catches for 31 yards, so NjigbaR Please! won 116.50 to 106.56. RedDevil904 also left Aaron Rodgers (15.98) on the bench behind C.J. Stroud (21.46), which was the right call, and Pat Freiermuth (9.0) on the bench behind Dallas Goedert (4.8), which wasn't. Lead Nagger hammered Llamageddon 137.80 to 58.52 behind Jonah Coleman (34.9) and Emmett Johnson (24.3), and dcrabb's 58.52 is the fifth-lowest score in league history.",
+    "My Dad is Dead2 scored 143.22, the best of the week, and beat MY DAD IS DEAD by 18.52 to cover the 16.5-point line. I started Trevor Lawrence (12.74) over Fernando Mendoza (23.88), and I'd like that one back. Wild Goose Chase covered against Nothing to see here 108.16 to 90.94 with Tyjae Spears at 0.0 in the FLEX, and ChuckJ10's best lineup (123.34) wins that game too, with Antonio Williams (21.2) on the bench. Week 11's defense payout goes to MakeItRains for the Chicago Bears' 17.0."
    ]
   }
  },
  "rankings": [
   {
    "rk": 1,
-   "prev": 1,
-   "team": "Ivefallenandicantgetup",
-   "own": "krunkdd",
-   "rec": "8-2",
-   "ap": "62-48",
-   "take": "Up 101.26 to 63.08 on Bijan is your daddy going into Monday night, so a sixth straight win and 9-2 are close. krunkdd left Derrick Henry (19.1) and Justice Hill (17.6) on the bench, Bhayshul Tuten left hurt, and he's still the projected 1 seed with 100% playoff odds. Next: NjigbaR Please! for first place."
-  },
-  {
-   "rk": 2,
    "prev": 2,
    "team": "Lead Nagger",
    "own": "Pudge247",
-   "rec": "6-4",
-   "ap": "70-40",
-   "take": "Up 105.60 to 56.60 on Llamageddon with Joe Burrow and Tee Higgins still to play. Jonah Coleman (34.9) and George Pickens (23.8) did it, and Lead Nagger is the projected 4 seed and the simulator's title favorite at 27%."
+   "rec": "7-4",
+   "ap": "80-41",
+   "take": "Beat Llamageddon 137.80 to 58.52 behind Jonah Coleman (34.9) and Emmett Johnson (24.3). 133.59 a week and an 80-41 all-play record, both the best in the league, and the simulator's title favorite at 24%. Next: My Dad is Dead2, favored by 14.5."
+  },
+  {
+   "rk": 2,
+   "prev": 4,
+   "team": "NjigbaR Please!",
+   "own": "dstafford4254",
+   "rec": "8-3",
+   "ap": "73-48",
+   "take": "Beat Stroud of Turin 116.50 to 106.56 as an 11.5-point underdog when Ja'Marr Chase came up 9.95 short. 8-3, first on points, and a 3.5-point favorite over Ivefallenandicantgetup for the 1 seed. Kyren Williams (toe) plays Wednesday."
   },
   {
    "rk": 3,
    "prev": 3,
    "team": "Stroud of Turin",
    "own": "RedDevil904",
-   "rec": "6-4",
-   "ap": "68-42",
-   "take": "Led 24.76 to 0.00 after Thursday and now trails NjigbaR Please! 116.50 to 98.46, with only Ja'Marr Chase left. RedDevil904 benched 33.68 between Aaron Rodgers, Pat Freiermuth and Jalen Coker. Projected 6 seed, 79% to make it."
+   "rec": "6-5",
+   "ap": "72-49",
+   "take": "Lost 116.50 to 106.56 waiting on Ja'Marr Chase (8.1). Still 127.68 a week and 72-49 in all-play, but 6-5 and the projected 6 seed at 76%. Next: Achane in the Membrane, favored by 1.5."
   },
   {
    "rk": 4,
-   "prev": 4,
-   "team": "NjigbaR Please!",
-   "own": "dstafford4254",
-   "rec": "7-3",
-   "ap": "67-43",
-   "take": "Four starters on bye, a 24.76-point hole after Thursday, and dstafford4254 leads by 18.04 going into Monday anyway thanks to Ashton Jeanty (28.9) and Travis Kelce (25.4). Projected 2 seed, 100% playoff odds. Ivefallenandicantgetup is next."
+   "prev": 1,
+   "team": "Ivefallenandicantgetup",
+   "own": "krunkdd",
+   "rec": "8-3",
+   "ap": "64-57",
+   "take": "Led by 38.18 going into Monday night and lost 104.34 to 101.26, with Derrick Henry (19.1) and Justice Hill (17.6) on the bench. 8-3 but 64-57 in all-play. Henry is in the concussion protocol going into the first-place game."
   },
   {
    "rk": 5,
    "prev": 5,
    "team": "My Dad is Dead2",
    "own": "Bill_Buttlicker",
-   "rec": "7-3",
-   "ap": "52-58",
-   "take": "143.22, the high score of the week so far, and up 29.12 on MY DAD IS DEAD with one Washington tight end left for them. Also 23.88 from Fernando Mendoza on the bench. Projected 3 seed at 93%, and Lead Nagger is next."
+   "rec": "8-3",
+   "ap": "63-58",
+   "take": "143.22, the high of the week, with Fernando Mendoza's 23.88 on the bench. 8-3, 63-58 all-play, and 196.06 points left on the bench this season, most in the league. Lead Nagger is next and I'm a 14.5-point dog."
   },
   {
    "rk": 6,
    "prev": 6,
    "team": "Wild Goose Chase",
    "own": "Br0phy",
-   "rec": "5-5",
-   "ap": "62-48",
-   "take": "Beat Nothing to see here 108.16 to 90.94 with Tyjae Spears on IR in the FLEX for a 0.0. CeeDee Lamb scored 30.2. 6-5 and the projected 5 seed at 78%, with Drake Maye still out."
+   "rec": "6-5",
+   "ap": "67-54",
+   "take": "Beat Nothing to see here 108.16 to 90.94 with Tyjae Spears (IR) in the FLEX for 0.0. CeeDee Lamb scored 30.2. 6-5, projected 5 seed at 73%, and the biggest favorite of Week 12 (23.5) over MY DAD IS DEAD."
   },
   {
    "rk": 7,
    "prev": 7,
    "team": "Achane in the Membrane",
    "own": "MakeItRains",
-   "rec": "4-6",
-   "ap": "60-50",
-   "take": "Trails Breece'sBurdenDeflowered 119.62 to 115.46, Mike Gesicki against Chase Brown Monday night, with Devaughn Vele (14.6) on the bench. The Chicago defense (17.0) wins the Week 11 payout. 6% playoff odds."
+   "rec": "4-7",
+   "ap": "68-53",
+   "take": "Lost by 0.06. 126.19 a week, third in the league, 68-53 all-play, and 4-7. Playoff odds are 7%. Won the Week 11 defense payout, which is not the payout anyone wants."
   },
   {
    "rk": 8,
-   "prev": 8,
-   "team": "Llamageddon",
-   "own": "dcrabb",
-   "rec": "5-5",
-   "ap": "61-49",
-   "take": "56.60, the lowest score in the league this season, with Brock Bowers inactive in the lineup and DK Metcalf ejected. Rachaad White is the last starter, and under 2.04 puts it in the Hall of Fame. Playoff odds down to 10%."
-  },
-  {
-   "rk": 9,
    "prev": 9,
    "team": "Breece'sBurdenDeflowered",
    "own": "rtmcruise",
-   "rec": "5-5",
-   "ap": "51-59",
-   "take": "Leads Achane in the Membrane 119.62 to 115.46 with Chase Brown left. Cam Ward (23.22) and Mike Evans (22.9) carried it and the Houston defense added 16.0. A win would make it 6-5 with Llamageddon next; 36% playoff odds."
+   "rec": "6-5",
+   "ap": "60-61",
+   "take": "Won by 0.06 on Chase Brown's 8.6 Monday night, after Cam Ward (23.22) and Mike Evans (22.9) did the work. 6-5, first team out at 42%, and a 2.5-point favorite over Llamageddon."
   },
   {
-   "rk": 10,
+   "rk": 9,
    "prev": 10,
    "team": "Bijan is your daddy",
    "own": "FatMikeR",
-   "rec": "4-6",
-   "ap": "47-63",
-   "take": "63.08 going into Monday, down 38.18, with Jayden Daniels, Austin Ekeler and Stefon Diggs left. FatMikeR still has all $200 of his FAAB. Playoff odds round to 0%."
+   "rec": "5-6",
+   "ap": "50-71",
+   "take": "Came back from 101.26 to 63.08 on Monday night with three Commanders and beat Ivefallenandicantgetup 104.34 to 101.26. 5-6, 50-71 all-play, $200 of FAAB unspent, and an 8.5-point favorite over Nothing to see here."
+  },
+  {
+   "rk": 10,
+   "prev": 8,
+   "team": "Llamageddon",
+   "own": "dcrabb",
+   "rec": "5-6",
+   "ap": "61-60",
+   "take": "58.52, the lowest score in the league this year and fifth-lowest ever. Brock Bowers (ankle) is out again per Sleeper. 5-6 and 7% playoff odds; Breece'sBurdenDeflowered next, 2.5-point dog."
   },
   {
    "rk": 11,
    "prev": 11,
    "team": "Nothing to see here",
    "own": "ChuckJ10",
-   "rec": "2-8",
-   "ap": "39-71",
-   "take": "Lost to Wild Goose Chase 108.16 to 90.94, the seventh straight loss, and Wild Goose Chase had a 0.0 in the FLEX. Mark Andrews scored 3.4 and Makai Lemon 1.3. 2-9."
+   "rec": "2-9",
+   "ap": "40-81",
+   "take": "Lost 108.16 to 90.94 with Antonio Williams (21.2) on the bench; the best lineup, 123.34, wins. 2-9, seven straight losses, and out of the playoff race. Bijan is your daddy next."
   },
   {
    "rk": 12,
    "prev": 12,
    "team": "MY DAD IS DEAD",
    "own": "OneSillyBannana",
-   "rec": "1-9",
-   "ap": "21-89",
-   "take": "Dak Prescott scored 35.9, the best starter of the week, and the team scored 114.10 and is still down 29.12 with only Chig Okonkwo left. Ladd McConkey's 20.7 sat on the bench. Heading for 1-10."
+   "rec": "1-10",
+   "ap": "28-93",
+   "take": "124.70, fifth-best of the week, and still a loss to My Dad is Dead2. Dak Prescott scored 35.9, Ladd McConkey 20.7 on the bench. 1-10, nine straight losses, and a 23.5-point dog to Wild Goose Chase."
   }
  ],
  "teams": [
@@ -430,54 +435,54 @@
    "key": "goose",
    "name": "Wild Goose Chase",
    "own": "Br0phy",
-   "rec": "5-5",
-   "pf": "1275.56",
-   "ap": "62-48",
+   "rec": "6-5",
+   "pf": "1383.72",
+   "ap": "67-54",
    "since": "2025",
    "titles": 0,
    "past": [
     "Skatt Men (2025, 5-9)"
    ],
-   "w7": "vs. Nothing to see here · favored by 13.5 (67%) · Final: won 108.16 to 90.94",
+   "w7": "vs. MY DAD IS DEAD · favored by 23.5 (78%)",
    "inj": [
     "Drake Maye (ankle): Out per Sleeper",
-    "RJ Harvey (knee): IR; return at least a week away (PFF)",
-    "Tyjae Spears (knee): IR, out at least four games; scored 0.0 in the FLEX in Week 11 (PFF)"
+    "RJ Harvey (knee): IR per Sleeper",
+    "Tyjae Spears (knee): IR per Sleeper"
    ],
    "body": [
-    "Wild Goose Chase beat Nothing to see here 108.16 to 90.94 and covered the 13.5-point line, even with Tyjae Spears, placed on IR Saturday, sitting in the FLEX for a 0.0. CeeDee Lamb scored 30.2, Bryce Young 15.96 and Nico Collins 15.8, and the lineup was the best possible because the bench was all byes and injuries.",
-    "That makes it 6-5, and the simulator has Wild Goose Chase as the 5 seed at 78%. Week 12 is MY DAD IS DEAD, and Br0phy gets Jordan Love, Christian Watson, Tucker Kraft and the Seattle defense back from byes. Drake Maye is still out, and the FLEX needs an actual running back."
+    "Wild Goose Chase beat Nothing to see here 108.16 to 90.94 and covered the 13.5-point line with Tyjae Spears, on IR, in the FLEX for 0.0. CeeDee Lamb scored 30.2, and the lineup was the best possible because the bench was all byes and injuries.",
+    "That's 6-5 and the projected 5 seed at 73%. Week 12 is MY DAD IS DEAD, the biggest spread of the week at 23.5, and Br0phy gets Jordan Love, Christian Watson and Tucker Kraft back from the bye. Weeks 13 and 14 are Lead Nagger and Breece'sBurdenDeflowered, so this is the one to bank."
    ]
   },
   {
    "key": "fallen",
    "name": "Ivefallenandicantgetup",
    "own": "krunkdd",
-   "rec": "8-2",
-   "pf": "1211.90",
-   "ap": "62-48",
+   "rec": "8-3",
+   "pf": "1313.16",
+   "ap": "64-57",
    "since": "2026",
    "titles": 0,
    "past": [],
-   "w7": "vs. Bijan is your daddy · favored by 12.5 (66%) · Live: leads 101.26 to 63.08, Bijan is your daddy has 3 players left",
+   "w7": "vs. NjigbaR Please! · underdog by 3.5",
    "inj": [
-    "Dalton Kincaid (thumb/ankle): inactive Week 11, Out per Sleeper (PFF)",
-    "Bhayshul Tuten (ankle/foot): left Week 11 in the fourth quarter and did not return (PFF)",
-    "Derrick Henry (head/neck): left after a touchdown, passed concussion protocol; Questionable (concussion) per Sleeper (PFF)",
+    "Derrick Henry (concussion): in the concussion protocol ahead of Week 12 (Yahoo Sports)",
+    "Bhayshul Tuten: banged up in Week 11; Questionable per Sleeper (Yahoo Sports)",
+    "Dalton Kincaid (thumb): Out per Sleeper",
     "Jalen McMillan (knee - pcl): IR per Sleeper"
    ],
    "body": [
-    "Ivefallenandicantgetup leads Bijan is your daddy 101.26 to 63.08, and FatMikeR needs 38.18 from Jayden Daniels, Austin Ekeler and Stefon Diggs on Monday night. Javonte Williams scored 24.1, James Cook III 17.2 and Carnell Tate 14.8. krunkdd left Derrick Henry (19.1) and Justice Hill (17.6) on the bench while Bhayshul Tuten scored 8.3 and left hurt, and Dawson Knox scored 5.1 in for Dalton Kincaid.",
-    "A win makes it 9-2 and six straight. The simulator has Ivefallenandicantgetup as the 1 seed with 10.9 projected wins and 100% playoff odds. Week 12 is NjigbaR Please! for first place."
+    "Ivefallenandicantgetup led Bijan is your daddy 101.26 to 63.08 going into Monday night and lost 104.34 to 101.26 to three Commanders. Derrick Henry (19.1) and Justice Hill (17.6) sat on the bench, the Tampa Bay defense ($12) scored 0.0, and the best possible lineup was 112.46.",
+    "Still 8-3 and the projected 1 seed with 99% playoff odds, but the all-play record is 64-57, sixth-best in the league. Week 12 is NjigbaR Please! for first place as a 3.5-point dog, and Henry is in the concussion protocol."
    ]
   },
   {
    "key": "njigba",
    "name": "NjigbaR Please!",
    "own": "dstafford4254",
-   "rec": "7-3",
-   "pf": "1239.58",
-   "ap": "67-43",
+   "rec": "8-3",
+   "pf": "1356.08",
+   "ap": "73-48",
    "since": "2019",
    "titles": 3,
    "past": [
@@ -485,24 +490,23 @@
     "Big Nick Energy (2023 champ)",
     "The Glass Menagerie (2025)"
    ],
-   "w7": "vs. Stroud of Turin · underdog by 11.5 · Live: leads 116.50 to 98.46, Stroud of Turin has Ja'Marr Chase left",
+   "w7": "vs. Ivefallenandicantgetup · favored by 3.5 (54%)",
    "inj": [
-    "Jordyn Tyson (chest): played Week 11 on a reduced snap share (PFF)",
-    "Michael Pittman Jr. (foot): IR, kept there one more week (PFF)",
-    "Kyren Williams (toe): Questionable per Sleeper"
+    "Kyren Williams (toe): limited ahead of Wednesday's game at Green Bay (Yahoo Sports)",
+    "Michael Pittman Jr. (foot): IR per Sleeper"
    ],
    "body": [
-    "NjigbaR Please! played Week 11 without Jaxon Smith-Njigba, Kyren Williams, Harold Fannin Jr. and KC Concepcion Jr., trailed 24.76 to 0.00 after Thursday, and leads Stroud of Turin 116.50 to 98.46 anyway. Ashton Jeanty scored 28.9, Travis Kelce 25.4 and Tetairoa McMillan 19.1. Ja'Marr Chase needs 18.05 Monday night to take it away.",
-    "A win makes it 8-3, and the simulator already has NjigbaR Please! as the 2 seed with 100% playoff odds. Week 12 is Ivefallenandicantgetup for first place, with the byes over."
+    "NjigbaR Please! beat Stroud of Turin 116.50 to 106.56 as an 11.5-point underdog. Ashton Jeanty scored 28.9 and Travis Kelce 25.4, and Ja'Marr Chase's 8.1 on Monday night left Stroud of Turin 9.95 short. The bench scored 4.2 because four starters came back from byes into the lineup.",
+    "8-3, first on points (1,356.08) and 73-48 in all-play. Week 12 is Ivefallenandicantgetup for the 1 seed as a 3.5-point favorite, with Kyren Williams (toe) playing Wednesday night."
    ]
   },
   {
    "key": "nagger",
    "name": "Lead Nagger",
    "own": "Pudge247",
-   "rec": "6-4",
-   "pf": "1331.74",
-   "ap": "70-40",
+   "rec": "7-4",
+   "pf": "1469.54",
+   "ap": "80-41",
    "since": "2019",
    "titles": 1,
    "past": [
@@ -511,51 +515,50 @@
     "2024 champion",
     "Wounded warriors (2025)"
    ],
-   "w7": "vs. Llamageddon · favored by 13.5 (67%) · Live: leads 105.60 to 56.60, Burrow and Higgins left",
+   "w7": "vs. My Dad is Dead2 · favored by 14.5 (68%)",
    "inj": [
-    "Kenneth Walker III (groin): Out, missed a second straight game (PFF)",
-    "Jordan Addison (thumb): Out, missed a second straight game (PFF)"
+    "Kenneth Walker III (groin): did not practice Monday after missing two games (Yahoo Sports)",
+    "Jordan Addison (thumb): Out per Sleeper"
    ],
    "body": [
-    "Lead Nagger leads Llamageddon 105.60 to 56.60 with Joe Burrow and Tee Higgins still to play Monday night, so this one is over. Jonah Coleman ran for 111 yards and three touchdowns for 34.9, George Pickens scored 23.8 and Emmett Johnson 24.3. Germie Bernard scored 10.0 on the bench, and Kenneth Walker III and Jordan Addison sat out again.",
-    "That makes it 7-4 with the most points in the league. The simulator has Lead Nagger as the 4 seed at 98% and the title favorite at 27%. Week 12 is My Dad is Dead2."
+    "Lead Nagger beat Llamageddon 137.80 to 58.52, the biggest margin of the week. Jonah Coleman scored 34.9, Emmett Johnson 24.3 and George Pickens 23.8, and Joe Burrow (19.9) and Tee Higgins (12.3) added 32.2 on Monday night.",
+    "7-4, 133.59 a week and 80-41 in all-play, all league bests. The simulator has Lead Nagger as the 4 seed and the title favorite at 24%. Week 12 is My Dad is Dead2, favored by 14.5, and Kenneth Walker III (groin) still hasn't practiced."
    ]
   },
   {
    "key": "llama",
    "name": "Llamageddon",
    "own": "dcrabb",
-   "rec": "5-5",
-   "pf": "1224.12",
-   "ap": "61-49",
+   "rec": "5-6",
+   "pf": "1282.64",
+   "ap": "61-60",
    "since": "2019",
    "titles": 0,
    "past": [
     "Derrick Henry (2022)",
     "Fighting Llamas (2023)"
    ],
-   "w7": "vs. Lead Nagger · underdog by 13.5 · Live: trails 105.60 to 56.60, Rachaad White left",
+   "w7": "vs. Breece'sBurdenDeflowered · underdog by 2.5",
    "inj": [
-    "Brock Bowers (ankle/quad): inactive Week 11, Out per Sleeper (PFF)",
-    "Rachaad White (heel): Questionable for Monday night; Dan Quinn expects him to play (Sports Illustrated)",
-    "DK Metcalf: ejected Week 11 for two unsportsmanlike conduct penalties; a suspension is possible (PFF)",
-    "Juwan Johnson (hamstring): left Week 11 in the third quarter (PFF)",
-    "Puka Nacua (knee): IR; suspended three games, served on IR",
-    "Tyrone Tracy Jr. (hamstring): IR per Sleeper",
-    "Tyreek Hill (knee - acl): Questionable per Sleeper"
+    "Brock Bowers (ankle): Out per Sleeper",
+    "Drake London (head): Questionable per Sleeper",
+    "Juwan Johnson (hamstring): Questionable per Sleeper",
+    "Rachaad White (heel): played through it Week 11 but sat in the third quarter (PFF)",
+    "Puka Nacua (knee): IR per Sleeper",
+    "Tyrone Tracy Jr. (hamstring): IR per Sleeper"
    ],
    "body": [
-    "Llamageddon scored 56.60 Sunday, the lowest score in the league this season. Brock Bowers was inactive and scored 0.0 in the lineup, Ja'Kobi Lane scored 0.0, DK Metcalf was ejected after 1.2, and Jonathan Taylor scored 6.7. Brock Purdy (22.2) and the Denver defense (14.0) were the only real points. The best possible lineup was 63.60.",
-    "Lead Nagger leads by 49.00 and Rachaad White is the last starter. Under 2.04 from White and Llamageddon's week makes the Hall of Fame's five lowest. Llamageddon is heading for 5-6, and the simulator has its playoff odds at 10%. Week 12 is Breece'sBurdenDeflowered."
+    "Llamageddon lost 137.80 to 58.52. Brock Bowers was inactive (ankle) and sat in the lineup for 0.0, Ja'Kobi Lane scored 0.0, DK Metcalf was ejected after 1.2, and Rachaad White scored 1.92 before sitting out the third quarter with his heel. The best possible lineup was 65.52, with Jared Goff (21.36) on the bench behind Brock Purdy (22.2).",
+    "58.52 is the lowest score in the league this year and fifth-lowest in league history. 5-6, 7% playoff odds, and Week 12 is Breece'sBurdenDeflowered as a 2.5-point dog with Bowers out again per Sleeper."
    ]
   },
   {
    "key": "stroud",
    "name": "Stroud of Turin",
    "own": "RedDevil904",
-   "rec": "6-4",
-   "pf": "1297.92",
-   "ap": "68-42",
+   "rec": "6-5",
+   "pf": "1404.48",
+   "ap": "72-49",
    "since": "2021",
    "titles": 0,
    "past": [
@@ -563,47 +566,48 @@
     "Make Fantasy Great Again (2023 runner-up)",
     "Lamar LaMerrier (2025)"
    ],
-   "w7": "vs. NjigbaR Please! · favored by 11.5 (64%) · Live: trails 116.50 to 98.46, Ja'Marr Chase left",
+   "w7": "vs. Achane in the Membrane · favored by 1.5 (52%)",
    "inj": [
-    "Jalen Coker: in concussion protocol after Week 11 (PFF)",
-    "Omar Cooper Jr. (ankle/hip): Out (PFF)",
+    "Dallas Goedert (shin): limited, expected to play Thursday (Yahoo Sports)",
+    "Jalen Coker: Questionable per Sleeper",
+    "Omar Cooper Jr. (ankle): Out per Sleeper",
     "Romeo Doubs (shoulder): IR per Sleeper"
    ],
    "body": [
-    "Stroud of Turin led NjigbaR Please! 24.76 to 0.00 after Thursday and trails 116.50 to 98.46 going into Monday night. Chuba Hubbard scored 26.0, C.J. Stroud 21.46 and Parker Washington 18.3, but the Minnesota defense scored 0.0, and RedDevil904 benched Aaron Rodgers (15.98), Pat Freiermuth (9.0) and Jalen Coker (8.7). Ja'Marr Chase needs 18.05 against Washington.",
-    "RedDevil904 dropped Roman Wilson (IR) on Sunday. A loss makes it 6-5, and the simulator has Stroud of Turin as the 6 seed at 79%. Week 12 is Achane in the Membrane."
+    "Stroud of Turin lost 116.50 to 106.56 when Ja'Marr Chase scored 8.1 on Monday night and needed 18.05. Chuba Hubbard scored 26.0 and C.J. Stroud 21.46; Pat Freiermuth (9.0) sat on the bench behind Dallas Goedert (4.8), and the Minnesota defense scored 0.0. The best possible lineup was 116.16.",
+    "6-5, 127.68 a week and 72-49 in all-play, the projected 6 seed at 76%. Week 12 is Achane in the Membrane as a 1.5-point favorite, the highest total of the week at 253.9."
    ]
   },
   {
    "key": "achane",
    "name": "Achane in the Membrane",
    "own": "MakeItRains",
-   "rec": "4-6",
-   "pf": "1259.92",
-   "ap": "60-50",
+   "rec": "4-7",
+   "pf": "1388.08",
+   "ap": "68-53",
    "since": "2020",
    "titles": 0,
    "past": [
     "Gibbs Your Balls A Tug (2025 runner-up)"
    ],
-   "w7": "vs. Breece'sBurdenDeflowered · favored by 6.5 (58%) · Live: trails 119.62 to 115.46, Mike Gesicki vs. Chase Brown",
+   "w7": "vs. Stroud of Turin · underdog by 1.5",
    "inj": [
     "Marvin Harrison Jr. (hamstring): Out per Sleeper",
     "De'Zhaun Stribling (ankle): IR per Sleeper",
     "Alec Pierce (heel): IR per Sleeper"
    ],
    "body": [
-    "Achane in the Membrane trails Breece'sBurdenDeflowered 119.62 to 115.46, and it comes down to two Bengals Monday night: Mike Gesicki for MakeItRains, Chase Brown for rtmcruise. Jahmyr Gibbs scored 27.8, Patrick Mahomes 24.96 and the Chicago defense 17.0, which wins the Week 11 defense payout. Devaughn Vele scored 14.6 on the bench while Adonai Mitchell scored 5.0 in the lineup.",
-    "A loss makes it 4-7 and ends a three-game win streak. The simulator gives Achane in the Membrane 6% playoff odds. Week 12 is Stroud of Turin."
+    "Achane in the Membrane lost to Breece'sBurdenDeflowered 128.22 to 128.16. Mike Gesicki scored 12.7 on Monday night and it was 0.06 short. Jahmyr Gibbs scored 27.8 and Patrick Mahomes 24.96; Devaughn Vele (14.6) sat while Adonai Mitchell (5.0) started, and the best possible lineup was 137.86.",
+    "4-7 with the third-best scoring average (126.19) and a 68-53 all-play record. Playoff odds: 7%. Week 12 is Stroud of Turin as a 1.5-point dog. The Chicago defense won the Week 11 payout, so at least there's that."
    ]
   },
   {
    "key": "labia",
    "name": "My Dad is Dead2",
    "own": "Bill_Buttlicker",
-   "rec": "7-3",
-   "pf": "1169.64",
-   "ap": "52-58",
+   "rec": "8-3",
+   "pf": "1312.86",
+   "ap": "63-58",
    "since": "2019",
    "titles": 0,
    "past": [
@@ -611,23 +615,23 @@
     "Sack-Joe (2023)",
     "Duuuuuvaaaaaala-lalallala (2025, 3rd place)"
    ],
-   "w7": "vs. MY DAD IS DEAD · favored by 16.5 (70%) · Live: leads 143.22 to 114.10, MY DAD IS DEAD has Chig Okonkwo left",
+   "w7": "vs. Lead Nagger · underdog by 14.5",
    "inj": [
-    "Wan'Dale Robinson (ankle): IR; out for the season",
-    "DJ Moore (knee): left Week 11 and returned the same quarter; Questionable per Sleeper (PFF)"
+    "DJ Moore (knee): game-time decision Thursday at Kansas City (Yahoo Sports)",
+    "Wan'Dale Robinson (ankle): IR; out for the season"
    ],
    "body": [
-    "My Dad is Dead2 scored 143.22, the high score of Week 11 so far, and leads MY DAD IS DEAD by 29.12 with only Chig Okonkwo left for them. DJ Moore scored 23.1, Jameson Williams 20.3, George Kittle 18.4, Chimere Dike 18.38 in his first start since the trade, and the San Francisco defense 16.0. I started Trevor Lawrence (12.74) over Fernando Mendoza (23.88). Of course I did.",
-    "A win makes it 8-3. The simulator has My Dad is Dead2 as the 3 seed at 93%, and Week 12 is Lead Nagger, the projected champion. Kyle Monangai is back from his thumb and toe injuries."
+    "My Dad is Dead2 beat MY DAD IS DEAD 143.22 to 124.70, the best score of the week, and covered 16.5. DJ Moore scored 23.1, Jameson Williams 20.3, Chimere Dike 18.38 and George Kittle 18.4. I started Trevor Lawrence (12.74) over Fernando Mendoza (23.88), and the best possible lineup was 154.36.",
+    "8-3 and the projected 3 seed at 94%, but the bench has cost me 196.06 points this year, most in the league. Week 12 is Lead Nagger as a 14.5-point dog, and DJ Moore (knee) is a game-time decision Thursday."
    ]
   },
   {
    "key": "breece",
    "name": "Breece'sBurdenDeflowered",
    "own": "rtmcruise",
-   "rec": "5-5",
-   "pf": "1177.44",
-   "ap": "51-59",
+   "rec": "6-5",
+   "pf": "1305.66",
+   "ap": "60-61",
    "since": "2019",
    "titles": 0,
    "past": [
@@ -635,43 +639,43 @@
     "The power bottoms (2025)",
     "Runner-up 2020, 2022, 2024"
    ],
-   "w7": "vs. Achane in the Membrane · underdog by 6.5 · Live: leads 119.62 to 115.46, Chase Brown vs. Mike Gesicki",
+   "w7": "vs. Llamageddon · favored by 2.5 (53%)",
    "inj": [
-    "Jonathon Brooks (abdomen): IR per Sleeper",
-    "Josh Jacobs (finger): Out per Sleeper",
-    "A.J. Brown (hamstring): Out per Sleeper"
+    "Josh Jacobs (finger): unlikely to play Wednesday after surgery (Yahoo Sports)",
+    "A.J. Brown (hamstring): Out per Sleeper",
+    "Jonathon Brooks (abdomen): IR per Sleeper"
    ],
    "body": [
-    "Breece'sBurdenDeflowered leads Achane in the Membrane 119.62 to 115.46, with Chase Brown against Mike Gesicki Monday night. Cam Ward scored 23.22 in his first start for Breece'sBurdenDeflowered, Mike Evans 22.9, Breece Hall 19.0 and the Houston defense 16.0. J.J. McCarthy scored 14.22 on the bench.",
-    "A win ends a three-game losing streak and makes it 6-5. The simulator gives Breece'sBurdenDeflowered 36% playoff odds, first team out. Week 12 is Llamageddon, which just scored 56.60."
+    "Breece'sBurdenDeflowered beat Achane in the Membrane 128.22 to 128.16. Cam Ward scored 23.22 in his first start for rtmcruise, Mike Evans 22.9, Breece Hall 19.0 and Zay Flowers 16.4, and Chase Brown's 8.6 on Monday night was just enough. J.J. McCarthy scored 14.22 on the bench.",
+    "6-5 and first team out at 42%. Week 12 is Llamageddon as a 2.5-point favorite, then My Dad is Dead2 and Wild Goose Chase. Josh Jacobs (finger) is unlikely to play Wednesday."
    ]
   },
   {
    "key": "bijan",
    "name": "Bijan is your daddy",
    "own": "FatMikeR",
-   "rec": "4-6",
-   "pf": "1129.68",
-   "ap": "47-63",
+   "rec": "5-6",
+   "pf": "1234.02",
+   "ap": "50-71",
    "since": "2026",
    "titles": 0,
    "past": [],
-   "w7": "vs. Ivefallenandicantgetup · underdog by 12.5 · Live: trails 101.26 to 63.08, 3 players left",
+   "w7": "vs. Nothing to see here · favored by 8.5 (61%)",
    "inj": [
-    "Jacory Croskey-Merritt (groin): IR per Sleeper; Questionable for Monday night if activated (Sports Illustrated)"
+    "Sam LaPorta (ankle): Questionable per Sleeper"
    ],
    "body": [
-    "Bijan is your daddy has 63.08 and trails Ivefallenandicantgetup by 38.18, with Jayden Daniels, Austin Ekeler and Stefon Diggs left Monday night. Khalil Shakir scored 15.3, Trey McBride 14.8, and Cam Skattebo 5.8. Bo Nix scored 11.5 on the bench, and Jacory Croskey-Merritt sits there too.",
-    "FatMikeR still hasn't spent any FAAB. A loss makes it 4-7, and the simulator's playoff odds round to 0%. Week 12 is Nothing to see here."
+    "Bijan is your daddy trailed Ivefallenandicantgetup 101.26 to 63.08 going into Monday night and won 104.34 to 101.26. Jayden Daniels scored 17.06, Jacory Croskey-Merritt 15.7 in his first game off IR, and Stefon Diggs 8.5. Trey McBride added 14.8.",
+    "5-6, 50-71 in all-play and 5% playoff odds. Week 12 is Nothing to see here as an 8.5-point favorite, and McBride leads league tight ends with 87 catches going into the tight end receptions payout week. FatMikeR still has all $200 of FAAB."
    ]
   },
   {
    "key": "chuck",
    "name": "Nothing to see here",
    "own": "ChuckJ10",
-   "rec": "2-8",
-   "pf": "1052.54",
-   "ap": "39-71",
+   "rec": "2-9",
+   "pf": "1143.48",
+   "ap": "40-81",
    "since": "2019",
    "titles": 1,
    "past": [
@@ -680,24 +684,23 @@
     "Sack-Joe (2023, 3rd place)",
     "We're not worthy!! (2025, 11-3 top seed)"
    ],
-   "w7": "vs. Wild Goose Chase · underdog by 13.5 · Final: lost 108.16 to 90.94",
+   "w7": "vs. Bijan is your daddy · underdog by 8.5",
    "inj": [
     "Woody Marks (concussion): Out per Sleeper",
-    "Michael Wilson (neck): IR per Sleeper",
-    "Darren Waller (knee): active Week 11 (PFF)"
+    "Michael Wilson (neck): IR per Sleeper"
    ],
    "body": [
-    "Nothing to see here lost to Wild Goose Chase 108.16 to 90.94, its seventh straight loss, against a team with a 0.0 in the FLEX. Bucky Irving scored 19.0 and Malik Nabers 18.5, but Mark Andrews scored 3.4, Makai Lemon 1.3 and Caleb Douglas 5.0. Darren Waller scored 7.2 on the bench.",
-    "2-9, and the simulator has Nothing to see here out of the playoffs. Week 12 is Bijan is your daddy."
+    "Nothing to see here lost to Wild Goose Chase 108.16 to 90.94. Antonio Williams caught 9 passes for 122 yards on Monday night, 21.2 points, on the bench, while Makai Lemon (1.3) and Caleb Douglas (5.0) started. The best possible lineup was 123.34 and wins.",
+    "2-9, seven straight losses and eliminated from the playoff race. Week 12 is Bijan is your daddy as an 8.5-point dog. Woody Marks (concussion) is out per Sleeper."
    ]
   },
   {
    "key": "dead",
    "name": "MY DAD IS DEAD",
    "own": "OneSillyBannana",
-   "rec": "1-9",
-   "pf": "1000.76",
-   "ap": "21-89",
+   "rec": "1-10",
+   "pf": "1125.46",
+   "ap": "28-93",
    "since": "2021",
    "titles": 1,
    "past": [
@@ -706,17 +709,16 @@
     "12-2 top seed (2024)",
     "2025 champion"
    ],
-   "w7": "vs. My Dad is Dead2 · underdog by 16.5 · Live: trails 143.22 to 114.10, Chig Okonkwo left",
+   "w7": "vs. Wild Goose Chase · underdog by 23.5",
    "inj": [
-    "Saquon Barkley (arm): left Week 11, Questionable per Sleeper (PFF)",
+    "Saquon Barkley (neck/stinger): limited, expected to play Thanksgiving below full strength (Yahoo Sports)",
     "Seth McGowan (hamstring): Out per Sleeper",
-    "Ladd McConkey (rib/foot/back): played through a questionable tag Week 11 (PFF)",
     "Jeremiyah Love (ankle): IR per Sleeper",
     "Davante Adams (hamstring): IR per Sleeper"
    ],
    "body": [
-    "MY DAD IS DEAD scored 114.10 and trails My Dad is Dead2 by 29.12 with only Chig Okonkwo left Monday night. Dak Prescott scored 35.9, the best starter in the league this week, and Chris Olave added 19.2. Ladd McConkey scored 20.7 on the bench, and the best possible lineup was 134.80, which still loses. Saquon Barkley left with an arm injury after 13.5.",
-    "A loss makes it 1-10. Week 12 is Wild Goose Chase."
+    "MY DAD IS DEAD scored 124.70, fifth-best of the week, and lost to My Dad is Dead2 by 18.52. Dak Prescott scored 35.9 and Chris Olave 19.2; Ladd McConkey (20.7) sat on the bench. The best possible lineup was 136.90, still short.",
+    "1-10, nine straight losses and out of the race. Week 12 is Wild Goose Chase as a 23.5-point dog, and Saquon Barkley plays Thanksgiving below full strength."
    ]
   }
  ],
@@ -864,103 +866,103 @@
  "hotseat": {
   "trying": [
    [
-    "Llamageddon",
-    "56.60 is the lowest score in the league this year, with Brock Bowers inactive in the lineup, Ja'Kobi Lane at 0.0 and DK Metcalf ejected. dcrabb's best possible lineup was 63.60, so start trying at the waiver wire."
-   ],
-   [
-    "Wild Goose Chase",
-    "Br0phy won by 17.22 with an injured-reserve running back in the FLEX all day. Winning doesn't count as setting your lineup. Start trying before you need it."
-   ],
-   [
     "Achane in the Membrane",
-    "Down 4.16 going into Monday with Devaughn Vele's 14.6 on the bench and Adonai Mitchell's 5.0 in the lineup. MakeItRains, Mike Gesicki is now your whole season."
+    "Lost by 0.06 with Devaughn Vele's 14.6 on the bench and Adonai Mitchell's 5.0 in the lineup. MakeItRains, that's a 9.6-point decision in a six-hundredths game. Start trying."
+   ],
+   [
+    "Nothing to see here",
+    "Antonio Williams caught 9 balls for 122 yards on Monday night, on the bench, and the best lineup (123.34) beats Wild Goose Chase. ChuckJ10, you're 2-9. Start trying anyway."
+   ],
+   [
+    "Llamageddon",
+    "58.52, fifth-lowest in league history, with an inactive Brock Bowers in the lineup. dcrabb, Sleeper had him out before kickoff. Start trying."
    ]
   ],
   "gfy": [
    [
+    "Bijan is your daddy",
+    "Down 38.18 going into Monday night, three Commanders, 41.26 points, win by 3.08. FatMikeR can go fuck himself."
+   ],
+   [
+    "Breece'sBurdenDeflowered",
+    "Won by 0.06 on an 8.6 from Chase Brown, after rtmcruise picked up Cam Ward off the street for 23.22. Go fuck yourself."
+   ],
+   [
     "Lead Nagger",
-    "Jonah Coleman 34.9, George Pickens 23.8, up 49 with Burrow and Higgins still to play, and the simulator's title favorite at 27%. Pudge247 can go fuck himself."
-   ],
-   [
-    "NjigbaR Please!",
-    "Four starters on bye, down 24.76 after Thursday, a defense added and dropped in a minute, and dstafford4254 still leads by 18.04 heading into Monday. Unbelievable."
-   ],
-   [
-    "My Dad is Dead2",
-    "143.22, the high score of the week, with Fernando Mendoza's 23.88 on the bench and a 184.92-point bench tab coming into the week, most in the league. The commish can go fuck himself."
+    "137.80, a 79.28-point win, the best all-play record in the league and the title favorite. And I get him this week. Pudge247 can go fuck himself."
    ]
   ]
  },
  "lines": [
   {
-   "fav": "Stroud of Turin",
-   "dog": "NjigbaR Please!",
-   "spread": "-11.5",
-   "total": "253.7",
-   "note": "Season PPG: Stroud of Turin 129.79, NjigbaR Please! 123.96 (gap 5.83). Nudged 6 points toward Stroud of Turin because NjigbaR Please! lost Jaxon Smith-Njigba, Kyren Williams, Harold Fannin Jr. and KC Concepcion Jr. to byes. Live: NjigbaR Please! 116.50, Stroud of Turin 98.46, with only Ja'Marr Chase left for Monday night. Chase needs 18.05 against Washington to steal it; Ashton Jeanty (28.9) and Travis Kelce (25.4) carried dstafford4254 on Sunday. Stroud of Turin left Aaron Rodgers (15.98), Pat Freiermuth (9.0) and Jalen Coker (8.7, now in concussion protocol) on the bench while Xavier Hutchinson (3.3) and Dallas Goedert (4.8) started; the best possible lineup so far was 112.86.",
-   "prob": 64
+   "fav": "NjigbaR Please!",
+   "dog": "Ivefallenandicantgetup",
+   "spread": "-3.5",
+   "total": "242.7",
+   "note": "First place. Both 8-3; season PPG NjigbaR Please! 123.28, Ivefallenandicantgetup 119.38 (gap 3.90). No nudge: there are no byes this week, and the injury risk cuts both ways, with Kyren Williams (toe) limited before Wednesday's game and Derrick Henry in the concussion protocol, though krunkdd also has Justice Hill. All-play: NjigbaR Please! 73-48, Ivefallenandicantgetup 64-57. The winner is the projected 1 seed.",
+   "prob": 54
   },
   {
-   "fav": "Lead Nagger",
+   "fav": "Stroud of Turin",
+   "dog": "Achane in the Membrane",
+   "spread": "-1.5",
+   "total": "253.9",
+   "note": "Season PPG: Stroud of Turin 127.68, Achane in the Membrane 126.19 (gap 1.49). No nudge. The highest total of the week, between the second- and third-best offenses in the league. Stroud of Turin is the projected 6 seed at 76%; Achane in the Membrane is 4-7 after losing by 0.06 and needs this one at 7% playoff odds. Dallas Goedert (shin) is expected to play Thursday.",
+   "prob": 52
+  },
+  {
+   "fav": "Bijan is your daddy",
+   "dog": "Nothing to see here",
+   "spread": "-8.5",
+   "total": "216.1",
+   "note": "Season PPG: Bijan is your daddy 112.18, Nothing to see here 103.95 (gap 8.23). No nudge. The lowest total of the week. Bijan is your daddy is 5-6 with 5% playoff odds after a 38-point Monday night comeback; Nothing to see here is 2-9 and out, with Woody Marks (concussion) out per Sleeper.",
+   "prob": 61
+  },
+  {
+   "fav": "Breece'sBurdenDeflowered",
    "dog": "Llamageddon",
-   "spread": "-13.5",
-   "total": "255.6",
-   "note": "Season PPG: Lead Nagger 133.17, Llamageddon 122.41 (gap 10.76). Nudged 3 points toward Lead Nagger for Llamageddon's byes (Drake London, the Green Bay defense) and Brock Bowers' ankle. Live: Lead Nagger 105.60, Llamageddon 56.60, with Joe Burrow and Tee Higgins left for Lead Nagger and Rachaad White (heel, questionable) left for Llamageddon. Jonah Coleman scored 34.9 and George Pickens 23.8, while Bowers was inactive (0.0), Ja'Kobi Lane scored 0.0 and DK Metcalf was ejected after 1.2. Llamageddon's 56.60 is the lowest score in the league this season, and under 2.04 from White puts it in the Hall of Fame's five worst weeks.",
-   "prob": 67
+   "spread": "-2.5",
+   "total": "235.3",
+   "note": "Season PPG: Breece'sBurdenDeflowered 118.70, Llamageddon 116.60 (gap 2.10). No nudge, though Llamageddon has the worse injury list: Brock Bowers (ankle) out per Sleeper and Drake London and Juwan Johnson questionable, against Josh Jacobs (finger) unlikely Wednesday. A win keeps Breece'sBurdenDeflowered (42%) in the race; a loss mostly ends Llamageddon's (7%).",
+   "prob": 53
   },
   {
    "fav": "Wild Goose Chase",
-   "dog": "Nothing to see here",
-   "spread": "-13.5",
-   "total": "232.8",
-   "note": "Season PPG: Wild Goose Chase 127.56, Nothing to see here 105.25 (gap 22.30). Nudged 6 points toward Nothing to see here for Drake Maye's injury and five Wild Goose Chase byes, then 3 more Sunday after Tyjae Spears went on IR. Final: Wild Goose Chase 108.16, Nothing to see here 90.94. Wild Goose Chase covered the 13.5 by 3.72 with Spears scoring 0.0 in the FLEX, behind CeeDee Lamb (30.2), Bryce Young (15.96) and Nico Collins (15.8). Nothing to see here got 3.4 from Mark Andrews and 1.3 from Makai Lemon and has lost seven straight.",
-   "prob": 67
-  },
-  {
-   "fav": "Achane in the Membrane",
-   "dog": "Breece'sBurdenDeflowered",
-   "spread": "-6.5",
-   "total": "243.7",
-   "note": "Season PPG: Achane in the Membrane 125.99, Breece'sBurdenDeflowered 117.74 (gap 8.25). Nudged 2 points toward Breece'sBurdenDeflowered because Achane in the Membrane had three starters and its defense on bye. Live: Breece'sBurdenDeflowered 119.62, Achane in the Membrane 115.46, with Chase Brown (Breece'sBurdenDeflowered) against Mike Gesicki (Achane in the Membrane) in the same Bengals offense Monday night. Gesicki needs to outscore Chase Brown by 4.17; MakeItRains started Adonai Mitchell (5.0) with Devaughn Vele (14.6) on the bench. Cam Ward (23.22) and Mike Evans (22.9) led Breece'sBurdenDeflowered, and Jahmyr Gibbs (27.8) and Patrick Mahomes (24.96) led Achane in the Membrane.",
-   "prob": 58
-  },
-  {
-   "fav": "Ivefallenandicantgetup",
-   "dog": "Bijan is your daddy",
-   "spread": "-12.5",
-   "total": "234.2",
-   "note": "Season PPG: Ivefallenandicantgetup 121.19, Bijan is your daddy 112.97 (gap 8.22). Nudged 4 points toward Ivefallenandicantgetup for Bijan is your daddy's four Atlanta and Seattle byes. Live: Ivefallenandicantgetup 101.26, Bijan is your daddy 63.08, with Jayden Daniels, Austin Ekeler and Stefon Diggs left for FatMikeR Monday night. They need 38.18 combined; Javonte Williams (24.1) and James Cook III (17.2) did the Sunday work for krunkdd, who also had Derrick Henry (19.1) and Justice Hill (17.6) on the bench. Bhayshul Tuten (8.3) left in the fourth quarter with an ankle and foot injury.",
-   "prob": 66
-  },
-  {
-   "fav": "My Dad is Dead2",
    "dog": "MY DAD IS DEAD",
-   "spread": "-16.5",
-   "total": "217.0",
-   "note": "Season PPG: My Dad is Dead2 116.96, MY DAD IS DEAD 100.08 (gap 16.89). Spread is the PPG gap, no nudge. Live: My Dad is Dead2 143.22, MY DAD IS DEAD 114.10, with only Chig Okonkwo left for MY DAD IS DEAD. Okonkwo needs 29.13 Monday night, so this one is all but over and My Dad is Dead2 is covering by 12.62. DJ Moore (23.1), Jameson Williams (20.3), George Kittle (18.4) and Chimere Dike (18.38) did it, with Fernando Mendoza (23.88) on the bench; Dak Prescott's 35.9 is the best starter of the week, and Saquon Barkley left with an arm injury after 13.5.",
-   "prob": 70
+   "spread": "-23.5",
+   "total": "228.1",
+   "note": "Season PPG: Wild Goose Chase 125.79, MY DAD IS DEAD 102.31 (gap 23.48). No nudge. The biggest spread of the week. Wild Goose Chase is the projected 5 seed at 73% and gets its Packers back from the bye; MY DAD IS DEAD is 1-10 with Saquon Barkley playing Thanksgiving below full strength.",
+   "prob": 78
+  },
+  {
+   "fav": "Lead Nagger",
+   "dog": "My Dad is Dead2",
+   "spread": "-14.5",
+   "total": "252.9",
+   "note": "Season PPG: Lead Nagger 133.59, My Dad is Dead2 119.35 (gap 14.24). No nudge. The best offense in the league against the commish, who scored 143.22 last week with 23.88 on the bench. DJ Moore (knee) is a game-time decision for My Dad is Dead2 on Thursday; Kenneth Walker III (groin) hasn't practiced for Lead Nagger.",
+   "prob": 68
   }
  ],
  "sources": [
   [
-   "NFL Week 11 Recap: Immediate fantasy football takeaways from Sunday's games (PFF)",
-   "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-sundays-games"
+   "Takeaways from Commanders' 22-20 win over Bengals (Yahoo Sports)",
+   "https://sports.yahoo.com/articles/6-takeaways-commanders-22-20-080056375.html"
   ],
   [
-   "Commanders-Bengals final injury report, Week 11 (Sports Illustrated)",
-   "https://www.si.com/nfl/commanders/onsi/commanders-bengals-final-injury-report-week-11"
+   "NFL Week 11 Recap: fantasy takeaways from Bengals-Commanders (PFF)",
+   "https://www.pff.com/news/nfl-week-11-recap-immediate-fantasy-football-takeaways-from-bengals-commanders"
   ],
   [
-   "Schefter: Puka Nacua to serve suspension on IR (NBC Sports)",
-   "https://www.nbcsports.com/fantasy/football/player-news/2026-11-19/schefter-puka-nacua-to-serve-suspension-on-ir"
+   "The Loop Fantasy Football Report Week 12 (Yahoo Sports)",
+   "https://sports.yahoo.com/articles/loop-fantasy-football-report-week-220400805.html"
   ],
   [
-   "Vikings' Jordan Addison undergoes thumb surgery, will avoid injured reserve (4for4)",
-   "https://www.4for4.com/node/182355"
+   "Eagles issue estimated injury report ahead of Cowboys Thanksgiving game (Yahoo Sports)",
+   "https://sports.yahoo.com/articles/eagles-issue-estimated-injury-report-221113505.html"
   ],
   [
-   "Fantasy Addicks league data: rosters, matchups, transactions (Sleeper API)",
-   "https://sleeper.com/leagues/1339786949044473856"
+   "Fantasy Addicks league data (Sleeper API)",
+   "https://api.sleeper.app/v1/league/1339786949044473856"
   ]
  ],
  "columnists": [
@@ -995,64 +997,67 @@
  ],
  "columns": [
   {
-   "id": "mouth-5660",
+   "id": "mouth-006",
    "by": "mouth",
    "kicker": "The Mouth",
-   "title": "FIFTY-SIX POINTS. Barry \"The Mouth\" McCockiner on Llamageddon's Sunday",
-   "dek": "An inactive tight end in the lineup, a receiver ejected, and a running back with a sore heel as the last hope. I need a minute.",
    "rumor": true,
+   "title": "SIX HUNDREDTHS. Barry \"The Mouth\" McCockiner on the Achane in the Membrane loss",
+   "dek": "A 14.6 on the bench, a 5.0 in the lineup, and a season that died by less than a single yard.",
    "body": [
-    "I've covered this league from the same folding chair since the press box had an ashtray built into every desk, and I have seen ugly. I have NOT seen 56.60. Llamageddon put up FIFTY-SIX POINTS AND SIXTY CENTS on Sunday. That's the lowest score in this league all season. The old low was 63.02. dcrabb didn't just break the floor, he took a jackhammer to the basement.",
-    "Let's go through the lineup, because somebody has to. Brock Bowers: INACTIVE, zero points, in the lineup. Ja'Kobi Lane: zero. DK Metcalf: 1.2 and then EJECTED in the third quarter for two unsportsmanlike penalties. Jonathan Taylor: 6.7. Elic Ayomanor, the $13 waiver claim: 5.7. Keenan Allen: 6.8. The only two guys who showed up were Brock Purdy at 22.2 and the Denver defense at 14.0. A QUARTERBACK AND A DEFENSE. That's not a fantasy team, that's a flag football roster.",
-    "And here's what really gets me. The best possible lineup was 63.60. SIXTY-THREE. Tre Tucker had 7.0 on the bench. Jared Goff had 21.36 on the bench, and Purdy beat him by under a point, so I can't even yell about the quarterback. This isn't a lineup problem, dcrabb. This is a ROSTER problem, and you are 5-5 with 10% playoff odds and a DIVISION'S WORTH of injured receivers.",
-    "Now I'm HEARING things. Sources inside the Llamageddon war room, which is a recliner, tell me dcrabb has drawn up a plan to trade Puka Nacua, Tyreek Hill and Brock Bowers to MY DAD IS DEAD for Dak Prescott, on the theory that three injured guys equals one healthy guy if you average it out. I'm told he's also asked the commish whether you can start two quarterbacks if one of them promises to block. None of this is confirmed. All of it sounds like him.",
-    "Here's where it lands. Rachaad White is the last Llamageddon starter, Monday night, with a sore heel. If he scores under 2.04, this week goes into the Hall of Fame's five lowest scores EVER. dcrabb, I have been doing this for FORTY YEARS and I am BEGGING you: the waiver wire is FREE on Wednesday. USE IT. Get a tight end who PLAYS. Get a receiver who doesn't get THROWN OUT. Because Breece'sBurdenDeflowered is next, and if you put up fifty-six again, I'm moving my folding chair to another league!"
+    "I have sat in this press box through every kind of loss this league has to offer. Blowouts. Bad beats. A guy who started a kicker on bye in 2021. And I have NEVER been as mad as I was at 11:30 Monday night. Achane in the Membrane 128.16. Breece'sBurdenDeflowered 128.22. SIX. HUNDREDTHS. OF. A. POINT.",
+    "Here's how it happened. MakeItRains went into Monday down 4.16 with Mike Gesicki against Chase Brown. Gesicki catches 5 balls for 77 yards, 12.7 points. Chase Brown gets 8.6. That's a 4.10-point swing on a 4.16-point deficit. Gesicki did his job! Gesicki did MORE than his job! And it's not enough, because the damage was done on SUNDAY.",
+    "Devaughn Vele scored 14.6 points. ON THE BENCH. Adonai Mitchell started and scored 5.0. That's 9.6 points, MakeItRains. NINE POINT SIX. You needed SIX HUNDREDTHS. The best possible lineup was 137.86! You don't lose that game, you win it by almost TEN, and you're 5-6 instead of 4-7, and I'm writing about something else!",
+    "And it HURTS because this team is GOOD. 126.19 a week, third-best in the league. A 68-53 all-play record, fourth-best. Jahmyr Gibbs scored 27.8, Patrick Mahomes 24.96. And they are 4-7 with 7% playoff odds, sitting behind a 6-5 team that scores 118.70 a week. That is a CRIME. That is the most unjust record in this league, and the guy who did it to them is in the mirror.",
+    "Now I'm HEARING things, and I want to be careful here. Word in the press box is MakeItRains has filed a formal petition to have Sleeper score to the thousandths, and when that was denied, he filed a second one asking for the game to be decided by which team has the better name. Sources also say he has been seen measuring the gap between Gesicki's last catch and a first down with a piece of string. None of this is confirmed. All of it should be.",
+    "Week 12 is Stroud of Turin as a 1.5-point dog in the highest total of the week. MakeItRains, set the lineup. Then CHECK THE LINEUP. Then have SOMEONE ELSE check it. SIX HUNDREDTHS!"
    ]
   },
   {
-   "id": "tre-goose",
+   "id": "tre-krunk",
    "by": "tre",
    "kicker": "Film Room",
-   "title": "Dick Fitzwell: Br0phy won with a guy on IR in his lineup. Winning ugly is still ugly",
-   "dek": "Tyjae Spears went on IR Saturday, played zero snaps Sunday, and stayed in the Wild Goose Chase FLEX the whole time.",
    "rumor": true,
+   "title": "Dick Fitzwell: Ivefallenandicantgetup is 8-3 and soft",
+   "dek": "A 38-point lead, nobody left to play, and a loss. That's a team that's been winning on schedule, not on film.",
    "body": [
-    "I played linebacker. On film day, nobody cared if we won. Coach put the tape on and showed you the guy who lined up in the wrong spot, and he showed it to everybody. Br0phy, here's your tape.",
-    "Wild Goose Chase beat Nothing to see here 108.16 to 90.94 on Sunday and covered a 13.5-point line. Good. Now look at the FLEX. Tyjae Spears, added Friday night, placed on injured reserve Saturday, out at least four games. He sat in that spot all Sunday and scored 0.0. CeeDee Lamb scored 30.2 and bailed you out, Bryce Young scored 15.96, Nico Collins 15.8. You won because the other team scored 90.94. That's soft. Against Ivefallenandicantgetup or Lead Nagger, a 0.0 in the FLEX gets you beat.",
-    "Now the guy who did it right. Pudge247 lost Kenneth Walker III and Jordan Addison for a second straight week and didn't blink. Jonah Coleman got 85% of Denver's snaps and ran 24 times for 111 yards and three touchdowns, 34.9 points. George Pickens added 23.8. Lead Nagger leads by 49.00 with Joe Burrow and Tee Higgins still to play. That's what a full lineup looks like: no zeros, no excuses.",
-    "Word around the locker room is that Br0phy left Spears in there on purpose, because he read that teams play harder when they're down a man, and he wanted to see if it works for fantasy rosters. I'm told he's now considering benching CeeDee Lamb in Week 12 to make it a fair fight. None of this is confirmed, and I don't want it to be.",
-    "Wild Goose Chase is 6-5 and the projected 5 seed at 78%. MY DAD IS DEAD is next, and Jordan Love, Christian Watson, Tucker Kraft and the Seattle defense come back from byes. No more excuses. Set the lineup, get Spears out of it, and stop playing soft."
+    "Put the tape on. Ivefallenandicantgetup goes into Monday night up 101.26 to 63.08 on Bijan is your daddy. Thirty-eight points. Nobody left to play. And they lose 104.34 to 101.26 to three Washington Commanders. You don't lose that game. You don't lose that game in Pop Warner.",
+    "Here's the film. Derrick Henry scored 19.1 on the bench. Justice Hill, the $14 claim, scored 17.6 on the bench. The Tampa Bay defense, a $12 claim, started and scored 0.0. Bhayshul Tuten got hurt in the fourth quarter after 8.3, and that's football, I'm not putting that on krunkdd. But the best possible lineup was 112.46, and that wins by eight.",
+    "And it's not one week. Ivefallenandicantgetup is 8-3 with a 64-57 all-play record. That's sixth in the league. Lead Nagger is 80-41. Stroud of Turin is 72-49. Achane in the Membrane, 4-7, is 68-53. krunkdd has scored 119.38 a week, sixth-best, and has eight wins because the schedule kept serving him teams that were having a bad day. That's soft. That's a 1 seed with a glass jaw.",
+    "I'm told, and this comes from someone who sat next to him at a sports bar, that krunkdd sets his lineup by having his dog pick between two tennis balls with player names written on them, and the dog has been on a cold streak since the Bye Week Incident. I'm also told he believes the Tampa Bay defense will score more points if he stops looking at it. None of this is confirmed. The 0.0 is.",
+    "Now it gets real. NjigbaR Please! for first place, and Ivefallenandicantgetup is a 3.5-point dog. Henry is in the concussion protocol, so krunkdd has to decide between Henry and Hill with real information for once. This is the game that tells you if this team is a contender or a schedule. My money's on the schedule running out."
    ]
   },
   {
-   "id": "dale-white",
+   "id": "dale-thanks",
    "by": "dale",
-   "kicker": "Lawn Chair",
-   "title": "Oliver Klozoff's six-step Monday night survival guide, for everyone still alive",
-   "dek": "Four games are still undecided going into Bengals at Washington. I have a lawn chair and a plan for all of them.",
+   "kicker": "Lawn Chair Strategy",
    "rumor": true,
+   "title": "Oliver Klozoff's seven Thanksgiving lineup rules, which I have tested on zero people",
+   "dek": "Wednesday, Thursday and Friday games, and I've got a system. It's a bad system.",
    "body": [
-    "I've been out here in the lawn chair since the 4 o'clock games ended, and four of you are still breathing. Stroud of Turin trails 116.50 to 98.46 with Ja'Marr Chase left. Achane in the Membrane trails Breece'sBurdenDeflowered 119.62 to 115.46, Mike Gesicki against Chase Brown. Bijan is your daddy trails Ivefallenandicantgetup by 38.18 with three Washington guys. And Llamageddon is down 49.00 with Rachaad White. Here's my plan, ranked by how confident I am, which is very.",
-    "1. RedDevil904: Chase needs 18.05. He's scored 31.1, 32.5 and 34.1 for you since the trade, so I've done the math, and the math says he's going to score exactly 100. That's not a projection, that's a vibe, which is better.\n2. MakeItRains: Gesicki needs to beat Chase Brown by 4.17. They're on the same team. Root for Joe Burrow to throw only to tight ends. Then root for nobody to tell Burrow that.",
-    "3. FatMikeR: You need 38.18 from Jayden Daniels, Austin Ekeler and Stefon Diggs. That's 12.73 each. Have each of them score 12.73. That's how dividing works.\n4. dcrabb: You're down 49.00 and Rachaad White has a heel. If White scores 49.01, you win. If he scores under 2.04, you make the Hall of Fame. Either way you're making history, so honestly this is a win-win, and I'd go to bed happy.",
-    "I'm told, by a guy at the hardware store who knows a guy, that dstafford4254 is planning to watch Monday night with his eyes closed so Ja'Marr Chase can't feel him looking, and that rtmcruise has already practiced a victory speech that's mostly about Cam Ward. None of this is confirmed, and the hardware store guy also told me the Rams defense was playing this week.",
-    "5. Everyone else: you're done, so put the TV on mute and listen to the game on the radio, which I believe adds two points. 6. If none of this works, waivers run Wednesday, FatMikeR still has all $200, and I've got a spare lawn chair."
+    "Week 12 starts Wednesday night with Green Bay at the Rams, then three games on Thanksgiving and one on Friday. That means you have to set your lineup before you've digested anything. Lucky for you, I'm in the lawn chair with a plan. Here it is, numbered, so you know it's science.",
+    "1. Start whoever played on Monday night. Jayden Daniels, Jacory Croskey-Merritt and Stefon Diggs scored 41.26 on Monday to beat Ivefallenandicantgetup by 3.08. Monday night players are clearly the best players, and they've had the least rest, which means they're the most warmed up. 2. Bench any tight end named Mike. Mike Gesicki scored 12.7 on Monday night and still lost by 0.06. That's a cursed name. If your tight end is named Mike, you're down six hundredths before kickoff. 3. Lead Nagger scores 133.59 a week, the most in the league, so if you play Lead Nagger (hi, Bill_Buttlicker), just don't. Forfeit. You can't lose by 14.5 if you don't show up.",
+    "4. Always start the player on your bench who scored the most last week. Fernando Mendoza scored 23.88 on the My Dad is Dead2 bench. Antonio Williams scored 21.2 on the Nothing to see here bench. Ladd McConkey scored 20.7 on the MY DAD IS DEAD bench. All three teams lost or nearly did. The bench is where the points go to hide. Just start your whole bench. 5. If your defense scored 0.0 last week, like Tampa Bay for Ivefallenandicantgetup and Minnesota for Stroud of Turin, it's due. Zeros are like rain. You can't have two in a row.",
+    "6. FatMikeR has $200 of FAAB and 5% playoff odds. Spend it all on one guy. Doesn't matter who. Bid $200 on a kicker. This league doesn't even use kickers. That's how you send a message. 7. Set your lineup Tuesday and then never look at it again. Looking at a lineup is how second-guessing happens.",
+    "I'm hearing, and I want to stress that I heard this from a man in a neighboring lawn chair who was also asleep, that Pudge247 is so confident about Lead Nagger that he plans to set his lineup by throwing a turkey leg at the screen, and that Bill_Buttlicker is planning to counter by starting two quarterbacks in the FLEX, which isn't allowed. None of this is confirmed, and Sleeper won't let you do the second one. I checked.",
+    "Follow all seven rules and I guarantee you'll set a lineup. That's the only guarantee. Happy Thanksgiving week from the lawn chair."
    ]
   },
   {
-   "id": "gary-washington",
+   "id": "gary-5852",
    "by": "gary",
-   "kicker": "Numbers Don't Lie (She Does)",
-   "title": "Connie Lingus: three Washington running backs, two fantasy teams, and why Monday night is mathematically a tie",
-   "dek": "Rachaad White, Jacory Croskey-Merritt and Austin Ekeler have 151.1 combined PPR points. I divided that by everything I could find.",
+   "kicker": "The Numbers",
+   "rumor": true,
+   "title": "Connie Lingus: 58.52 is actually Llamageddon's best score of the season, if you look at it correctly",
+   "dek": "I've run the numbers on the fifth-lowest score in league history, and my spreadsheet says it's a breakout.",
    "body": [
-    "Let's talk about the most crowded backfield in this league, and I mean Washington's, not anyone's bench. On Monday night against Cincinnati, Llamageddon starts Rachaad White, who has 75.9 PPR points in 8 games and is questionable with a sore heel. Bijan is your daddy has Jacory Croskey-Merritt, 44.9 points in 5 games, still listed on IR by Sleeper and now on the bench. And on Saturday night FatMikeR added Austin Ekeler, 30.3 points in 6 games, dropped Jordan Watkins and put Ekeler in the lineup.",
-    "Now the analysis. Add them up and you get 151.1 points across 19 games played, which is 7.95 points per back per game. Divide by three backs and each one owns exactly 2.65 points of the Washington backfield per game. FatMikeR now owns two of the three backs, so he owns 66.7% of the backfield, which by my model means he's a 66.7% favorite to win a matchup that isn't even against dcrabb. That's how good the number is.",
-    "The real numbers keep going. Bijan is your daddy is 4-6 and a 12.5-point underdog to Ivefallenandicantgetup, a 66% line. FatMikeR has spent $0 of his $200 FAAB, the only owner in the league still at $0, and both of his Washington backs cost exactly nothing. That's a points-per-dollar rate of infinity, which is the highest number I'm legally allowed to publish.",
-    "Sources tell me, and I want to stress that nobody has confirmed this, that dcrabb has built a spreadsheet tracking which of the three Washington backs sits closest to the Gatorade cooler on the sideline, on the theory that the cooler is where the snaps get handed out. I'm told FatMikeR answered by adding Ekeler purely so he could own 'the cooler side' of the bench. None of this is confirmed, and I've never seen a cooler score a touchdown.",
-    "Here's my conclusion. Llamageddon is a 13.5-point underdog to Lead Nagger and Bijan is your daddy is a 12.5-point underdog, so the two Washington-dependent teams are separated by exactly one point. One point is basically zero, which means both teams are tied, which means Monday night is a tie, which means I'm right. Numbers don't lie. I just help them along."
-   ],
-   "rumor": true
+    "Everyone is looking at Llamageddon's 58.52 in Week 11 and seeing the lowest score in the league this season and the fifth-lowest in league history. I'm looking at it and seeing the most efficient fantasy performance of 2026. Let me walk you through my model.",
+    "First, efficiency. Llamageddon started nine players and two of them, Brock Bowers and Ja'Kobi Lane, scored 0.0. That means seven players produced all 58.52 points, or 8.36 points per producing player. Lead Nagger needed all nine to get 137.80, which is 15.31 per player, so Llamageddon is clearly the more efficient team per zero. My spreadsheet calls this metric Points Per Non-Zero Contributor Adjusted For Zeros, and Llamageddon leads the league.",
+    "Second, the bench. dcrabb's best possible lineup was 65.52, so he only left 7.00 points on the bench. My Dad is Dead2 left 11.14 points on the bench while scoring 143.22. Achane in the Membrane left 9.70 and lost by 0.06. In my model, a 58.52 with a nearly perfect lineup is a more disciplined 58.52 than any score above it. Discipline wins championships. My Dad is Dead2 has left 196.06 points on its bench this season, most in the league, and is 8-3. I don't know what that does to my model and I've stopped asking.",
+    "Third, trajectory. Llamageddon is 5-6 with a 61-60 all-play record, which is above .500. Rounded to the nearest whole number of standard deviations, that's a playoff team. The simulator says 7%. The simulator, unlike me, doesn't have a spreadsheet tab called 'vibes.' Breece'sBurdenDeflowered is a 2.5-point favorite this week, which in my model means Llamageddon is a 2.5-point favorite in the opposite direction.",
+    "Sources say, and by sources I mean a pivot table I built at 2 a.m., that dcrabb has been secretly tanking to lower expectations so he can win the Aniston as a 6 seed by being underestimated, and that the 58.52 was a carefully calculated number chosen to stay just above the league's all-time worst. I'm also told he has a whiteboard with the word 'Bowers' crossed out eleven times. None of this is confirmed. The pivot table may also be broken.",
+    "Final verdict: 58.52 is a breakout. I'll be updating my model after Week 12, assuming my spreadsheet opens."
+   ]
   }
  ],
  "exits": [
@@ -1229,7 +1234,7 @@
   ]
  },
  "hof": {
-  "note": "Regular season, 2019 through Week 10 of 2026. Playoff appearances count 2019–2025.",
+  "note": "Regular season, 2019 through Week 11 of 2026. Playoff appearances count 2019–2025.",
   "cats": [
    {
     "t": "Most Wins, All Time",
@@ -1237,28 +1242,28 @@
     "rows": [
      [
       "Bill_Buttlicker",
-      "68 wins",
-      "68-38"
+      "69 wins",
+      "69-38"
      ],
      [
       "dstafford4254",
-      "59 wins",
-      "59-47"
+      "60 wins",
+      "60-47"
      ],
      [
       "ChuckJ10",
       "57 wins",
-      "57-49"
+      "57-50"
      ],
      [
       "Pudge247",
-      "53 wins",
-      "53-53"
+      "54 wins",
+      "54-53"
      ],
      [
       "rtmcruise",
-      "52 wins",
-      "52-54"
+      "53 wins",
+      "53-54"
      ]
     ]
    },
@@ -1268,8 +1273,8 @@
     "rows": [
      [
       "dcrabb",
-      "62 losses",
-      "44-62"
+      "63 losses",
+      "44-63"
      ],
      [
       "RammerJammer17",
@@ -1279,17 +1284,17 @@
      [
       "rtmcruise",
       "54 losses",
-      "52-54"
+      "53-54"
      ],
      [
       "Pudge247",
       "53 losses",
-      "53-53"
+      "54-53"
      ],
      [
       "ChuckJ10",
-      "49 losses",
-      "57-49"
+      "50 losses",
+      "57-50"
      ]
     ]
    },
@@ -1349,9 +1354,9 @@
       "2019 Wk 11 vs TroyMcCoy"
      ],
      [
-      "RedDevil904",
-      "58.64",
-      "2021 Wk 4 vs OneSillyBannana"
+      "dcrabb",
+      "58.52",
+      "2026 Wk 11 vs Pudge247"
      ]
     ]
    },
@@ -1554,15 +1559,15 @@
     "w": 11,
     "c": "Biggest D: Highest-Scoring Defense",
     "win": "MakeItRains",
-    "detail": "Locked pending stat corrections: the Chicago defense, 17.0 for Achane in the Membrane. San Francisco (16.0, Bill_Buttlicker) and Houston (16.0, rtmcruise) were next, and no starting defense plays Monday night. Paid Tuesday.",
-    "st": "live"
+    "detail": "The Chicago defense, 17.0 for Achane in the Membrane. San Francisco (16.0, Bill_Buttlicker) and Houston (16.0, rtmcruise) were next.",
+    "st": "paid"
    },
    {
     "w": 12,
     "c": "Not So Tight End: TE with the most receptions",
     "win": "",
-    "detail": "",
-    "st": "up"
+    "detail": "In progress: starts Wednesday night with Green Bay at the Rams. Season receptions leader among league tight ends: Trey McBride (87, Bijan is your daddy), then Isaiah Likely (56, Lead Nagger).",
+    "st": "live"
    },
    {
     "w": 13,
@@ -1746,7 +1751,7 @@
    "bget": [
     "Jordan Addison"
    ],
-   "analysis": "One week in: Chimere Dike started for My Dad is Dead2 and scored 18.38, and Jordan Addison (thumb) was ruled out for a second straight week and scored 0.0 on the Lead Nagger bench. Kevin O'Connell has said Addison won't go on IR, and once he's back he's the better receiver, so this can still flip. Lead Nagger won its week anyway."
+   "analysis": "One week in: Chimere Dike started for My Dad is Dead2 and scored 18.38 in a win, and Jordan Addison (thumb) scored 0.0 on the Lead Nagger bench and is still out per Sleeper. Once Addison is back he's the better receiver, so this can flip. Lead Nagger won its week by 79.28 anyway, and the two teams play each other this week."
   },
   {
    "date": "Oct 29",
@@ -1761,7 +1766,7 @@
     "Ja'Marr Chase",
     "Chuba Hubbard"
    ],
-   "analysis": "Four weeks in, Ja'Marr Chase (31.1, 32.5, 34.1, plus Monday night) and Chuba Hubbard (24.9, 13.6, 34.2, 26.0) have scored 196.4 for Stroud of Turin, and CeeDee Lamb (12.8, 34.5, 20.2, 30.2) and RJ Harvey (0.0 four times) have scored 97.7 for Wild Goose Chase. Harvey is on IR and at least a week from returning per PFF. Wild Goose Chase did win Week 11, and Stroud of Turin needs 18.05 from Chase Monday night to win its own."
+   "analysis": "Four weeks in, Ja'Marr Chase (31.1, 32.5, 34.1, 8.1) and Chuba Hubbard (24.9, 13.6, 34.2, 26.0) have scored 204.5 for Stroud of Turin, and CeeDee Lamb (12.8, 34.5, 20.2, 30.2) and RJ Harvey (0.0 four times, on IR) have scored 97.7 for Wild Goose Chase. Chase's 8.1 on Monday night cost RedDevil904 Week 11, and Wild Goose Chase is now ahead of Stroud of Turin in the projected seeds, but the points aren't close."
   },
   {
    "date": "Oct 26",
@@ -1776,7 +1781,7 @@
     "A.J. Brown",
     "Chase Brown"
    ],
-   "analysis": "Four weeks in, Bucky Irving (21.0, 28.5, 0.0 on a bye, 19.0) and Michael Wilson (26.8, 12.0, 0.0, 0.0) have scored 107.3 for ChuckJ10, and Chase Brown (16.1, 10.5, 28.3, plus Monday night) and A.J. Brown (0.0, 0.0, 4.7, 0.0 on a bye) have scored 59.6 for rtmcruise. Sleeper lists Michael Wilson on IR and A.J. Brown as out. Chase Brown can decide Breece'sBurdenDeflowered's Week 11 game against Achane in the Membrane tonight; Nothing to see here lost again."
+   "analysis": "Four weeks in, Bucky Irving (21.0, 28.5, 0.0 on a bye, 19.0) and Michael Wilson (26.8, 12.0, 0.0, 0.0) have scored 107.3 for ChuckJ10, and Chase Brown (16.1, 10.5, 28.3, 8.6) and A.J. Brown (0.0, 0.0, 4.7, 0.0) have scored 68.2 for rtmcruise. But Chase Brown's 8.6 on Monday night won Breece'sBurdenDeflowered its game by 0.06, and it's 6-5 in the race while Nothing to see here is 2-9. Wilson is on IR and A.J. Brown is out per Sleeper."
   },
   {
    "date": "Oct 20",
@@ -1790,7 +1795,7 @@
    "bget": [
     "C.J. Stroud"
    ],
-   "analysis": "Five weeks in, starters only: C.J. Stroud has scored 95.78 for Stroud of Turin (16.52, 37.36, 20.44 and 21.46 as a starter), and Kirk Cousins (28.18, one start) and Jaylen Waddle (8.8, 14.9, 3.2, 9.1) have scored 64.18 for Achane in the Membrane. Cousins scored 7.4 on the bench in Week 11."
+   "analysis": "Five weeks in, starters only: C.J. Stroud has scored 95.78 for Stroud of Turin (16.52, 37.36, 20.44 and 21.46 as a starter), and Kirk Cousins (28.18, one start) and Jaylen Waddle (8.8, 14.9, 3.2, 9.1) have scored 64.18 for Achane in the Membrane. Cousins scored 7.4 on the bench in Week 11, and Achane in the Membrane lost by 0.06."
   }
  ],
  "hour": [
@@ -1812,63 +1817,63 @@
  ],
  "butt": [],
  "picks": {
-  "week": 11,
+  "week": 12,
   "review": {
-   "w": 10,
+   "w": 11,
    "items": [
     {
-     "label": "Matchup of the Week: Wild Goose Chase by 11.5",
+     "label": "Matchup of the Week: Stroud of Turin by 11.5",
      "hit": false,
-     "result": "Miss. Ivefallenandicantgetup 105.04, Wild Goose Chase 89.82. Drake Maye left after 3.02 and the underdog won by 15.22."
+     "result": "Miss. NjigbaR Please! 116.50, Stroud of Turin 106.56. Ja'Marr Chase needed 18.05 on Monday night and scored 8.1."
     },
     {
-     "label": "Shit Show of the Week: Llamageddon by 20.5",
-     "hit": false,
-     "result": "Miss. Llamageddon 105.26, MY DAD IS DEAD 95.42. Llamageddon won by 9.84 and didn't cover; Tre' Harris scored 13.6 Monday night."
+     "label": "Shit Show of the Week: My Dad is Dead2 by 16.5",
+     "hit": true,
+     "result": "Hit. My Dad is Dead2 143.22, MY DAD IS DEAD 124.70. Won by 18.52 and covered by 2.02."
     },
     {
-     "label": "Blowie of the Week: NjigbaR Please! by 15.5",
-     "hit": false,
-     "result": "Miss. Bijan is your daddy 128.50, NjigbaR Please! 101.98. The 15.5-point underdog won by 26.52."
+     "label": "Blowie of the Week: Wild Goose Chase by 13.5",
+     "hit": true,
+     "result": "Hit. Wild Goose Chase 108.16, Nothing to see here 90.94. Won by 17.22 and covered by 3.72."
     }
    ],
-   "note": "0-3 in the first week of picks. Across all six Week 10 lines the favorites went 3-3 straight up and 2-4 against the spread, so the desk is now officially worse than a coin."
+   "note": "2-1 in Week 11 after 0-3 in Week 10, so the desk is 2-4 on picks. Across all six Week 11 lines the favorites went 3-3 straight up and 3-3 against the spread, including Achane in the Membrane losing as a 6.5-point favorite by 0.06."
   },
   "items": [
    {
     "id": "pick-motw",
     "type": "motw",
     "label": "Matchup of the Week",
-    "fav": "Stroud of Turin",
-    "dog": "NjigbaR Please!",
-    "spread": "-11.5",
-    "total": "253.7",
-    "prob": 64,
-    "pick": "Stroud of Turin by 11.5",
-    "title": "Stroud of Turin vs. NjigbaR Please!: the season-high team against a contender with four starters on bye",
-    "dek": "The projected 5 seed against the projected 2 seed, a 253.7 total, and the bye week does the handicapping.",
+    "fav": "NjigbaR Please!",
+    "dog": "Ivefallenandicantgetup",
+    "spread": "-3.5",
+    "total": "242.7",
+    "prob": 54,
+    "pick": "NjigbaR Please! by 3.5",
+    "title": "NjigbaR Please! vs. Ivefallenandicantgetup: two 8-3 teams play for the 1 seed",
+    "dek": "First place, the projected 1 and 2 seeds, and two banged-up running backs.",
     "body": [
-     "On paper this is the best game of Week 11. Stroud of Turin is 6-4, scores 129.79 a week, has a 68-42 all-play record and just put up 194.14 with a perfect lineup, the best score in the league this year. NjigbaR Please! is 7-3 with a 67-43 all-play record and scores 123.96 a week. The Climax Bracket has them as the 5 and 2 seeds, and the total is 253.7.",
-     "The scoring gap is only 5.83. The line is Stroud of Turin by 11.5 because NjigbaR Please! loses four Week 10 starters to byes: Jaxon Smith-Njigba (32.1 last week), Kyren Williams, Harold Fannin Jr. and KC Concepcion Jr. Stroud of Turin loses Quinshon Judkins and DeMario Douglas. That's a 6-point nudge, and Stroud of Turin is a 64% favorite.",
-     "Sunday did not go the way the line said. Ashton Jeanty (28.9), Travis Kelce (25.4), Tetairoa McMillan (19.1) and Tyler Shough (14.28) turned NjigbaR Please!'s bye-week lineup into 116.50, and Stroud of Turin added only 73.70 to its Thursday 24.76 for 98.46. Chuba Hubbard scored 26.0 and Parker Washington 18.3, but Xavier Hutchinson (3.3) and Dallas Goedert (4.8) started while Aaron Rodgers (15.98) and Pat Freiermuth (9.0) sat, and the Minnesota defense scored 0.0. Ja'Marr Chase is the last man standing for RedDevil904 Monday night and needs 18.05 just to win; covering 11.5 would take 29.55. He's scored 30-plus three times since the trade, so it isn't dead, but this pick is on life support."
+     "On paper this is the game of the week. NjigbaR Please! and Ivefallenandicantgetup are both 8-3, first and second on the projected seed list, and the winner leads the league with two weeks left. NjigbaR Please! scores 123.28 a week with a 73-48 all-play record; Ivefallenandicantgetup scores 119.38 with a 64-57 all-play record. One team has been good; the other has been good at Sundays.",
+     "The gap is 3.90, so the line is NjigbaR Please! by 3.5, a 54% favorite, with a 242.7 total. No nudge: there are no byes this week, Kyren Williams (toe) was limited before Wednesday's game, and Derrick Henry is in the concussion protocol, with Justice Hill behind him on the same roster.",
+     "Nothing has been played yet. Kyren Williams goes first, Wednesday night at Green Bay. Last week NjigbaR Please! won as an 11.5-point dog and Ivefallenandicantgetup blew a 38.18-point lead on Monday night, so the take here is NjigbaR Please! by 3.5 and krunkdd checking his bench before Sunday."
     ]
    },
    {
     "id": "pick-shit",
     "type": "shit",
     "label": "Shit Show of the Week",
-    "fav": "My Dad is Dead2",
-    "dog": "MY DAD IS DEAD",
-    "spread": "-16.5",
-    "total": "217.0",
-    "prob": 70,
-    "pick": "My Dad is Dead2 by 16.5",
-    "title": "My Dad is Dead2 vs. MY DAD IS DEAD: the commish's injured receiver room against the 1-9 team",
-    "dek": "The lowest total on the board at 217.0. One team is 1-9; the other has three receivers listed as out.",
+    "fav": "Bijan is your daddy",
+    "dog": "Nothing to see here",
+    "spread": "-8.5",
+    "total": "216.1",
+    "prob": 61,
+    "pick": "Bijan is your daddy by 8.5",
+    "title": "Bijan is your daddy vs. Nothing to see here: the lowest total of the week",
+    "dek": "A 5-6 team with 5% playoff odds against a 2-9 team on a seven-game losing streak.",
     "body": [
-     "This is the lowest total of Week 11, 217.0, and it's my game, so here's the honest version. MY DAD IS DEAD is 1-9 with the fewest points in the league (1,000.76) and a 21-89 all-play record. My Dad is Dead2 is 7-3 with a 52-58 all-play record, scores 116.96 a week and has left 184.92 points on the bench this season, the most in the league. Yes, that's me.",
-     "The line is the 16.89-point scoring gap, rounded to 16.5, no nudge. Both sides took hits: My Dad is Dead2 has Jordan Addison, DeVonta Smith and Kyle Monangai listed as out per Sleeper, Wan'Dale Robinson questionable, and Tutu Atwell and Konata Mumpfield on the Rams' bye. MY DAD IS DEAD loses Tyler Higbee to the bye and has Ladd McConkey and T.J. Hockenson out. My Dad is Dead2 is a 70% favorite.",
-     "Sunday went fine for the favorite. My Dad is Dead2 scored 143.22, the best in the league so far this week: DJ Moore 23.1, Jameson Williams 20.3, George Kittle 18.4, Chimere Dike 18.38 and the San Francisco defense 16.0, with Fernando Mendoza's 23.88 on my bench. MY DAD IS DEAD got 35.9 from Dak Prescott, the best starter of the week, and 114.10 total, with Ladd McConkey's 20.7 on the bench. Only Chig Okonkwo is left, and he needs 29.13 Monday night. The pick is covering by 12.62, which is the first time all season I've been right about anything involving my own team."
+     "This is the ugliest game on the board. Bijan is your daddy is 5-6 and scores 112.18 a week with a 50-71 all-play record. Nothing to see here is 2-9, scores 103.95 a week, is 40-81 in all-play and has lost seven straight. The total is 216.1, the lowest of the week by 12 points.",
+     "The gap is 8.23, so the line is Bijan is your daddy by 8.5, a 61% favorite. No nudge. Trey McBride has 87 catches, the most of any tight end in the league, going into the tight end receptions payout week. Nothing to see here has Woody Marks (concussion) out per Sleeper.",
+     "Nothing has been played yet. FatMikeR just came back from 38.18 down on a Monday night; ChuckJ10 just lost with 21.2 on the bench. One of these managers is trying."
     ]
    },
    {
@@ -1876,85 +1881,85 @@
     "type": "blowie",
     "label": "Blowie of the Week",
     "fav": "Wild Goose Chase",
-    "dog": "Nothing to see here",
-    "spread": "-13.5",
-    "total": "232.8",
-    "prob": 67,
-    "pick": "Wild Goose Chase by 13.5",
-    "title": "Wild Goose Chase over Nothing to see here by 13.5: six players on bye, and now the FLEX is on IR",
-    "dek": "Still a two-touchdown favorite after a 6-point bye haircut and a 3-point IR haircut, because Nothing to see here has lost six straight.",
+    "dog": "MY DAD IS DEAD",
+    "spread": "-23.5",
+    "total": "228.1",
+    "prob": 78,
+    "pick": "Wild Goose Chase by 23.5",
+    "title": "Wild Goose Chase vs. MY DAD IS DEAD: the biggest spread of the week",
+    "dek": "The projected 5 seed gets its Packers back from the bye against a 1-10 team.",
     "body": [
-     "Wild Goose Chase scores 127.56 a week, third in the league. Nothing to see here scores 105.25, is 2-8, has lost six straight and has 1,301.96 points scored against it, second-most in the league. The raw gap is 22.30 points.",
-     "The line opened at Wild Goose Chase by 16.5 after a 6-point nudge toward Nothing to see here: Drake Maye is out with an ankle injury, and Jordan Love, Christian Watson, Tucker Kraft, Dylan Sampson and the Seattle defense are all on bye. Bryce Young is the only Wild Goose Chase quarterback with a game. On Sunday it moved 3 more points to 13.5, a 67% favorite, because the Titans put Tyjae Spears on injured reserve Saturday and Br0phy has no healthy bench player to replace him.",
-     "Final: Wild Goose Chase 108.16, Nothing to see here 90.94. Wild Goose Chase won by 17.22 and covered the 13.5 with Tyjae Spears sitting in the FLEX on injured reserve for a 0.0, because Br0phy never moved him. CeeDee Lamb scored 30.2, Bryce Young 15.96 and Nico Collins 15.8. ChuckJ10 got 19.0 from Bucky Irving and 18.5 from Malik Nabers, but Mark Andrews (3.4), Makai Lemon (1.3) and Caleb Douglas (5.0) were dead weight. That's the desk's first hit of the picks era. Somebody frame it."
+     "The biggest spread of Week 12. Wild Goose Chase is 6-5, scores 125.79 a week, is 67-54 in all-play and is the projected 5 seed at 73%. MY DAD IS DEAD is 1-10, scores 102.31 a week and has lost nine straight, though it did score 124.70 last week.",
+     "The gap is 23.48, so the line is Wild Goose Chase by 23.5, a 78% favorite, with a 228.1 total. No nudge. Br0phy gets Jordan Love, Christian Watson and Tucker Kraft back from the bye, and Drake Maye (ankle) is still out. Saquon Barkley is expected to play Thanksgiving below full strength for MY DAD IS DEAD.",
+     "Nothing has been played yet. Last week Wild Goose Chase covered 13.5 with a guy on IR in the FLEX, so a full lineup should do it. Wild Goose Chase by 23.5."
     ]
    }
   ]
  },
  "climax": {
-  "note": "Projected through Week 14 from 20,000 simulated seasons using the real remaining schedule and each team's 2026 scoring average (sd 24), with every Week 11 game counted for the team leading going into Monday night; each playoff game goes to the higher-scoring team, and the title odds come from simulating the bracket.",
+  "note": "Projected through Week 14 from 20,000 simulated seasons using the real remaining schedule and each team's 2026 scoring average (sd 24), with Week 11 final; each playoff game goes to the higher-scoring team, and the title odds come from the bracket.",
   "seeds": [
    {
     "seed": 1,
     "team": "Ivefallenandicantgetup",
-    "now": "8-2",
-    "proj": 10.9,
-    "po": 100
+    "now": "8-3",
+    "proj": 9.8,
+    "po": 99
    },
    {
     "seed": 2,
     "team": "NjigbaR Please!",
-    "now": "7-3",
+    "now": "8-3",
     "proj": 9.7,
     "po": 100
    },
    {
     "seed": 3,
     "team": "My Dad is Dead2",
-    "now": "7-3",
+    "now": "8-3",
     "proj": 9.2,
-    "po": 93
+    "po": 94
    },
    {
     "seed": 4,
     "team": "Lead Nagger",
-    "now": "6-4",
+    "now": "7-4",
     "proj": 9.0,
     "po": 98
    },
    {
     "seed": 5,
     "team": "Wild Goose Chase",
-    "now": "5-5",
+    "now": "6-5",
     "proj": 7.8,
-    "po": 78
+    "po": 73
    },
    {
     "seed": 6,
     "team": "Stroud of Turin",
-    "now": "6-4",
-    "proj": 7.8,
-    "po": 79
+    "now": "6-5",
+    "proj": 7.7,
+    "po": 76
    }
   ],
   "out": [
    {
     "team": "Breece'sBurdenDeflowered",
-    "now": "5-5",
-    "proj": 7.3,
-    "po": 36
-   },
-   {
-    "team": "Llamageddon",
-    "now": "5-5",
-    "proj": 6.4,
-    "po": 10
+    "now": "6-5",
+    "proj": 7.4,
+    "po": 42
    },
    {
     "team": "Bijan is your daddy",
-    "now": "4-6",
-    "proj": 5.5,
-    "po": 0
+    "now": "5-6",
+    "proj": 6.5,
+    "po": 5
+   },
+   {
+    "team": "Llamageddon",
+    "now": "5-6",
+    "proj": 6.2,
+    "po": 7
    }
   ],
   "wc": [
@@ -1962,13 +1967,13 @@
     "a": "Lead Nagger",
     "b": "Wild Goose Chase",
     "w": "Lead Nagger",
-    "p": 57
+    "p": 59
    },
    {
     "a": "My Dad is Dead2",
     "b": "Stroud of Turin",
     "w": "Stroud of Turin",
-    "p": 65
+    "p": 60
    }
   ],
   "semis": [
@@ -1976,30 +1981,30 @@
     "a": "Ivefallenandicantgetup",
     "b": "Lead Nagger",
     "w": "Lead Nagger",
-    "p": 64
+    "p": 66
    },
    {
     "a": "NjigbaR Please!",
     "b": "Stroud of Turin",
     "w": "Stroud of Turin",
-    "p": 57
+    "p": 55
    }
   ],
   "final": {
    "a": "Lead Nagger",
    "b": "Stroud of Turin",
    "w": "Lead Nagger",
-   "p": 54
+   "p": 57
   },
   "champ": "Lead Nagger",
   "favs": [
    {
     "team": "Lead Nagger",
-    "odds": 27
+    "odds": 24
    },
    {
     "team": "Stroud of Turin",
-    "odds": 14
+    "odds": 17
    }
   ]
  }
